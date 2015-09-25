@@ -1,0 +1,27 @@
+{
+	"french":{
+		"name":"François",
+		"avatar":""
+	},
+	"german":{
+		"name":"Angela",
+		"avatar":"",
+		"friendship":0
+	},
+	"italia":{
+		"name":"Matteo",
+		"avatar":"",
+		"friendship":0
+	},
+	"greece":{
+		"name":"Alexis",
+		"avatar":"",
+		"friendship":0
+	},
+	"hungary":{
+		"name":"Victor",
+		"avatar":"",
+		"friendship":0
+	}
+
+}
