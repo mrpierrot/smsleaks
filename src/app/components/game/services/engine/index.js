@@ -4,7 +4,7 @@ module.exports = function(angular,config){
         var tweaks = require('../../../../data/tweaks.json');
         var story = require('../../../../data/story.json');
         var actors = require('../../../../data/actors.json');
-        var player = "french";
+        var player = "france";
         var dictionnary = {};
         
         var currentActName = null;
@@ -36,7 +36,7 @@ module.exports = function(angular,config){
 
         var makeDisplaySequenceMessage = function(message){
         	return function(){
-        		messagesDisplay.push({user:actors[message.from],message:replaceStrings(message.text)});
+        		messagesDisplay.push({user:actors[message.from],message:replaceStrings(message.text),sameUser:message.sameUser});
         		return (message.delay || tweaks.defaultMessageDelay)*1000;
         	}
         	
@@ -46,8 +46,15 @@ module.exports = function(angular,config){
         	currentSequenceIndex = index;
         	currentSequence = currentAct.sequences[currentSequenceIndex];
         	var actions = [];
+                var lastUser = null;
         	for(var i=0,c=currentSequence.messages.length;i<c;i++){
-        		actions.push(makeDisplaySequenceMessage(currentSequence.messages[i]));
+                        var msg = currentSequence.messages[i];
+                        console.log(msg,lastUser);
+                        if(msg.from == lastUser){
+                                msg.sameUser = true;
+                        }
+        		actions.push(makeDisplaySequenceMessage(msg));
+                        lastUser = msg.from;
         	}
         	sequences.add(actions,currentSequenceComplete)
         }
@@ -59,7 +66,7 @@ module.exports = function(angular,config){
         	}else if(currentSequence.responses){
         		for(var i=0,c=currentSequence.responses.length;i<c;i++){
         			currentSequence.responses[i].text = replaceStrings(currentSequence.responses[i].text);
-        			responsesDisplay.push(currentSequence.responses[i]);
+                                responsesDisplay.push(currentSequence.responses[i]);
         		}
         	} 
         	

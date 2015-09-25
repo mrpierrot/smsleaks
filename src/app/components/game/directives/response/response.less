@@ -1,4 +1,19 @@
 .response{
-	background-color: #DCDCDC;
-	margin: 2px;
+
+ 	background: @sms-light-gray;
+	border-radius: 10px;
+	padding: 10px;
+	&:hover{
+		background: @sms-dark-gray;
+	}
+	display: inline-block;
+	width: 49%;
+	margin: 10px 0;
+	&:first-child{
+		margin-right: 1%;
+	}
+	&:last-child{
+		margin-left: 1%;
+	}
+
 }

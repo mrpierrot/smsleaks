@@ -3,6 +3,7 @@ module.exports = function(angular,config){
 		return {
 			template:require('./response.tpl.html'),
 			scope: { data: '=' },
+			replace: true,
 			link:function link(scope, element, attrs) { 
 				scope.click = function(){
 

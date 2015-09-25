@@ -2,17 +2,17 @@
 module.exports = {
     name:'game',
     states: {
-        "game-main": {
+        "game-chat": {
             route: {
                 url: '/game',
                 views:{
                     main:{
-                        controller: 'GameMainCtrl',
-                        template: require('./states/main/main.tpl.html')
+                        controller: 'GameChatCtrl',
+                        template: require('./states/chat/chat.tpl.html')
                     }
                 }
             },
-            module:require('./states/main/controller')
+            module:require('./states/chat/controller')
         }
     },
     services:{
