@@ -1,9 +1,12 @@
 module.exports = function(angular,config){
-	return function($interval,sequences,processes){
+	return function($interval,preloader,sequences,processes){
 
         var tweaks = require('../../../../data/tweaks.json');
         var story = require('../../../../data/story.json');
-        var actors = require('../../../../data/actors.json');
+        var actors = {
+                "acte01":preloader.data["acte01"],
+                "acte02":preloader.data["acte02"]
+        };
         var player = "france";
         var dictionnary = {};
         
@@ -44,7 +47,7 @@ module.exports = function(angular,config){
 
         var nextSequence = function(index){
         	currentSequenceIndex = index;
-        	currentSequence = currentAct.sequences[currentSequenceIndex];
+        	currentSequence = currentAct.sequences[currentSequenceIndex.toString()];
         	var actions = [];
                 var lastUser = null;
         	for(var i=0,c=currentSequence.messages.length;i<c;i++){

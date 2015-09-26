@@ -1,0 +1,16 @@
+{
+	"sequences":{
+		"1":{
+			"messages":[
+				{"from":"italy","text":"La fin justifie les moyens "}
+			],
+			"goto":"end"
+		},
+		"2":{
+			"messages":[
+				{"from":"italy","text":"La faim justifie les moyens "}
+			],
+			"goto":"end"
+		}
+	}
+}

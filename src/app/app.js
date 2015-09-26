@@ -8,7 +8,7 @@
         require('angular-route'),
         require('./components/game')(angular)
     ]).config(function ($stateProvider, $urlRouterProvider) {  
-        $urlRouterProvider.otherwise('/game');  
+        $urlRouterProvider.otherwise('/init');  
     });
 })();
 
