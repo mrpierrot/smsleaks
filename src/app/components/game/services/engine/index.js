@@ -1,5 +1,5 @@
 module.exports = function(angular,config){
-	return function($interval,preloader,sequences,processes,$rootScope){
+	return function($interval,preloader,sequences,processes,$rootScope,$state){
 
                 var tweaks = require('../../../../data/tweaks.json');
                 var actors = {};
@@ -12,6 +12,7 @@ module.exports = function(angular,config){
                 var currentAct = null;
                 var currentSequenceIndex = 1;
                 var currentSequence = null;
+                var firstSeq = false;
 
                 var messagesDisplay = [];
                 var responsesDisplay = [];
@@ -21,13 +22,18 @@ module.exports = function(angular,config){
                 processes.add(sequences);
                
                 var start = function(){
+                        firstSeq = true;
                         story = {
                                 "act01":preloader.data["act01"],
-                                "act02":preloader.data["act02"]
+                                "act02":preloader.data["act02"],
+                                "act03":preloader.data["act03"],
+                                "act04":preloader.data["act04"]
                         };
+                        console.log(story);
                         actors = preloader.data["actors"];
                         for(var key in actors){
                                 actors[key].id = key;
+                                actors[key].friendship = 0;
                         }
                 	changeAct("act01");
                         processes.start();
@@ -56,11 +62,15 @@ module.exports = function(angular,config){
                 }
 
                 var nextSequence = function(index){
+
                 	currentSequenceIndex = index;
                 	currentSequence = currentAct.sequences[currentSequenceIndex.toString()];
-                	var actions = [function(){
+                        console.log("goto "+index,currentSequenceIndex.toString(),currentAct.sequences);
+                	var actions = !firstSeq?[function(){
                                 return tweaks.defaultMessageDelay*1000;
-                        }];
+                        }]:[];
+                        firstSeq = false;
+                        console.log("actions : ",actions);
                 	for(var i=0,c=currentSequence.messages.length;i<c;i++){
                                 var msg = currentSequence.messages[i];
                                 if(msg.from == lastUserWrite){
@@ -149,7 +159,8 @@ module.exports = function(angular,config){
 
                 var gameOver = function(){
                 	console.log("game over");
-                        scope.$emit('gameOver');
+                        //scope.$emit('gameOver');
+                        $state.go('game-gameover');
                 }
               
         	return {

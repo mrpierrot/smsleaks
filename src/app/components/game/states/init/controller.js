@@ -8,7 +8,7 @@ module.exports = module.exports = function(angular,config){
     		"act04":"/assets/data/fr/act04.json"
 
     	},function(result) {
-    		$state.go('game-chat');
+    		$state.go('game-home');
     	});
 
     }
