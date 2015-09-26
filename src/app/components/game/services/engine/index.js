@@ -18,6 +18,8 @@ module.exports = function(angular,config){
                 var responsesDisplay = [];
                 var responsesEnabled = false;
                 var lastUserWrite = null;
+                var waitingMessages = [];
+                var nextSingleMsg = null;
 
                 processes.add(sequences);
                
@@ -65,21 +67,47 @@ module.exports = function(angular,config){
 
                 	currentSequenceIndex = index;
                 	currentSequence = currentAct.sequences[currentSequenceIndex.toString()];
-                        console.log("goto "+index,currentSequenceIndex.toString(),currentAct.sequences);
-                	var actions = !firstSeq?[function(){
+
+                	readSequence(currentSequence.messages);
+                }
+
+                var readSequence = function(messages){
+                        var actions = !firstSeq?[function(){
                                 return tweaks.defaultMessageDelay*1000;
                         }]:[];
                         firstSeq = false;
-                        console.log("actions : ",actions);
-                	for(var i=0,c=currentSequence.messages.length;i<c;i++){
-                                var msg = currentSequence.messages[i];
+                        playerIn = false;
+                        for(var i=0,c=messages.length;i<c;i++){
+                                var msg = messages[i];
+
                                 if(msg.from == lastUserWrite){
                                         msg.sameUser = true;
                                 }
-                		actions.push(makeDisplaySequenceMessage(msg));
+                                if(msg.from != player){
+                                        actions.push(makeDisplaySequenceMessage(msg));
+                                }else{
+                                        playerIn = true;
+                                        nextSingleMsg = msg;
+                                        waitingMessages = messages.slice(i+1,c);
+                                        break;
+                                }
+                                
                                 lastUserWrite = msg.from;
-                	}
-                	sequences.add(actions,currentSequenceComplete)
+                        }
+                        if(playerIn){
+                                sequences.add(actions,currentSequenceCompleteWithPlayer);
+                        }else{
+                                sequences.add(actions,currentSequenceComplete);
+                        }
+                        
+                }
+
+                var currentSequenceCompleteWithPlayer = function(){
+                        responsesDisplay.splice(0,responsesDisplay.length);
+                        nextSingleMsg.goQueue = true;
+                        responsesDisplay.push(nextSingleMsg);
+                        responsesEnabled = true;
+                        scope.$emit('showResponses');      
                 }
 
                 var currentSequenceComplete = function(){
@@ -112,7 +140,9 @@ module.exports = function(angular,config){
                         	var goTo = data['goto'];
                         	if(goTo){
                         		goToParse(data['goto']);
-                        	}
+                        	}else if (data.goQueue){
+                                       readSequence(waitingMessages); 
+                                }
                         }
                 	
                 }
