@@ -1,1587 +1,709 @@
 {
-  "sequences": {
-    "1": {
-      "messages": [
-        {
-          "from": "germany",
-          "text": "Toi aussi tu as vu la photo de cet enfant sur la plage ?"
-        }
-      ],
-      "responses": [
-        {
-          "text": "Ouai j'ai vu",
-          "goto": 2,
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "Non, j'ai rien vu.",
-          "goto": 3,
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
-    "2": {
-      "messages": [
-        {
-          "from": "france",
-          "text": "On est un peu responsable de tout ça, non ?"
-        },
-        {
-          "from": "germany",
-          "text": "Ouai... Je me demande bien ce qu'on peut faire"
-        },
-        {
-          "from": "france",
-          "text": "Pareil."
-        },
-        {
-          "from": "germany",
-          "text": "Je t'ai connu plus vaillant."
-        },
-        {
-          "from": "germany",
-          "text": "Moi aussi je t'ai connu plus vaillante."
-        },
-        {
-          "from": "germany",
-          "text": "Monde de merde."
-        },
-        {
-          "from": "france",
-          "text": "J'étais incapable de bosser de la journée."
-        },
-        {
-          "from": "germany",
-          "text": "Toi aussi t'as les journalistes qui te presse toutes les deux minutes ?"
-        },
-        {
-          "from": "france",
-          "text": "Ouai. Pour l'instant, on les tiens à l'écart le temps de trouver une solution. Autrement dit...."
-        },
-        {
-          "from": "germany",
-          "text": "...T'as reçu 30 coups de fil de gratte-papiers en 10 minutes. Et maintenant tu cherches une solution."
-        },
-        {
-          "from": "france",
-          "text": "Exactement. Une idée sur la marche à suivre ?"
-        },
-        {
-          "from": "germany",
-          "text": "Pas trop."
-        },
-        {
-          "from": "france",
-          "text": "Trouve ! Y a pleins de trucs à faire. Revoir les conditions d'entrée, parler avec Bachar, toquer à la porte d'Obama... J'en sais rien moi !"
-        },
-        {
-          "from": "germany",
-          "text": "Molo tu veux."
-        },
-        {
-          "from": "germany",
-          "text": "Commence pas à parler comme ça. C'est un coup à affoler la presse."
-        },
-        {
-          "from": "france",
-          "text": "On a PAS LE TEMPS et tu le sais."
-        },
-        {
-          "from": "france",
-          "text": "La presse est sur nos talons à nous demander des réponses et ils ont raison."
-        },
-        {
-          "from": "germany",
-          "text": "Ouai c'est pas faux."
-        },
-        {
-          "from": "france",
-          "text": "Alors c'est le temps de regarder les choses en face."
-        },
-        {
-          "from": "france",
-          "text": "Ça suffit des esquives à deux ronds."
-        },
-        {
-          "from": "france",
-          "text": "On parle. On décide. On exécute. Point."
-        },
-        {
-          "from": "germany",
-          "text": "Ok"
-        },
-        {
-          "from": "france",
-          "text": "Bon. Déjà comment tu vois les choses dans l'immédiat ?"
-        },
-        {
-          "from": "germany",
-          "text": "Bon ben vu comment c'est, l'opinion va se renverser. Il va y avoir un mouvement de sympathie."
-        },
-        {
-          "from": "germany",
-          "text": "De mon côté, je verrais bien un renforcement des centres d'accueil et de tris des réfugiés."
-        },
-        {
-          "from": "germany",
-          "text": "On peut aussi tenter de mettre en place un dispositif d'harmonisation. Mais ça ne me tente PAS DU TOUT. Mes landers vont gueuler"
-        }
-      ],
-      "responses": [
-        {
-          "text": "On renforce les centres d'accueil.",
-          "goto": [
-            "german.friendship > 5",
-            4,
-            {
-              "act": "act02",
-              "seq": 5
-            }
-          ],
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "On harmonise.",
-          "goto": [
-            "german.friendship > 5",
-            6,
-            {
-              "act": "act02",
-              "seq": 7
-            }
-          ],
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
-    "3": {
-      "messages": [
-        {
-          "from": "france",
-          "text": "Oh… Ok. Je viens de la voir. "
-        },
-        {
-          "from": "france",
-          "text": "Je viens d'avoir Erdogan au téléphone. Il m'a traité de tous les noms en disant qu'on était tous coupable de ce bordel."
-        },
-        {
-          "from": "germany",
-          "text": "Et si c'était pas totalement faux ?"
-        },
-        {
-          "from": "france",
-          "text": "Je sais pas."
-        },
-        {
-          "from": "france",
-          "text": "Il est clair qu'on a une responsabilité."
-        },
-        {
-          "from": "germany",
-          "text": "Et on s'est bien planté."
-        },
-        {
-          "from": "france",
-          "text": "Vrai."
-        },
-        {
-          "from": "france",
-          "text": "On devrait peut-être faire bouger les lignes. Sur les quotas, les critères des demandeurs d'asiles, les conditions de rétention..."
-        },
-        {
-          "from": "germany",
-          "text": "Ça parait jouable."
-        },
-        {
-          "from": "germany",
-          "text": "Mais il va falloir que je consulte mes ministres."
-        },
-        {
-          "from": "france",
-          "text": "On n'a PAS le temps."
-        },
-        {
-          "from": "germany",
-          "text": "Essayons de reprendre nos esprits."
-        },
-        {
-          "from": "france",
-          "text": "Comment tu vois les choses toi ?"
-        },
-        {
-          "from": "france",
-          "text": "On n'a PAS le temps."
-        },
-        {
-          "from": "germany",
-          "text": "Bon ben vu comment c'est, l'opinion va se renverser. Il va y avoir un mouvement de sympathie."
-        },
-        {
-          "from": "germany",
-          "text": "De mon côté, je verrais bien un renforcement des centres d'accueil et de tris des réfugiés."
-        },
-        {
-          "from": "germany",
-          "text": "On peut aussi tenter de mettre en place un dispositif d'harmonisation. Mais ça ne me tente PAS DU TOUT. Mes landers vont gueuler"
-        }
-      ],
-      "responses": [
-        {
-          "text": "On renforce les centres d'accueil.",
-          "goto": [
-            "german.friendship > 5",
-            4,
-            {
-              "act": "act02",
-              "seq": 5
-            }
-          ],
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "On harmonise.",
-          "goto": [
-            "german.friendship > 5",
-            6,
-            {
-              "act": "act02",
-              "seq": 7
-            }
-          ],
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
-    "4": {
-      "messages": [
-        {
-          "from": "germany",
-          "text": "Bien. Je savais que je pouvais compter sur toi."
-        },
-        {
-          "from": "france",
-          "text": "Pas le choix."
-        },
-        {
-          "from": "france",
-          "text": "C'est quand même dingue ce qu'il se passe. On peut pas laisser une telle misère à nos portes."
-        },
-        {
-          "from": "germany",
-          "text": "Ouai"
-        },
-        {
-          "from": "germany",
-          "text": "T'appelle Victor pour faire un point avec lui ? Il peut pas trop me voir en ce moment."
-        },
-        {
-          "from": "germany",
-          "text": "Si tu veux pas, je le fais mais bon... J'ai pas envie de me farcir 1h de blabla pour rien parce qu'il peut pas m'encadrer."
-        },
-        {
-          "from": "germany",
-          "text": "Parce qu'il va falloir discuter concrètement avec JC."
-        },
-        {
-          "from": "france",
-          "text": "Pourquoi pas."
-        },
-        {
-          "from": "germany",
-          "text": "On devrait peut-être faire bouger les lignes. Sur les quotas, les critères des demandeurs d'asiles, les conditions de rétention..."
-        },
-        {
-          "from": "germany",
-          "text": "Quoi que tu leur dises, je te fais confiance. C'est pas le moment d'être désunis."
-        }
-      ],
-      "responses": [
-        {
-          "text": "Je contacte Victor",
-          "goto": 8,
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "Je vais voir avec JC",
-          "goto": 23,
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
-    "5": {
-      "messages": [
-        {
-          "from": "germany",
-          "text": "Merci"
-        },
-        {
-          "from": "france",
-          "text": "J'étais pas certaine que t'allais accepter."
-        },
-        {
-          "from": "france",
-          "text": "Pas le choix."
-        },
-        {
-          "from": "france",
-          "text": "C'est quand même dingue ce qu'il se passe. On peut pas laisser une telle misère à nos portes."
-        },
-        {
-          "from": "germany",
-          "text": "Ouai"
-        },
-        {
-          "from": "germany",
-          "text": "T'appelle Victor pour faire un point avec lui ? Il peut pas trop me voir en ce moment."
-        },
-        {
-          "from": "germany",
-          "text": "Si tu veux pas, je le fais mais bon... J'ai pas envie de me farcir 1h de blabla pour rien parce qu'il peut pas m'encadrer."
-        },
-        {
-          "from": "germany",
-          "text": "Parce qu'il va falloir discuter concrètement avec JC."
-        },
-        {
-          "from": "france",
-          "text": "Pourquoi pas."
-        },
-        {
-          "from": "germany",
-          "text": "On devrait peut-être faire bouger les lignes. Sur les quotas, les critères des demandeurs d'asiles, les conditions de rétention..."
-        },
-        {
-          "from": "germany",
-          "text": "Quoi que tu leur dises, je te fais confiance. C'est pas le moment d'être désunis."
-        }
-      ],
-      "responses": [
-        {
-          "text": "Je contacte Victor",
-          "goto": 8,
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "Je vais voir avec JC",
-          "goto": 9,
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
-    "6": {
-      "messages": [
-        {
-          "from": "germany",
-          "text": "Va pour ça."
-        },
-        {
-          "from": "germany",
-          "text": "C'est vraiment parce que c'est toi."
-        },
-        {
-          "from": "france",
-          "text": "Ouai."
-        },
-        {
-          "from": "france",
-          "text": "Après l'histoire du camion avec les femmes et enfants morts dedans... On peut pas se permettre de ne pas réagir face à une image aussi forte."
-        },
-        {
-          "from": "germany",
-          "text": "Ouai"
-        },
-        {
-          "from": "germany",
-          "text": "T'appelle Victor pour faire un point avec lui ? Il peut pas trop me voir en ce moment."
-        },
-        {
-          "from": "germany",
-          "text": "Si tu veux pas, je le fais mais bon... J'ai pas envie de me farcir 1h de blabla pour rien parce qu'il peut pas m'encadrer."
-        },
-        {
-          "from": "germany",
-          "text": "Parce qu'il va falloir discuter concrètement avec JC."
-        },
-        {
-          "from": "france",
-          "text": "Pourquoi pas."
-        },
-        {
-          "from": "germany",
-          "text": "On devrait peut-être faire bouger les lignes. Sur les quotas, les critères des demandeurs d'asiles, les conditions de rétention..."
-        },
-        {
-          "from": "germany",
-          "text": "Quoi que tu leur dises, je te fais confiance. C'est pas le moment d'être désunis."
-        }
-      ],
-      "responses": [
-        {
-          "text": "Je contacte Victor",
-          "goto": 8,
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "Je vais voir avec JC",
-          "goto": 9,
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
-    "7": {
-      "messages": [
-        {
-          "from": "germany",
-          "text": "Ça m'embête mais bon..."
-        },
-        {
-          "from": "germany",
-          "text": "Je me vois pas trop dire quoi que ce soit vu ce qui vient de sortir."
-        },
-        {
-          "from": "france",
-          "text": "Ouai."
-        },
-        {
-          "from": "france",
-          "text": "Après l'histoire du camion avec les femmes et enfants morts dedans... On peut pas se permettre de ne pas réagir face à une image aussi forte."
-        },
-        {
-          "from": "germany",
-          "text": "Ouai"
-        },
-        {
-          "from": "germany",
-          "text": "T'appelle Victor pour faire un point avec lui ? Il peut pas trop me voir en ce moment."
-        },
-        {
-          "from": "germany",
-          "text": "Si tu veux pas, je le fais mais bon... J'ai pas envie de me farcir 1h de blabla pour rien parce qu'il peut pas m'encadrer."
-        },
-        {
-          "from": "germany",
-          "text": "Parce qu'il va falloir discuter concrètement avec JC."
-        },
-        {
-          "from": "france",
-          "text": "Pourquoi pas."
-        },
-        {
-          "from": "germany",
-          "text": "On devrait peut-être faire bouger les lignes. Sur les quotas, les critères des demandeurs d'asiles, les conditions de rétention..."
-        },
-        {
-          "from": "germany",
-          "text": "Quoi que tu leur dises, je te fais confiance. C'est pas le moment d'être désunis."
-        }
-      ],
-      "responses": [
-        {
-          "text": "Je contacte Victor",
-          "goto": 8,
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "Je vais voir avec JC",
-          "goto": 9,
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
-    "8": {
-      "messages": [
-        {
-          "from": "france",
-          "text": "T'es là victor ?"
-        },
-        {
-          "from": "hungary",
-          "text": "Ouai. J'imagine que tu me contactes suite à la photo du gosse en Turquie."
-        },
-        {
-          "from": "france",
-          "text": "C'est ça."
-        },
-        {
-          "from": "france",
-          "text": "Ouai. Il faut que nos équipes se coordonnent."
-        },
-        {
-          "from": "hungary",
-          "text": "Je mets en contact mes services avec les tiens. Qu'est-ce que je peux faire d'autre ? "
-        },
-        {
-          "from": "france",
-          "text": "On va se bouger avec Angela."
-        },
-        {
-          "from": "france",
-          "text": "Organisation d'un conseil des ministres de la défense & cie."
-        },
-        {
-          "from": "france",
-          "text": "Je concocte aussi différents rendez-vous dans mon agenda."
-        },
-        {
-          "from": "hungary",
-          "text": "Content pour toi. Je vais creuser de mon côté."
-        },
-        {
-          "from": "hungary",
-          "text": "Désolé de mon silence radio ces derniers jours. T'es au courant qu'Angela va ouvrir ses frontières ?",
-          "delay": 3
-        },
-        {
-          "from": "hungary",
-          "text": "Si elle voulait m'énerver, elle aurait pas fait mieux."
-        }
-      ],
-      "responses": [
-        {
-          "text": "Ben c'est un beau geste non ?",
-          "goto": [
-            "hungary.friendship > 5",
-            9,
-            {
-              "act": "act02",
-              "seq": 10
-            }
-          ],
-          "friendship": {
-            "hungary": -5
-          }
-        },
-        {
-          "text": "Ouai ça va créer un appel d'air aux migrants",
-          "goto": [
-            "hungary.friendship > 5",
-            11,
-            {
-              "act": "act02",
-              "seq": 12
-            }
-          ],
-          "friendship": {
-            "hungary": 5
-          }
-        }
-      ]
-    },
-    "9": {
-      "messages": [
-        {
-          "from": "hungary",
-          "text": "Elle va s'en mordre les doigts. C'est moi qui te le dis."
-        },
-        {
-          "from": "hungary",
-          "text": "Je vais lui envoyer un train plein de migrants direct chez elle, on va bien voir."
-        },
-        {
-          "from": "france",
-          "text": "Tu es dur avec elle."
-        },
-        {
-          "from": "hungary",
-          "text": "Encore toi ça va, je t'aime bien. Mais elle..."
-        },
-        {
-          "from": "hungary",
-          "text": "Elle me gonfle. Un jour ça va lui retomber dessus."
-        },
-        {
-          "from": "germany",
-          "text": "Bonjour tout le monde.",
-          "delay": 3
-        },
-        {
-          "from": "germany",
-          "text": "Devant l'afflux de migrants en Allemagne, je suis obligé de fermer les frontières."
-        },
-        {
-          "from": "france",
-          "text": "Ah ?"
-        },
-        {
-          "from": "germany",
-          "text": "Désolé pour le faux espoir."
-        },
-        {
-          "from": "germany",
-          "text": "Je le sentais bien mais finalement non."
-        }
-      ],
-      "responses": [
-        {
-          "text": "Tout ça pour ça ?",
-          "goto": 13,
-          "friendship": {
-            "germany": -5
-          }
-        },
-        {
-          "text": "C'est pas de ta faute tu pouvais pas savoir",
-          "goto": 14,
-          "friendship": {
-            "germany": 5
-          }
-        }
-      ]
-    },
-    "10": {
-      "messages": [
-        {
-          "from": "hungary",
-          "text": "Elle va s'en mordre les doigts. C'est moi qui te le dis."
-        },
-        {
-          "from": "hungary",
-          "text": "Je vais lui envoyer un train plein de migrants direct chez elle, on va bien voir."
-        },
-        {
-          "from": "france",
-          "text": "Tu es dur avec elle."
-        },
-        {
-          "from": "hungary",
-          "text": "Vu le nombre de migrants que j'ai à mes frontières, ça lui servira de leçon à elle et à toi, bande de tête de noeud."
-        },
-        {
-          "from": "france",
-          "text": "Hey ho !"
-        },
-        {
-          "from": "france",
-          "text": "Tu me parles mieux que ça."
-        },
-        {
-          "from": "france",
-          "text": "Je suis le président de la France bordel."
-        },
-        {
-          "from": "france",
-          "text": "J'avais le droit de suivre Angela sur ce coup là."
-        },
-        {
-          "from": "germany",
-          "text": "Bonjour tout le monde.",
-          "delay": 3
-        },
-        {
-          "from": "germany",
-          "text": "Devant l'afflux de migrants en Allemagne, je suis obligé de fermer les frontières."
-        },
-        {
-          "from": "france",
-          "text": "Ah ?"
-        },
-        {
-          "from": "germany",
-          "text": "Désolé pour le faux espoir."
-        },
-        {
-          "from": "germany",
-          "text": "Je le sentais bien mais finalement non."
-        }
-      ],
-      "responses": [
-        {
-          "text": "Tout ça pour ça ?",
-          "goto": 13,
-          "friendship": {
-            "germany": -5
-          }
-        },
-        {
-          "text": "C'est pas de ta faute tu pouvais pas savoir",
-          "goto": 14,
-          "friendship": {
-            "germany": 5
-          }
-        }
-      ]
-    },
-    "11": {
-      "messages": [
-        {
-          "from": "france",
-          "text": "Elle va s'en mordre les doigts. C'est moi qui te le dis."
-        },
-        {
-          "from": "hungary",
-          "text": "C'est aussi ce que je pense."
-        },
-        {
-          "from": "hungary",
-          "text": "Dès que j'en aurai l'occasion, je lui enverrai un train avec des migrants de dedans."
-        },
-        {
-          "from": "hungary",
-          "text": "Je pense que ça lui fera les pieds. :-P"
-        },
-        {
-          "from": "france",
-          "text": "Vas-y molo quand même."
-        },
-        {
-          "from": "france",
-          "text": "C'est l'Allemagne. Une des grosses puissances européennes."
-        },
-        {
-          "from": "france",
-          "text": "Elle a plus de députés au parlement européen que nous."
-        },
-        {
-          "from": "hungary",
-          "text": "Mouai. Je me méfie, mais il faudra peut-être en arriver là un jour."
-        },
-        {
-          "from": "germany",
-          "text": "Bonjour tout le monde.",
-          "delay": 3
-        },
-        {
-          "from": "germany",
-          "text": "Devant l'afflux de migrants en Allemagne, je suis obligé de fermer les frontières."
-        },
-        {
-          "from": "france",
-          "text": "Ah ?"
-        },
-        {
-          "from": "germany",
-          "text": "Désolé pour le faux espoir."
-        },
-        {
-          "from": "germany",
-          "text": "Je le sentais bien mais finalement non."
-        }
-      ],
-      "responses": [
-        {
-          "text": "Tout ça pour ça ?",
-          "goto": 13,
-          "friendship": {
-            "hungary": -5
-          }
-        },
-        {
-          "text": "C'est pas de ta faute tu pouvais pas savoir",
-          "goto": 14,
-          "friendship": {
-            "hungary": 5
-          }
-        }
-      ]
-    },
-    "12": {
-      "messages": [
-        {
-          "from": "france",
-          "text": "Elle va s'en mordre les doigts. C'est moi qui te le dis."
-        },
-        {
-          "from": "hungary",
-          "text": "Ah ? Dit donc tu retournes ta veste rapidement toi. Monsieur je suis à gauche."
-        },
-        {
-          "from": "hungary",
-          "text": "C'est quoi cette chansons du français là..."
-        },
-        {
-          "from": "hungary",
-          "text": "Ah oui c'est ça : l'opportuniste ! "
-        },
-        {
-          "from": "france",
-          "text": "J'ai le droit de changer d'avis"
-        },
-        {
-          "from": "hungary",
-          "text": "Ah oui. C'est sûr."
-        },
-        {
-          "from": "hungary",
-          "text": "Je suis content que tu ouvres enfin les yeux sur sa politique de la girouette."
-        },
-        {
-          "from": "germany",
-          "text": "Bonjour tout le monde.",
-          "delay": 3
-        },
-        {
-          "from": "germany",
-          "text": "Devant l'afflux de migrants en Allemagne, je suis obligé de fermer les frontières."
-        },
-        {
-          "from": "france",
-          "text": "Ah ?"
-        },
-        {
-          "from": "germany",
-          "text": "Désolé pour le faux espoir."
-        },
-        {
-          "from": "germany",
-          "text": "Je le sentais bien mais finalement non."
-        },
-        {
-          "from": "hungary",
-          "text": "Ah bah tiens, je disais quoi l'autre jour ?"
-        }
-      ],
-      "responses": [
-        {
-          "text": "Tout ça pour ça Angela?",
-          "goto": 13,
-          "friendship": {
-            "germany": -5
-          }
-        },
-        {
-          "text": "C'est pas de ta faute tu pouvais pas savoir Angela !",
-          "goto": 14,
-          "friendship": {
-            "germany": 5
-          }
-        }
-      ]
-    },
-    "13": {
-      "messages": [
-        {
-          "from": "france",
-          "text": "Sérieux, là tu emmerdes tout le monde à changer d'avis."
-        },
-        {
-          "from": "germany ",
-          "text": "Je croyais bien faire. Il y avait tout de même urgence !"
-        },
-        {
-          "from": "france",
-          "text": "C'est sûr que pour rattraper son image médiatique désastreuse y a du monde !"
-        },
-        {
-          "from": "germany",
-          "text": "Tu es pas mal toi aussi à pas savoir ce que tu veux et à changer d'avis tout le temps."
-        },
-        {
-          "from": "france",
-          "text": "En faisant, ça tu relances l'éternel débat sur l'espace Shengen."
-        },
-        {
-          "from": "germany",
-          "text": "En attendant, tu n'as rien fait toi."
-        }
-      ],
-      "responses": [
-        {
-          "text": "Oui ça je te l'accorde.",
-          "goto": {
-            "act": "act03",
-            "seq": 1
-          },
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "J'ai choisi l'efficacité. Pas la rapidité.",
-          "goto": {
-            "act": "act03",
-            "seq": 1
-          },
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
-    "14": {
-      "messages": [
-        {
-          "from": "france",
-          "text": "Ça partait d'un bon sentiment."
-        },
-        {
-          "from": "france",
-          "text": "Si j'avais pu, j'aurai fait de même."
-        },
-        {
-          "from": "france",
-          "text": "Tu as mon soutien."
-        },
-        {
-          "from": "germany ",
-          "text": "Il va falloir gérer l'après."
-        },
-        {
-          "from": "france",
-          "text": "Demain, c'est loin."
-        },
-        {
-          "from": "germany",
-          "text": "Il est peut-être plus proche que tu le crois."
-        },
-        {
-          "from": "france",
-          "text": "Tu sembles blasé."
-        },
-        {
-          "from": "germany",
-          "text": "Aujourd'hui c'est le cas."
-        },
-        {
-          "from": "germany",
-          "text": "Je me demande qu'est-ce qui va tomber demain."
-        },
-        {
-          "from": "france",
-          "text": "Alors qu'en faite c'est juste notre immobilisme qui fait ça."
-        },
-        {
-          "from": "germany",
-          "text": "Y a de ça en effet."
-        }
-      ],
-      "responses": [
-        {
-          "text": "On va trouver une solution. T'en fais pas.",
-          "goto": {
-            "act": "act03",
-            "seq": 1
-          },
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "Je vais régler le bordel que t'as causer. Tkt.",
-          "goto": {
-            "act": "act03",
-            "seq": 1
-          },
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
+		"sequences":{
+			"1":{
+				"messages":[
+                    {"from":"germany","text":"He François...","delay":1},
+                    {"from":"france","text":"ouais","delay":1},
+                    {"from":"germany","text":"T'as vu la photo de l'enfant sur la plage ?","delay":1}
+				],
+				"responses":[
+					{
+						"text":"Ouais j'ai vu",
+						"goto":2,
+						"friendship":{
+							"germany":5
+						}
+					},
+					{
+						"text":"Non, j'ai rien vu.",
+						"goto":3,
+						"friendship":{
+							"germany":-5
+						}
+					}
+				]
+			},
+			"2":{
+				"messages":[
+                    {"from":"france","text":"On est un peu responsable de tout ça, non ?","delay":1},
+                    {"from":"germany","text":"Ouais... Je me demande bien ce qu'on peut faire","delay":1},
+                    {"from":"france","text":"Pareil.","delay":1},
+                    {"from":"germany","text":"Je t'ai connu plus vaillant.","delay":1},
+                    {"from":"france","text":"Moi aussi je t'ai connu plus vaillante.","delay":1},
+                    {"from":"germany","text":"Monde de merde.","delay":1},
+                    {"from":"france","text":"J'étais incapable de bosser de la journée.","delay":1},
+                    {"from":"germany","text":"Toi aussi t'as les journalistes qui te presse toutes les deux minutes ?","delay":1},
+                    {"from":"france","text":"Ouais. Pour l'instant, on les tient à l'écart le temps de trouver une solution. Autrement dit....","delay":1},
+                    {"from":"germany","text":"...T'as reçu 30 coups de fil de gratte-papiers en 10 minutes. Et maintenant tu cherches une solution.","delay":1},
+                    {"from":"france","text":"Exactement. Une idée sur la marche à suivre ?","delay":1}, 
+                    {"from":"germany","text":"Pas trop.","delay":1},
+                    {"from":"france","text":"Trouve ! Y a pleins de trucs à faire. Revoir les conditions d'entrée, parler avec Bachar, toquer à la porte d'Obama... J'en sais rien moi !","delay":1},
+                    {"from":"germany","text":"Molo tu veux.","delay":1}, 
+                    {"from":"germany","text":"Commence pas à parler comme ça. C'est un coup à affoler la presse.","delay":1},
+                    {"from":"france","text":"On a PAS LE TEMPS et tu le sais.","delay":1},
+                    {"from":"france","text":"La presse est sur nos talons à nous demander des réponses et ils ont raison.","delay":1},
+                    {"from":"germany","text":"Ouais c'est pas faux.","delay":1},
+                    {"from":"france","text":"Alors c'est le temps de regarder les choses en face.","delay":1},
+                    {"from":"france","text":"Ça suffit des esquives à deux ronds.","delay":1},
+                    {"from":"france","text":"On parle. On décide. On exécute. Point.","delay":1},
+                    {"from":"germany","text":"Ok","delay":1},
+                    {"from":"france","text":"Bon. Déjà comment tu vois les choses dans l'immédiat ?","delay":1},
+                    {"from":"germany","text":"Bon ben vu comment c'est, l'opinion va se renverser. Il va y avoir un mouvement de sympathie.","delay":1},
+                    {"from":"germany","text":"De mon côté, je verrais bien un renforcement des centres d'accueil et de tris des réfugiés.","delay":1},
+                    {"from":"germany","text":"On peut aussi tenter de mettre en place un dispositif d'harmonisation. Mais ça ne me tente PAS DU TOUT. Mes landers vont gueuler","delay":1}
+
+				],
+			
+            "responses":[
+					{
+						"text":"On renforce les centres d'accueil.",
+						"goto":["germany.friendship > 5",4,{"act":"act03","seq":5}],
+						"friendship":{
+							"germany":5
+                        }
+                        
+                    },
+                {
+						"text":"On harmonise.",
+						"goto":["germany.friendship > 5",6,{"act":"act03","seq":7}],
+						"friendship":{
+							"germany":-5
+						}
+                }
+           ]
+        },
+
+			"3":{
+				"messages":[
+					{"from":"france","text":"Oh… Ok. Je viens de la voir. ","delay":1},
+                    {"from":"france","text":"Je viens d'avoir Erdogan au téléphone. Il m'a traité de tous les noms en disant qu'on était tous coupable de ce bordel." , "delay":1},
+                    {"from":"germany","text":"Et si c'était pas totalement faux ?","delay":1},
+                    {"from":"france","text":"Je sais pas.","delay":1},
+                    {"from":"france","text":"Il est clair qu'on a une responsabilité.","delay":1},
+                    {"from":"germany","text":"Et on s'est bien planté.","delay":1},
+                    {"from":"france","text":"Vrai.","delay":1},
+                    {"from":"france","text":"On devrait peut-être faire bouger les lignes. Sur les quotas, les critères des demandeurs d'asiles, les conditions de rétention...","delay":1},
+                     {"from":"germany","text":"Ça parait jouable.","delay":1},
+                    {"from":"germany","text":"Mais il va falloir que je consulte mes ministres.","delay":1},
+                    {"from":"france","text":"On n'a PAS le temps.","delay":1},
+                    {"from":"germany","text":"Essayons de reprendre nos esprits.","delay":1},
+                    {"from":"france","text":"Comment tu vois les choses toi ?","delay":1},
+                    {"from":"germany","text":"Bon ben vu comment c'est, l'opinion va se renverser. Il va y avoir un mouvement de sympathie.","delay":1},
+                    {"from":"germany","text":"De mon côté, je verrais bien un renforcement des centres d'accueil et de tris des réfugiés.","delay":1},
+                    {"from":"germany","text":"On peut aussi tenter de mettre en place un dispositif d'harmonisation. Mais ça ne me tente PAS DU TOUT. Mes landers vont gueuler","delay":1}
+                  ],
+                "responses":[
+					{
+						"text":"On renforce les centres d'accueil.",
+						"goto":["germany.friendship > 5",4,{"act":"act03","seq":5}],
+						"friendship":{
+							"germany":5
+                        }
+                        
+                    },
+                {
+						"text":"On harmonise.",
+						"goto":["germany.friendship > 5",6,{"act":"act03","seq":7}],
+						"friendship":{
+							"germany":-5
+						}
+                }
+          ]
+            },           
+			
+    "4":{
+				"messages":[
+					{"from":"germany","text":"Bien. Je savais que je pouvais compter sur toi.","delay":1},
+                    {"from":"france","text":"Pas le choix." , "delay":1},
+                    {"from":"france","text":"C'est quand même dingue ce qu'il se passe. On peut pas laisser une telle misère à nos portes.","delay":1},
+                    {"from":"germany","text":"Ouais","delay":1},
+                    {"from":"germany","text":"T'appelle Viktor pour faire un point avec lui ? Il peut pas trop me voir en ce moment.","delay":1},
+                    {"from":"germany","text":"Si tu veux pas, je le fais mais bon... J'ai pas envie de me farcir 1h de blabla pour rien parce qu'il peut pas m'encadrer.","delay":1},
+                    {"from":"germany","text":"Parce qu'il va falloir discuter concrètement avec JC.","delay":1},
+                    {"from":"france","text":"Pourquoi pas.", "delay":1},   
+                    {"from":"germany","text":"On devrait peut-être faire bouger les lignes. Sur les quotas, les critères des demandeurs d'asiles, les conditions de rétention...","delay":1},
+                     {"from":"germany","text":"Quoi que tu leur dises, je te fais confiance. C'est pas le moment d'être désunis.","delay":1}
+                  ],
+                "responses":[
+					{
+						"text":"Je contacte Viktor",
+						"goto":8,
+						"friendship":{
+							"germany":5
+                        }
+                        
+                    },
+                {
+						"text":"Je vais voir avec JC",
+						"goto":23,
+						"friendship":{
+							"germany":-5
+						}
+                }
+          ]
+            },
+    
+    "5":{
+				"messages":[
+					{"from":"germany","text":"Merci","delay":1},
+                    {"from":"germany","text":"J'étais pas certaine que t'allais accepter.","delay":1},
+                    {"from":"france","text":"Pas le choix.", "delay":1},
+                    {"from":"france","text":"C'est quand même dingue ce qu'il se passe. On peut pas laisser une telle misère à nos portes.","delay":1},
+                    {"from":"germany","text":"Ouais","delay":1},
+                    {"from":"germany","text":"T'appelle Viktor pour faire un point avec lui ? Il peut pas trop me voir en ce moment.","delay":1},
+                    {"from":"germany","text":"Si tu veux pas, je le fais mais bon... J'ai pas envie de me farcir 1h de blabla pour rien parce qu'il peut pas m'encadrer.","delay":1},
+                    {"from":"germany","text":"Parce qu'il va falloir discuter concrètement avec JC.","delay":1},
+                    {"from":"france","text":"Pourquoi pas.", "delay":1},   
+                    {"from":"germany","text":"On devrait peut-être faire bouger les lignes. Sur les quotas, les critères des demandeurs d'asiles, les conditions de rétention...","delay":1},
+                     {"from":"germany","text":"Quoi que tu leur dises, je te fais confiance. C'est pas le moment d'être désunis.","delay":1}
+                  ],
+                "responses":[
+					{
+						"text":"Je contacte Viktor",
+						"goto":8,
+						"friendship":{
+							"germany":5
+                        }
+                        
+                    },
+                {
+						"text":"Je vais voir avec JC",
+						"goto":23,
+						"friendship":{
+							"germany":-5
+						}
+                }
+          ]
+            },
+    
+    "6":{
+				"messages":[
+					{"from":"germany","text":"Va pour ça.","delay":1}, 
+                    {"from":"germany","text":"C'est vraiment parce que c'est toi.","delay":1},
+                    {"from":"france","text":"Ouais.", "delay":1},
+                    {"from":"france","text":"Après l'histoire du camion avec les femmes et enfants morts dedans... On peut pas se permettre de ne pas réagir face à une image aussi forte.","delay":1},
+                    {"from":"germany","text":"Ouais","delay":1},
+                    {"from":"germany","text":"T'appelle Viktor pour faire un point avec lui ? Il peut pas trop me voir en ce moment.","delay":1},
+                    {"from":"germany","text":"Si tu veux pas, je le fais mais bon... J'ai pas envie de me farcir 1h de blabla pour rien parce qu'il peut pas m'encadrer.","delay":1},
+                    {"from":"germany","text":"Parce qu'il va falloir discuter concrètement avec JC.","delay":1},
+                    {"from":"france","text":"Pourquoi pas.", "delay":1},   
+                    {"from":"germany","text":"On devrait peut-être faire bouger les lignes. Sur les quotas, les critères des demandeurs d'asiles, les conditions de rétention...","delay":1},
+                     {"from":"germany","text":"Quoi que tu leur dises, je te fais confiance. C'est pas le moment d'être désunis.","delay":1}
+                  ],
+                "responses":[
+					{
+						"text":"Je contacte Viktor",
+						"goto":8,
+						"friendship":{
+							"germany":5
+                        }
+                        
+                    },
+                {
+						"text":"Je vais voir avec JC",
+						"goto":23,
+						"friendship":{
+							"germany":-5
+						}
+                }
+          ]
+            },
+"7":{
+				"messages":[
+					{"from":"germany","text":"Ça m'embête mais bon...","delay":1}, 
+                    {"from":"germany","text":"Je me vois pas trop dire quoi que ce soit vu ce qui vient de sortir.","delay":1},
+                    {"from":"france","text":"Ouai.", "delay":1},
+                    {"from":"france","text":"Après l'histoire du camion avec les femmes et enfants morts dedans... On peut pas se permettre de ne pas réagir face à une image aussi forte.","delay":1},
+                    {"from":"germany","text":"Ouai","delay":1},
+                    {"from":"germany","text":"T'appelle Viktor pour faire un point avec lui ? Il peut pas trop me voir en ce moment.","delay":1},
+                    {"from":"germany","text":"Si tu veux pas, je le fais mais bon... J'ai pas envie de me farcir 1h de blabla pour rien parce qu'il peut pas m'encadrer.","delay":1},
+                    {"from":"germany","text":"Parce qu'il va falloir discuter concrètement avec JC.","delay":1},
+                    {"from":"france","text":"Pourquoi pas.", "delay":1},   
+                    {"from":"germany","text":"On devrait peut-être faire bouger les lignes. Sur les quotas, les critères des demandeurs d'asiles, les conditions de rétention...","delay":1},
+                     {"from":"germany","text":"Quoi que tu leur dises, je te fais confiance. C'est pas le moment d'être désunis.","delay":1}
+                  ],
+                "responses":[
+					{
+						"text":"Je contacte Viktor",
+						"goto":8,
+						"friendship":{
+							"germany":5
+                        }
+                        
+                    },
+                {
+						"text":"Je vais voir avec JC",
+						"goto":23,
+						"friendship":{
+							"germany":-5
+						}
+                }
+          ]
+            },
+    "8":{
+				"messages":[
+					{"from":"france","text":"T'es là Viktor ?","delay":1}, 
+                    {"from":"hungary","text":"Ouai. J'imagine que tu me contactes suite à la photo du gosse en Turquie.","delay":1},
+                    {"from":"france","text":"C'est ça.", "delay":1},
+                    {"from":"france","text":"Ouai. Il faut que nos équipes se coordonnent.", "delay":1},
+                    {"from":"hungary","text":"Je mets en contact mes services avec les tiens. Qu'est-ce que je peux faire d'autre ? ", "delay":1},
+
+                    {"from":"france","text":"On va se bouger avec Angela.", "delay":1},
+                    {"from":"france","text":"Organisation d'un conseil des ministres de la défense & cie.", "delay":1},
+                    {"from":"france","text":"Je concocte aussi différents rendez-vous dans mon agenda.", "delay":1},
+                    {"from":"hungary","text":"Content pour toi. Je vais creuser de mon côté.", "delay":1},
+                    {"from":"hungary","text":"Désolé de mon silence radio ces derniers jours. T'es au courant qu'Angela va ouvrir ses frontières ?", "delay":3},
+                    {"from":"hungary","text":"Si elle voulait m'énerver, elle aurait pas fait mieux.", "delay":1}
+                  ],
+                "responses":[
+					{
+						"text":"Ben c'est un beau geste non ?",
+						"goto":["hungary.friendship > 5",9,{"act":"act03","seq":10}],
+						"friendship":{
+							"hungary":-5
+                        }
+                        
+                    },
+                {
+						"text":"Ouai ça va créer un appel d'air aux migrants",
+						"goto":["hungary.friendship > 5",11,{"act":"act03","seq":12}],
+						"friendship":{
+							"hungary":5
+						}
+                }
+          ]
+            },
+    
+    "9":{
+				"messages":[
+					{"from":"hungary","text":"Elle va s'en mordre les doigts. C'est moi qui te le dis.","delay":1}, 
+                    {"from":"hungary","text":"Je vais lui envoyer un train plein de migrants direct chez elle, on va bien voir.","delay":1},
+                    {"from":"france","text":"Tu es dur avec elle.", "delay":1},
+                    {"from":"hungary","text":"Encore toi ça va, je t'aime bien. Mais elle...", "delay":1},
+                    {"from":"hungary","text":"Elle me gonfle. Un jour ça va lui retomber dessus.", "delay":1},
+                    {"from":"germany","text":"Bonjour tout le monde.","delay":3},
+                    {"from":"germany","text":"Devant l'afflux de migrants en Allemagne, je suis obligé de fermer les frontières.","delay":1},
+                    {"from":"france","text":"Ah ?", "delay":1},   
+                    {"from":"germany","text":"Désolé pour le faux espoir.","delay":1},
+                    {"from":"germany","text":"Je le sentais bien mais finalement non.","delay":1}
+                  ],
+                "responses":[
+					{
+						"text":"Tout ça pour ça ?",
+						"goto":13,
+						"friendship":{
+							"germany":-5
+                        }
+                        
+                    },
+                {
+						"text":"C'est pas de ta faute tu pouvais pas savoir",
+						"goto":14,
+						"friendship":{
+							"germany":5
+						}
+                }
+          ]
+            },
+    "10":{
+				"messages":[
+					{"from":"hungary","text":"Elle va s'en mordre les doigts. C'est moi qui te le dis.","delay":1}, 
+                    {"from":"hungary","text":"Je vais lui envoyer un train plein de migrants direct chez elle, on va bien voir.","delay":1},
+                    {"from":"france","text":"Tu es dur avec elle.", "delay":1},
+                    {"from":"hungary","text":"Vu le nombre de migrants que j'ai à mes frontières, ça lui servira de leçon à elle et à toi, bande de tête de noeud.", "delay":1},
+                    {"from":"france","text":"Hey ho !", "delay":1},
+                    {"from":"france","text":"Tu me parles mieux que ça.", "delay":1},
+                    {"from":"france","text":"Je suis le président de la France bordel.", "delay":1},
+                    {"from":"france","text":"J'avais le droit de suivre Angela sur ce coup là.", "delay":1},
+                    {"from":"germany","text":"Bonjour tout le monde.","delay":3},
+                    {"from":"germany","text":"Devant l'afflux de migrants en Allemagne, je suis obligé de fermer les frontières.","delay":1},
+                    {"from":"france","text":"Ah ?", "delay":1},   
+                    {"from":"germany","text":"Désolé pour le faux espoir.","delay":1},
+                    {"from":"germany","text":"Je le sentais bien mais finalement non.","delay":1}
+                  ],
+                "responses":[
+					{
+						"text":"Tout ça pour ça ?",
+						"goto":13,
+						"friendship":{
+							"germany":-5
+                        }
+                        
+                    },
+                {
+						"text":"C'est pas de ta faute tu pouvais pas savoir",
+						"goto":14,
+						"friendship":{
+							"germany":5
+						}
+                }
+          ]
+            },  
+    "11":{
+				"messages":[
+					{"from":"france","text":"Elle va s'en mordre les doigts. C'est moi qui te le dis.","delay":1}, 
+                    {"from":"hungary","text":"C'est aussi ce que je pense.","delay":1},
+                    {"from":"hungary","text":"Dès que j'en aurai l'occasion, je lui enverrai un train avec des migrants de dedans.", "delay":1},
+                    {"from":"hungary","text":"Je pense que ça lui fera les pieds. :-P", "delay":1},
+                    {"from":"france","text":"Vas-y molo quand même.", "delay":1},
+                    {"from":"france","text":"C'est l'Allemagne. Une des grosses puissances européennes.", "delay":1},
+                    {"from":"france","text":"Elle a plus de députés au parlement européen que nous.", "delay":1},
+                    {"from":"hungary","text":"Mouai. Je me méfie, mais il faudra peut-être en arriver là un jour.", "delay":1},
+                    {"from":"germany","text":"Bonjour tout le monde.","delay":3},
+                    {"from":"germany","text":"Devant l'afflux de migrants en Allemagne, je suis obligé de fermer les frontières.","delay":1},
+                    {"from":"france","text":"Ah ?", "delay":1},   
+
+                    {"from":"germany","text":"Désolé pour le faux espoir.","delay":1},
+                    {"from":"germany","text":"Je le sentais bien mais finalement non.","delay":1}
+                  ],
+                "responses":[
+					{
+						"text":"Tout ça pour ça ?",
+						"goto":13,
+						"friendship":{
+							"hungary":-5
+                        }
+                        
+                    },
+                {
+						"text":"C'est pas de ta faute tu pouvais pas savoir",
+						"goto":14,
+						"friendship":{
+							"hungary":5
+						}
+                }
+          ]
+            }, 
+  "12":{
+				"messages":[
+					{"from":"france","text":"Elle va s'en mordre les doigts. C'est moi qui te le dis.","delay":1}, 
+                    {"from":"hungary","text":"Ah ? Dit donc tu retournes ta veste rapidement toi. Monsieur je suis à gauche.","delay":1},
+                    {"from":"hungary","text":"C'est quoi cette chansons du français là...", "delay":1},
+                    {"from":"hungary","text":"Ah oui c'est ça : l'opportuniste ! ", "delay":1},
+                    {"from":"france","text":"J'ai le droit de changer d'avis", "delay":1},   
+                    {"from":"hungary","text":"Ah oui. C'est sûr.", "delay":1},
+                    {"from":"hungary","text":"Je suis content que tu ouvres enfin les yeux sur sa politique de la girouette.", "delay":1},
+                    {"from":"germany","text":"Bonjour tout le monde.","delay":3},
+                    {"from":"germany","text":"Devant l'afflux de migrants en Allemagne, je suis obligé de fermer les frontières.","delay":1},
+                    {"from":"france","text":"Ah ?", "delay":1},   
+                    {"from":"germany","text":"Désolé pour le faux espoir.","delay":1},
+                    {"from":"germany","text":"Je le sentais bien mais finalement non.","delay":1},
+                    {"from":"hungary","text":"Ah bah tiens, je disais quoi l'autre jour ?", "delay":1}
+                  ],
+                "responses":[
+					{
+						"text":"Tout ça pour ça Angela?",
+						"goto":13,
+						"friendship":{
+							"germany":-5
+                        }
+                        
+                    },
+                {
+						"text":"C'est pas de ta faute tu pouvais pas savoir Angela !",
+						"goto":14,
+						"friendship":{
+							"germany":5
+						}
+                }
+          ]
+            }, 
+        "13":{
+				"messages":[
+					{"from":"france","text":"Sérieux, là tu emmerdes tout le monde à changer d'avis.","delay":1}, 
+                    {"from":"germany ","text":"Je croyais bien faire. Il y avait tout de même urgence !","delay":1},
+                    {"from":"france","text":"C'est sûr que pour rattraper son image médiatique désastreuse y a du monde !", "delay":1},
+                    {"from":"germany","text":"Tu es pas mal toi aussi à pas savoir ce que tu veux et à changer d'avis tout le temps.", "delay":1},
+                    {"from":"france","text":"En faisant, ça tu relances l'éternel débat sur l'espace Shengen.", "delay":1},
+                    {"from":"germany","text":"En attendant, tu n'as rien fait toi.", "delay":1}
+
+                  ],
+                "responses":[
+					{
+						"text":"Oui ça je te l'accorde.",
+						"goto":{"act":"act04","seq":1},
+						"friendship":{
+							"germany":5
+                        }
+                        
+                    },
+                {
+						"text":"J'ai choisi l'efficacité. Pas la rapidité.",
+						"goto":{"act":"act04","seq":1},
+						"friendship":{
+							"germany":-5
+						}
+                }
+          ]
+            },
+     "14":{
+				"messages":[
+					{"from":"france","text":"Ça partait d'un bon sentiment.","delay":1}, 
+					{"from":"france","text":"Si j'avais pu, j'aurai fait de même.","delay":1}, 
+                    {"from":"france","text":"Tu as mon soutien.","delay":1}, 
+                    {"from":"germany","text":"Il va falloir gérer l'après.","delay":1},
+                    {"from":"france","text":"Demain, c'est loin.", "delay":1},
+                    {"from":"germany","text":"Il est peut-être plus proche que tu le crois.", "delay":1},
+                    {"from":"france","text":"Tu sembles blasée.", "delay":1},
+                    {"from":"germany","text":"Aujourd'hui c'est le cas.", "delay":1},
+                    {"from":"germany","text":"Je me demande qu'est-ce qui va tomber demain.", "delay":1},
+                    {"from":"france","text":"Alors qu'en faite c'est juste notre immobilisme qui fait ça.", "delay":1},
+                    {"from":"germany","text":"Y a de ça en effet.", "delay":1}
+
+                  ],
+                "responses":[
+					{
+						"text":"On va trouver une solution. T'en fais pas.",
+						"goto":{"act":"act04","seq":1},
+						"friendship":{
+							"germany":5
+                        }
+                        
+                    },
+                {
+						"text":"Je vais régler le bordel que t'as causé. Tkt.",
+						"goto":{"act":"act04","seq":1},
+						"friendship":{
+							"germany":-5
+						}
+                }
+          ]
+            },
+    
     "23": {
-      "messages": [
-        {
-          "from": "france",
-          "text": "Salut JC"
-        },
-        {
-          "from": "ue",
-          "text": "Hello."
-        },
-        {
-          "from": "ue",
-          "text": "J'imagine que tu as vu la photo en Turquie."
-        },
-        {
-          "from": "france",
-          "text": "T'as des infos ?"
-        },
-        {
-          "from": "ue",
-          "text": "C'est en cours de confirmation."
-        },
-        {
-          "from": "ue",
-          "text": "Il s'appelait Aylan apparemment."
-        },
-        {
-          "from": "ue",
-          "text": "Son père aurait survécu au naufrage."
-        },
-        {
-          "from": "france",
-          "text": "L'horreur."
-        },
-        {
-          "from": "ue",
-          "text": "T'imagines les gosses qui ont vu passer ça sur Twitter ?"
-        },
-        {
-          "from": "france",
-          "text": "Ouai. Espérons que ça réveille les consciences. Et que ça fasse bouger les choses"
-        },
-        {
-          "from": "ue",
-          "text": "T'as raison. Au boulot !"
-        },
-        {
-          "from": "france",
-          "text": "C'est pas le moment de déconner."
-        },
-        {
-          "from": "ue",
-          "text": "Il va falloir trouver des solutions."
-        },
-        {
-          "from": "france",
-          "text": "On est déjà pas d'accord entre nous."
-        },
-        {
-          "from": "ue",
-          "text": "Justement, il faut que ça change."
-        },
-        {
-          "from": "ue",
-          "text": "Et maintenant !"
-        },
-        {
-          "from": "france",
-          "text": "Tu préconises quoi ?"
-        },
-        {
-          "from": "ue",
-          "text": "Tu sais si les autres ont calé un point avec Antonio des Nations Unis ?"
-        },
-        {
-          "from": "france",
-          "text": "Je crois pas. Il bosse dans quel département ?"
-        },
-        {
-          "from": "ue",
-          "text": "Tu sais si les autres ont calé un point avec Antonio des Nations Unis ?"
-        },
-        {
-          "from": "ue",
-          "text": "L'agence des Nations Unies pour les réfugiés."
-        },
-        {
-          "from": "france",
-          "text": "Mais ce sont de réfugiés ou des migrants à la fin ?"
-        },
-        {
-          "from": "ue",
-          "text": "On s'en fout. Agissons. C'est pas le moment de jouer sur les mots ou de faire dans le détail."
-        },
-        {
-          "from": "ue",
-          "text": "Il faut que quelqu'un prenne rendez-vous avec lui et vite."
-        },
-        {
-          "from": "ue",
-          "text": "Je peux compter sur toi ?"
-        },
-        {
-          "from": "ue",
-          "text": "Genre dans les heures qui viennent, ce serait bien."
-        }
-      ],
-      "responses": [
-        {
-          "text": "Je vais le faire",
-          "goto": 24,
-          "friendship": {
-            "ue": 5
-          }
-        },
-        {
-          "text": "Ok. Mais pas tout de suite.",
-          "goto": 25,
-          "friendship": {
-            "ue": -5
-          }
-        }
-      ]
-    },
+                  "messages":[
+					{"from":"france","text":"Salut JC","delay":1},  
+                    {"from":"ue","text":"Hello.","delay":1},
+                    {"from":"ue","text":"J'imagine que tu as vu la photo en Turquie.","delay":1},   
+                    {"from":"france","text":"T'as des infos ?","delay":1},     
+                    {"from":"ue","text":"C'est en cours de confirmation.","delay":1},
+                    {"from":"ue","text":"Il s'appelait Aylan apparemment.","delay":1},
+                    {"from":"ue","text":"Son père aurait survécu au naufrage.","delay":1},
+                    {"from":"france","text":"L'horreur.","delay":1},
+                    {"from":"ue","text":"T'imagines les gosses qui ont vu passer ça sur Twitter ?","delay":1},  
+                    {"from":"france","text":"Ouai. Espérons que ça réveille les consciences. Et que ça fasse bouger les choses","delay":1},  
+                    {"from":"ue","text":"T'as raison. Au boulot !","delay":1},  
+                    {"from":"france","text":"C'est pas le moment de déconner.","delay":1},  
+                    {"from":"ue","text":"Il va falloir trouver des solutions.","delay":1},  
+                    {"from":"france","text":"On est déjà pas d'accord entre nous.","delay":1},  
+                    {"from":"ue","text":"Justement, il faut que ça change.","delay":1},  
+                    {"from":"ue","text":"Et maintenant !","delay":1},  
+                    {"from":"france","text":"Tu préconises quoi ?","delay":1},  
+                    {"from":"ue","text":"Tu sais si les autres ont calé un point avec Antonio des Nations Unis ?","delay":1},
+                    {"from":"france","text":"Je crois pas. Il bosse dans quel département ?","delay":1},
+                    {"from":"ue","text":"Tu sais si les autres ont calé un point avec Antonio des Nations Unis ?","delay":1},
+                    {"from":"ue","text":"L'agence des Nations Unies pour les réfugiés.","delay":1},
+                    {"from":"france","text":"Mais ce sont de réfugiés ou des migrants à la fin ?","delay":1},
+                    {"from":"ue","text":"On s'en fout. Agissons. C'est pas le moment de jouer sur les mots ou de faire dans le détail.","delay":1},
+                    {"from":"ue","text":"Il faut que quelqu'un prenne rendez-vous avec lui et vite.","delay":1},
+                    {"from":"ue","text":"Je peux compter sur toi ?","delay":1},
+                    {"from":"ue","text":"Genre dans les heures qui viennent, ce serait bien.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Je vais le faire",
+						"goto":24,
+                        "friendship":{
+							"ue":5
+                        }
+				   }, 
+                    {
+						"text":"Ok. Mais pas tout de suite.",
+						"goto":25,
+						"friendship":{
+							"ue":-5 
+					   }
+                    }
+                ]
+            },
     "24": {
-      "messages": [
-        {
-          "from": "france",
-          "text": "J'ai demandé à mon secrétaire de caler un point avec lui."
-        },
-        {
-          "from": "france",
-          "text": "Je lui ai aussi dit de mettre en relation nos équipes techniques avec l'Europe pour agir rapidement et établir une stratégie."
-        },
-        {
-          "from": "ue",
-          "text": "Parfait."
-        },
-        {
-          "from": "france",
-          "text": "Je mets mes meilleurs éléments sur le coup."
-        },
-        {
-          "from": "france",
-          "text": "J'ai aussi Francis Lalanne qui nous prépare un nouvel hymne européen."
-        },
-        {
-          "from": "france",
-          "text": "Avec un son et des textes plus pacifiques, plus solidaire."
-        },
-        {
-          "from": "france",
-          "text": "Je prédis le grand retour de Francis Lalanne sur le devant de la scène. "
-        },
-        {
-          "from": "france",
-          "text": "Après ce n'est que mon avis. Mes conseillers com' n'ont rien trouvé à redire."
-        },
-        {
-          "from": "ue",
-          "text": "Euh... Fait ce que tu veux. Mais redemande leur si tu as un peu de temps."
-        },
-        {
-          "from": "germany",
-          "text": "Hey ! Petite annonce. J'ouvre les frontières. Ça permet de montrer qu'on se bouge.",
-          "delay": 3
-        }
-      ],
-      "responses": [
-        {
-          "text": "Excellente idée !",
-          "goto": 26,
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "Pas comme ça !",
-          "goto": 25,
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
-    "25": {
-      "messages": [
-        {
-          "from": "ue",
-          "text": "Il faut s'y mettre MAINTENANT !"
-        },
-        {
-          "from": "france",
-          "text": "T'es drôle toi ! C'est pas toi qui a conseil des ministres toutes les semaines."
-        },
-        {
-          "from": "ue",
-          "text": "Bon sinon mes services de renseignement m'indique que Lalanne prépare une chanson sur les migrants."
-        },
-        {
-          "from": "ue",
-          "text": "Il faut l'arrêter tout de suite."
-        },
-        {
-          "from": "france",
-          "text": "La DCRI est déjà sur le coup."
-        },
-        {
-          "from": "france",
-          "text": "Comment tu sais ça dit donc ?"
-        },
-        {
-          "from": "france",
-          "text": "T'espionnerais pas la France par le plus grand des hasards ?"
-        },
-        {
-          "from": "ue",
-          "text": "..."
-        },
-        {
-          "from": "france",
-          "text": "..."
-        },
-        {
-          "from": "ue",
-          "text": "...",
-          "delay": 3
-        },
-        {
-          "from": "france",
-          "text": "Bon oublions cette histoire d'espionnage entre amis."
-        },
-        {
-          "from": "france",
-          "text": "D'après mes infos,"
-        },
-        {
-          "from": "hungary",
-          "text": "Hello bitchies !"
-        },
-        {
-          "from": "hungary",
-          "text": "Vous avez vu le retournement de veste d'Angela ?"
-        },
-        {
-          "from": "hungary",
-          "text": "Un coup j'ouvre mes frontières, un coup non."
-        },
-        {
-          "from": "hungary",
-          "text": "Avec ça, bon courage pour votre réelection."
-        },
-        {
-          "from": "ue",
-          "text": "Bon moi je m'en fous de la réélection à la présidence de la commission européenne.",
-          "delay": 3
-        },
-        {
-          "from": "ue",
-          "text": "Wikileaks a beau montrer mes magouilles au Luxembourg et tout le monde s'en balance.",
-          "delay": 3
-        },
-        {
-          "from": "france",
-          "text": "Veinard !"
-        },
-        {
-          "from": "ue",
-          "text": "J'imagine que les services secret français avaient vu le retournement de veste d'Angela.",
-          "delay": 3
-        },
-        {
-          "from": "france",
-          "text": "Oui"
-        },
-        {
-          "from": "ue",
-          "text": "Tu disais quoi sur l'espionnage entre amis ?",
-          "delay": 3
-        },
-        {
-          "from": "france",
-          "text": "Lache moi. Je vais essayer de lui envoyer un message."
-        },
-        {
-          "from": "ue",
-          "text": "Si ça te chante.",
-          "delay": 3
-        }
-      ],
-      "responses": [
-        {
-          "text": "Pas bol Angela :-(",
-          "goto": 27,
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "Chapeau Angela. On va bien se foutre de toi !",
-          "goto": 28,
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
+                  "messages":[
+					{"from":"france","text":"J'ai demandé à mon secrétaire de caler un point avec lui.","delay":1},  
+                    {"from":"france","text":"Je lui ai aussi dit de mettre en relation nos équipes techniques avec l'Europe pour agir rapidement et établir une stratégie.","delay":1},  
+                    {"from":"ue","text":"Parfait.","delay":1},
+                    {"from":"france","text":"Je mets mes meilleurs éléments sur le coup.","delay":1},   
+                    {"from":"france","text":"J'ai aussi Francis Lalanne qui nous prépare un nouvel hymne européen.","delay":1},   
+                    {"from":"france","text":"Avec un son et des textes plus pacifiques, plus solidaire.","delay":1},   
+                    {"from":"france","text":"Je prédis le grand retour de Francis Lalanne sur le devant de la scène. ","delay":1},
+                    {"from":"france","text":"Après ce n'est que mon avis. Mes conseillers com' n'ont rien trouvé à redire.","delay":1},
+                    {"from":"ue","text":"Euh... Fait ce que tu veux. Mais redemande leur si tu as un peu de temps.","delay":1},
+                    {"from":"germany","text":"Hey ! Petite annonce. J'ouvre les frontières. Ça permet de montrer qu'on se bouge.","delay":3}
+                  ],
+                  "responses":[
+					{
+						"text":"Excellente idée !",
+						"goto":26,
+                        "friendship":{
+							"germany":5
+                        }
+				   }, 
+                    {
+						"text":"Pas comme ça !",
+						"goto":25,
+						"friendship":{
+							"germany":-5 
+					   }
+                    }
+                ]
+            },
+     "25": {
+                  "messages":[
+					{"from":"ue","text":"Il faut s'y mettre MAINTENANT !","delay":1},    
+                    {"from":"france","text":"T'es drôle toi ! C'est pas toi qui a conseil des ministres toutes les semaines.","delay":1},  
+                	{"from":"ue","text":"Bon sinon mes services de renseignement m'indique que Lalanne prépare une chanson sur les migrants.","delay":1},    
+                    {"from":"ue","text":"Il faut l'arrêter tout de suite.","delay":1},
+                    {"from":"france","text":"La DCRI est déjà sur le coup.","delay":1},   
+                    {"from":"france","text":"Comment tu sais ça dit donc ?","delay":1},   
+                    {"from":"france","text":"T'espionnerais pas la France par le plus grand des hasards ?","delay":1},   
+                    {"from":"ue","text":"...","delay":1},
+                    {"from":"france","text":"...","delay":1},
+                    {"from":"ue","text":"...","delay":3},
+                    {"from":"france","text":"Bon oublions cette histoire d'espionnage entre amis.","delay":1},   
+                    {"from":"france","text":"D'après mes infos,","delay":1},   
+                    {"from":"hungary","text":"Hello bitchies !","delay":1},   
+                    {"from":"hungary","text":"Vous avez vu le retournement de veste d'Angela ?","delay":1},   
+                    {"from":"hungary","text":"Un coup j'ouvre mes frontières, un coup non.","delay":1},     
+                    {"from":"hungary","text":"Avec ça, bon courage pour votre réelection.","delay":1},   
+                    {"from":"ue","text":"Bon moi je m'en fous de la réélection à la présidence de la commission européenne.","delay":3},
+                    {"from":"ue","text":"Wikileaks a beau montrer mes magouilles au Luxembourg et tout le monde s'en balance.","delay":3},
+                    {"from":"france","text":"Veinard !","delay":1},
+                    {"from":"ue","text":"J'imagine que les services secret français avaient vu le retournement de veste d'Angela.","delay":3},
+                    {"from":"france","text":"Oui","delay":1},
+                    {"from":"ue","text":"Tu disais quoi sur l'espionnage entre amis ?","delay":3},
+                    {"from":"france","text":"Lache moi. Je vais essayer de lui envoyer un message.","delay":1},
+                    {"from":"ue","text":"Si ça te chante.","delay":3}
+
+                  ],
+                  "responses":[
+					{
+						"text":"Pas bol Angela :-(",
+						"goto":27,
+                        "friendship":{
+							"germany":5
+                        }
+				   }, 
+                    {
+						"text":"Chapeau Angela. On va bien se foutre de toi !",
+						"goto":28,
+						"friendship":{
+							"germany":-5 
+					   }
+                    }
+                ]
+            },
     "26": {
-      "messages": [
-        {
-          "from": "france",
-          "text": "Mais je te préviens je te fais vraiment une fleur."
-        },
-        {
-          "from": "france",
-          "text": "En ce moment, je suis vraiment charette."
-        },
-        {
-          "from": "ue",
-          "text": "Il faut s'y mettre MAINTENANT !"
-        },
-        {
-          "from": "france",
-          "text": "T'es drôle toi ! C'est pas toi qui a conseil des ministres toutes les semaines."
-        },
-        {
-          "from": "ue",
-          "text": "Bon sinon mes services de renseignement m'indique que Lalanne prépare une chanson sur les migrants."
-        },
-        {
-          "from": "ue",
-          "text": "Il faut l'arrêter tout de suite."
-        },
-        {
-          "from": "france",
-          "text": "La DCRI est déjà sur le coup."
-        },
-        {
-          "from": "france",
-          "text": "Comment tu sais ça dit donc ?"
-        },
-        {
-          "from": "france",
-          "text": "T'espionnerais pas la France par le plus grand des hasards ?"
-        },
-        {
-          "from": "ue",
-          "text": "..."
-        },
-        {
-          "from": "france",
-          "text": "..."
-        },
-        {
-          "from": "ue",
-          "text": "...",
-          "delay": 3
-        },
-        {
-          "from": "france",
-          "text": "Bon oublions cette histoire d'espionnage entre amis."
-        },
-        {
-          "from": "france",
-          "text": "D'après mes infos,"
-        },
-        {
-          "from": "hungary",
-          "text": "Hello bitchies !"
-        },
-        {
-          "from": "hungary",
-          "text": "Vous avez vu le retournement de veste d'Angela ?"
-        },
-        {
-          "from": "hungary",
-          "text": "Un coup j'ouvre mes frontières, un coup non."
-        },
-        {
-          "from": "hungary",
-          "text": "C'est quoi la suite pour la prétendante au prix Nobel ?"
-        },
-        {
-          "from": "hungary",
-          "text": "J'imagine que vous êtes de mèche avec elle."
-        },
-        {
-          "from": "hungary",
-          "text": "Un grand bravo."
-        },
-        {
-          "from": "hungary",
-          "text": "Vous venez de vous ridiculiser aux yeux du monde et de vos électeurs."
-        },
-        {
-          "from": "hungary",
-          "text": "Bon courage pour votre réelection."
-        },
-        {
-          "from": "ue",
-          "text": "Bon moi je m'en fous de la réélection à la présidence de la commission européenne.",
-          "delay": 3
-        },
-        {
-          "from": "ue",
-          "text": "Wikileaks a beau montrer mes magouilles au Luxembourg et tout le monde s'en balance.",
-          "delay": 3
-        },
-        {
-          "from": "ue",
-          "text": "J'imagine que les services secret français avaient vu le retournement de veste d'Angela.",
-          "delay": 3
-        },
-        {
-          "from": "france",
-          "text": "Oui"
-        },
-        {
-          "from": "ue",
-          "text": "Tu disais quoi sur l'espionnage entre amis ?",
-          "delay": 3
-        },
-        {
-          "from": "france",
-          "text": "Lache moi. Je vais essayer de lui envoyer un message."
-        },
-        {
-          "from": "france",
-          "text": "Histoire qu'elle arrête de faire cavalier seul."
-        }
-      ],
-      "responses": [
-        {
-          "text": "Pas bol Angela :-(",
-          "goto": 27,
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "Chapeau Angela. On va bien se foutre de toi !",
-          "goto": 28,
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
+                  "messages":[
+				    {"from":"france","text":"Mais je te préviens je te fais vraiment une fleur.","delay":1},
+                    {"from":"france","text":"En ce moment, je suis vraiment charette.","delay":1},   
+                    {"from":"ue","text":"Il faut s'y mettre MAINTENANT !","delay":1},    
+                    {"from":"france","text":"T'es drôle toi ! C'est pas toi qui a conseil des ministres toutes les semaines.","delay":1},  
+                	{"from":"ue","text":"Bon sinon mes services de renseignement m'indique que Lalanne prépare une chanson sur les migrants.","delay":1},    
+                    {"from":"ue","text":"Il faut l'arrêter tout de suite.","delay":1},
+                    {"from":"france","text":"La DCRI est déjà sur le coup.","delay":1},   
+                    {"from":"france","text":"Comment tu sais ça dit donc ?","delay":1},   
+                    {"from":"france","text":"T'espionnerais pas la France par le plus grand des hasards ?","delay":1},   
+                    {"from":"ue","text":"...","delay":1},
+                    {"from":"france","text":"...","delay":1},
+                    {"from":"ue","text":"...","delay":3},
+                    {"from":"france","text":"Bon oublions cette histoire d'espionnage entre amis.","delay":1},   
+                    {"from":"france","text":"D'après mes infos,","delay":1},   
+                    {"from":"hungary","text":"Hello bitchies !","delay":1},   
+                    {"from":"hungary","text":"Vous avez vu le retournement de veste d'Angela ?","delay":1},   
+                    {"from":"hungary","text":"Un coup j'ouvre mes frontières, un coup non.","delay":1},   
+                    {"from":"hungary","text":"C'est quoi la suite pour la prétendante au prix Nobel ?","delay":1},
+                    {"from":"hungary","text":"J'imagine que vous êtes de mèche avec elle.","delay":1},   
+                    {"from":"hungary","text":"Un grand bravo.","delay":1},   
+                    {"from":"hungary","text":"Vous venez de vous ridiculiser aux yeux du monde et de vos électeurs.","delay":1},   
+                    {"from":"hungary","text":"Bon courage pour votre réelection.","delay":1},   
+                    {"from":"ue","text":"Bon moi je m'en fous de la réélection à la présidence de la commission européenne.","delay":3},
+                    {"from":"ue","text":"Wikileaks a beau montrer mes magouilles au Luxembourg et tout le monde s'en balance.","delay":3},
+                    {"from":"ue","text":"J'imagine que les services secret français avaient vu le retournement de veste d'Angela.","delay":3},
+                    {"from":"france","text":"Oui","delay":1},
+                    {"from":"ue","text":"Tu disais quoi sur l'espionnage entre amis ?","delay":3},
+                    {"from":"france","text":"Lache moi. Je vais essayer de lui envoyer un message.","delay":1},
+                    {"from":"france","text":"Histoire qu'elle arrête de faire cavalier seul.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Pas bol Angela :-(",
+						"goto":27,
+                        "friendship":{
+							"germany":5
+                        }
+				   }, 
+                    {
+						"text":"Chapeau Angela. On va bien se foutre de toi !",
+						"goto":28,
+						"friendship":{
+							"germany":-5 
+					   }
+                    }
+                ]
+            },
     "27": {
-      "messages": [
-        {
-          "from": "germany",
-          "text": "Merci François"
-        },
-        {
-          "from": "germany",
-          "text": "Tu me connais, je suis fougueuse."
-        },
-        {
-          "from": "france",
-          "text": "Oui c'est vrai."
-        },
-        {
-          "from": "france",
-          "text": "Quand je pense Angela, le mot fougue me vient très vite en tête."
-        },
-        {
-          "from": "germany",
-          "text": "Okay tu te fous de moi."
-        },
-        {
-          "from": "france",
-          "text": "Oui un peu, mais c'est gentil."
-        },
-        {
-          "from": "germany",
-          "text": "Ah oui c'est vrai que toi tu es le président gentil."
-        },
-        {
-          "from": "france",
-          "text": "Non, moi c'est le président normal."
-        },
-        {
-          "from": "germany",
-          "text": "Ah oui j'avais oublié."
-        },
-        {
-          "from": "france",
-          "text": "Et le président des bisous aussi. Mais ça c'est que quand je visite des écoles. C'est le genre de trucs qui plait beaucoup aux gamins"
-        },
-        {
-          "from": "germany",
-          "text": "Ouai enfin pour l'instant on n'est pas les présidents des migrants"
-        },
-        {
-          "from": "france",
-          "text": "C'est le moins qu'on puisse dire."
-        },
-        {
-          "from": "germany",
-          "text": "Comment on fait alors ?"
-        }
-      ],
-      "responses": [
-        {
-          "text": "On va trouver une solution. T'en fais pas.",
-          "goto": {
-            "act": "act03",
-            "seq": 1
-          },
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "Je vais régler le bordel que t'as causer. Tkt.",
-          "goto": {
-            "act": "act03",
-            "seq": 1
-          },
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    },
+                  "messages":[
+				    {"from":"germany","text":"Merci François","delay":1},
+                    {"from":"germany","text":"Tu me connais, je suis fougueuse.","delay":1},
+                    {"from":"france","text":"Oui c'est vrai.","delay":1},
+                    {"from":"france","text":"Quand je pense Angela, le mot fougue me vient très vite en tête.","delay":1},
+                    {"from":"germany","text":"Okay tu te fous de moi.","delay":1},  
+                    {"from":"france","text":"Oui un peu, mais c'est gentil.","delay":1}, 
+                    {"from":"germany","text":"Ah oui c'est vrai que toi tu es le président gentil.","delay":1},  
+                    {"from":"france","text":"Non, moi c'est le président normal.","delay":1},
+                    {"from":"germany","text":"Ah oui j'avais oublié.","delay":1},  
+                    {"from":"france","text":"Et le président des bisous aussi. Mais ça c'est que quand je visite des écoles. C'est le genre de trucs qui plait beaucoup aux gamins","delay":1},
+                    {"from":"germany","text":"Ouai enfin pour l'instant on n'est pas les présidents des migrants","delay":1},
+                    {"from":"france","text":"C'est le moins qu'on puisse dire.","delay":1},
+                    {"from":"germany","text":"Comment on fait alors ?","delay":1}
+
+                  ],
+                  "responses":[
+					{
+						"text":"On va trouver une solution. T'en fais pas.",
+						"goto":{"act":"act04","seq":1},
+						"friendship":{
+							"germany":5
+                        }
+                        
+                    },
+                {
+						"text":"Je vais régler le bordel que t'as causer. Tkt.",
+						"goto":{"act":"act04","seq":1},
+						"friendship":{
+							"germany":-5
+						}
+                }
+          ]
+            },
     "28": {
-      "messages": [
-        {
-          "from": "germany",
-          "text": "Merci GROS SOCIAL-TRAITRE mangeur de grenouilles !"
-        },
-        {
-          "from": "germany",
-          "text": "Les français sont des lâches. J'aurai dû voir que leur président alors me tacler comme ça"
-        },
-        {
-          "from": "france",
-          "text": "Vu comment tu diriges ton pays comme un manche, je répondrais de manière diplomate : le train de tes insultes roule sur les rails de l'indifférence."
-        },
-        {
-          "from": "france",
-          "text": "Tu te calmes tout de suite ! Tu as choisi pour l'Allemagne. Assume."
-        },
-        {
-          "from": "germany",
-          "text": "Au moins, j'ai tenté quelque chose MOI !"
-        },
-        {
-          "from": "germany",
-          "text": "Président normal, président normal"
-        },
-        {
-          "from": "germany",
-          "text": "Président sans courage oui !"
-        },
-        {
-          "from": "france",
-          "text": "Ok, je t'ai énervé. J'ai peut-être été un peu trop loin."
-        },
-        {
-          "from": "germany",
-          "text": "Un peu oui !"
+                  "messages":[
+				    {"from":"germany","text":"Merci GROS SOCIAL-TRAITRE mangeur de grenouilles !","delay":1},
+                    {"from":"germany","text":"Les français sont des lâches. J'aurai dû voir que leur président alors me tacler comme ça","delay":1},
+                    {"from":"france","text":"Vu comment tu diriges ton pays comme un manche, je répondrais de manière diplomate : le train de tes insultes roule sur les rails de l'indifférence.","delay":1},
+                    {"from":"france","text":"Tu te calmes tout de suite ! Tu as choisi pour l'Allemagne. Assume.","delay":1},
+                    {"from":"germany","text":"Au moins, j'ai tenté quelque chose MOI !","delay":1},   
+                    {"from":"germany","text":"Président normal, président normal","delay":1},
+                    {"from":"germany","text":"Président sans courage oui !","delay":1},
+                    {"from":"france","text":"Ok, je t'ai énervé. J'ai peut-être été un peu trop loin.","delay":1},
+                    {"from":"germany","text":"Un peu oui !","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"On va trouver une solution. T'en fais pas.",
+						"goto":{"act":"act04","seq":1},
+						"friendship":{
+							"germany":5
+                        }
+                        
+                    },
+                {
+						"text":"Je vais régler le bordel que t'as causer. Tkt.",
+						"goto":{"act":"act04","seq":1},
+						"friendship":{
+							"germany":-5
+						}
+                }
+          ]
+            }
         }
-      ],
-      "responses": [
-        {
-          "text": "On va trouver une solution. T'en fais pas.",
-          "goto": {
-            "act": "act03",
-            "seq": 1
-          },
-          "friendship": {
-            "germany": 5
-          }
-        },
-        {
-          "text": "Je vais régler le bordel que t'as causer. Tkt.",
-          "goto": {
-            "act": "act03",
-            "seq": 1
-          },
-          "friendship": {
-            "germany": -5
-          }
-        }
-      ]
-    }
-  }
 }

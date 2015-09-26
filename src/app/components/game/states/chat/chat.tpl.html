@@ -6,7 +6,7 @@
 
 	</div>
 	<div class="responses-container" ng-show="showResponses">
-		<div class="responses-label" >Répondre : </div>
+		<div class="responses-label" ><span ng-if="!continue">Répondre : </span><span ng-if="continue">Continuer : </span></div>
 		<div class="responses" >
 			<response data="res" ng-repeat="res in responses" />
 		</div>

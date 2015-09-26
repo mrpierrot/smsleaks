@@ -194,7 +194,7 @@
         },
         {
           "from": "uk",
-          "text": "Du coup ce sont des %migrants% ? Des réfugiés ? Des demandeurs d'asiles ? Des étranger ?",
+          "text": "Du coup ce sont des migrants ? Des réfugiés ? Des demandeurs d'asiles ? Des étranger ?",
           "delay": 1
         }
       ],
@@ -336,7 +336,7 @@
         },
         {
           "from": "italy",
-          "text": "David, t'abuses. Sériuex !",
+          "text": "David, t'abuses. Sérieux !",
           "delay": 1
         },
         {
@@ -357,7 +357,7 @@
       ],
       "responses": [
         {
-          "text": "Un petit sommet pour entendre les propositions de Victor et les autres ?",
+          "text": "Un petit sommet pour entendre les propositions de Viktor et les autres ?",
           "goto": 8,
           "friendship": {
             "germany": 0,
@@ -367,7 +367,7 @@
           }
         },
         {
-          "text": "On a vraiment le choix ? Je crois pas. Go",
+          "text": "On a vraiment le choix? Je crois pas. Go",
           "goto": 8
         }
       ]
@@ -534,7 +534,7 @@
           }
         },
         {
-          "text": "On trouveras un accord ueropéen.",
+          "text": "On trouveras un accord européen.",
           "goto": 13,
           "friendship": {
             "hungary": -5
@@ -706,7 +706,7 @@
         },
         {
           "from": "france",
-          "text": "Et paf ! Tout est réglé, on puet retourner s’occuper de nos affaires",
+          "text": "Et paf ! Tout est réglé, on peut retourner s’occuper de nos affaires",
           "delay": 1
         },
         {
@@ -816,7 +816,7 @@
       "messages": [
         {
           "from": "france",
-          "text": "Evite ça ! Tu vas relancer le débat sur les frontières au sein de l’Europe.",
+          "text": "Tu vas relancer le débat sur les frontières au sein de l’Europe.",
           "delay": 1
         },
         {
@@ -971,7 +971,7 @@
         },
         {
           "from": "italy",
-          "text": "Je me méfis de Victor et de David.",
+          "text": "Je me méfie de Viktor et de David.",
           "delay": 1
         },
         {
@@ -1007,7 +1007,7 @@
       ],
       "responses": [
         {
-          "text": "[Discuter avec Victor] On discute ?",
+          "text": "[Discuter avec Viktor] On discute ?",
           "goto": 9,
           "friendship": {
             "hungary": 5
@@ -1201,7 +1201,7 @@
         },
         {
           "from": "ue",
-          "text": "Plan de financement ? ",
+          "text": "ou plan de financement...",
           "delay": 1
         },
         {

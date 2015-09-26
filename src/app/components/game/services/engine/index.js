@@ -103,6 +103,7 @@ module.exports = function(angular,config){
                 }
 
                 var currentSequenceCompleteWithPlayer = function(){
+                        scope.playerContinue = lastUserWrite == player;
                         responsesDisplay.splice(0,responsesDisplay.length);
                         nextSingleMsg.goQueue = true;
                         responsesDisplay.push(nextSingleMsg);
@@ -111,6 +112,8 @@ module.exports = function(angular,config){
                 }
 
                 var currentSequenceComplete = function(){
+
+                        scope.playerContinue = false;
                 	//console.log("currentSequenceComplete : ",currentSequence);
                         responsesDisplay.splice(0,responsesDisplay.length);
                 	if(currentSequence['goto']){

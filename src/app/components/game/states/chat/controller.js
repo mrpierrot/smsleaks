@@ -9,12 +9,14 @@ module.exports = module.exports = function(angular,config){
        engine.start();  
 
        engine.scope.$on('showResponses',function(){
+       		$scope['continue'] = engine.scope.playerContinue;
        		$scope.showResponses = true;
        		scrollToBottom();
 
        });
 
        engine.scope.$on('hideResponses',function(){
+       		$scope['continue'] = engine.scope.playerContinue;
        		$scope.showResponses = false;
        		scrollToBottom();
        });
@@ -33,7 +35,7 @@ module.exports = module.exports = function(angular,config){
        $scope.responses = engine.responses;
 
        $scope.$watch('messages',scrollToBottom,true);
-       //$scope.$watch('responses',scrollToBottom,true);
+
     }
 
 }

@@ -2,8 +2,8 @@
 		"sequences":{
 			"1":{
 				"messages":[
-					{"from":"italy","text":"Bon François, je pige plus rien, vos frontières, vous les ouvrez ou vous les fermez ?"},
-					{"from":"france","text":"Ben si j'ai bien compris..."}
+					{"from":"italy","text":"Bon François, je pige plus rien, vos frontières, vous les ouvrez ou vous les fermez ?","delay":1},
+					{"from":"france","text":"Ben si j'ai bien compris...","delay":1}
 				],
 				"responses":[
 					{
@@ -22,8 +22,8 @@
             
             "2":{
 				"messages":[
-					{"from":"italy","text":"Ouais donc moi si j'ai bien compris vous vos foutez un peu de ma gueule. "},
-                    {"from":"italy","text":"Je sais que j'ai dit que l' « Italie sauvera les migrants même sans l'aide de l'UE » mais je serais pas contre un coup de main tu vois, et c'est pas le pauvre gilet de sauvetage envoyé par MSF qui va beaucoup aider."}
+					{"from":"italy","text":"Ouais donc moi si j'ai bien compris vous vous foutez un peu de ma gueule. ","delay":1},
+                    {"from":"italy","text":"Je sais que j'ai dit que l' « Italie sauvera les migrants même sans l'aide de l'UE » mais je serais pas contre un coup de main tu vois, et c'est pas le pauvre gilet de sauvetage envoyé par MSF qui va beaucoup aider.","delay":1}
 				],
 				"responses":[
 					{
@@ -41,21 +41,21 @@
 
       "3":{
 				"messages":[
-					{"from":"italy","text":"…Tu te fous de ma gueule ?"},
-                    {"from":"italy","text":"Il y a trois mois personne ne voulait de quotas et maintenant c'est la solution miracle ?"},
-                    {"from":"italy","text":"En plus vous appelez ça comment déjà ? Ha oui « quotas contraignants ». Pourquoi pas le « plan de répartition relou » tant qu'on y est. Faut le dire si ça vous fait chier, hein !"},
-                    {"from":"france","text":"Mais ça me fait chier !"},
-                    {"from":"italy","text":"Oui ben t'es pas obligé de le crier sur tous les toits. "},
-                    {"from":"france","text":"J'ai quand même débloqué 100 millions d'euros pour l'accueil aux %migrants%."},
-                    {"from":"italy","text":"Ouais, et la semaine dernière tu parlais d'en débloquer 80 millions pour acheter un Rembrandt aux Rothschilds. Excuse-moi mais t'as quand même un drôle de sens des priorités. "},
-                    {"from":"italy","text":"Bon désolé mais je dois te laisser, j'ai des %migrants% à aller repêcher. Bon shopping, et la bise à Madame Rothschild."},
-                    {"from":"ue","text":"OK C'EST LA MERDE !"},
-                    {"from":"france","text":"Quoi ?"},
-                    {"from":"ue","text":"TOUT !"},
-                    {"from":"ue","text":"Viktor qui barricade ses frontières, Alexis et Matteo qui croulent sous les %migrants%, Angela et toi qui passez votre temps à retourner votre veste, David qui s'en fout..."},
-                    {"from":"ue","text":"Elle est belle l'Europe unifiée franchement !"},
-                    {"from":"france","text":"Relax, JC, on va s'en sortir..."},
-                    {"from":"ue","text":"Ha oui ? J'aimerais bien savoir comment ! "}
+					{"from":"italy","text":"…Tu te fous de ma gueule ?","delay":1},
+                    {"from":"italy","text":"Il y a trois mois personne ne voulait de quotas et maintenant c'est la solution miracle ?","delay":1},
+                    {"from":"italy","text":"En plus vous appelez ça comment déjà ? Ha oui « quotas contraignants ». Pourquoi pas le « plan de répartition relou » tant qu'on y est. Faut le dire si ça vous fait chier, hein !","delay":1},
+                    {"from":"france","text":"Mais ça me fait chier !","delay":1},
+                    {"from":"italy","text":"Oui ben t'es pas obligé de le crier sur tous les toits. ","delay":1},
+                    {"from":"france","text":"J'ai quand même débloqué 100 millions d'euros pour l'accueil aux %migrants%.","delay":1},
+                    {"from":"italy","text":"Ouais, et la semaine dernière tu parlais d'en débloquer 80 millions pour acheter un Rembrandt aux Rothschilds. Excuse-moi mais t'as quand même un drôle de sens des priorités. ","delay":1},
+                    {"from":"italy","text":"Bon désolé mais je dois te laisser, j'ai des %migrants% à aller repêcher. Bon shopping, et la bise à Madame Rothschild.","delay":1},
+                    {"from":"ue","text":"OK C'EST LA MERDE !","delay":1},
+                    {"from":"france","text":"Quoi ?","delay":1},
+                    {"from":"ue","text":"TOUT !","delay":1},
+                    {"from":"ue","text":"Viktor qui barricade ses frontières, Alexis et Matteo qui croulent sous les %migrants%, Angela et toi qui passez votre temps à retourner votre veste, David qui s'en fout...","delay":1},
+                    {"from":"ue","text":"Elle est belle l'Europe unifiée franchement !","delay":1},
+                    {"from":"france","text":"Relax, JC, on va s'en sortir...","delay":1},
+                    {"from":"ue","text":"Ha oui ? J'aimerais bien savoir comment ! ","delay":1}
 				],
 				"responses":[
 					{
@@ -75,19 +75,19 @@
             
           "4":{
 				"messages":[
-					{"from":"italy","text":"30 000 en deux ans, ouais ! Bel effort ! C'est ce que je récupère sur mes plages en deux mois, et ce que se tape Alexis en deux semaines. "},
-                    {"from":"france","text":"C'est quand même pas de ma faute si 56 % des Français sont contre l'assouplissement des frontières !"},
-                    {"from":"italy","text":"Oui bin si t'écoutais les Français tu serais sans doute plus en poste à l'heure actuelle."},
-                    {"from":"italy","text":"J'ai pas envie de te la faire façon « c'est une question de vie ou de mort », mais c'est LITTERALEMENT une question de vie ou de mort "},
-                    {"from":"france","text":"Bah écoute, j'en prends déjà 30 000, et ensuite j'ajuste en fonction de l'opinion."},
-                    {"from":"italy","text":"T'es vraiment une lavette..."},
-                    {"from":"ue","text":"OK C'EST LA MERDE !"},
-                    {"from":"france","text":"Quoi ?"},
-                    {"from":"ue","text":"TOUT !"},
-                    {"from":"ue","text":"Viktor qui barricade ses frontières, Alexis et Matteo qui croulent sous les %migrants%, Angela et toi qui passez votre temps à retourner votre veste, David qui s'en fout..."},
-                    {"from":"ue","text":"Elle est belle l'Europe unifiée franchement !"},
-                    {"from":"france","text":"Relax, JC, on va s'en sortir..."},
-                    {"from":"ue","text":"Ha oui ? J'aimerais bien savoir comment ! "}
+					{"from":"italy","text":"30 000 en deux ans, ouais ! Bel effort ! C'est ce que je récupère sur mes plages en deux mois, et ce que se tape Alexis en deux semaines. ","delay":1},
+                    {"from":"france","text":"C'est quand même pas de ma faute si 56 % des Français sont contre l'assouplissement des frontières !","delay":1},
+                    {"from":"italy","text":"Oui bin si t'écoutais les Français tu serais sans doute plus en poste à l'heure actuelle.","delay":1},
+                    {"from":"italy","text":"J'ai pas envie de te la faire façon « c'est une question de vie ou de mort », mais c'est LITTERALEMENT une question de vie ou de mort ","delay":1},
+                    {"from":"france","text":"Bah écoute, j'en prends déjà 30 000, et ensuite j'ajuste en fonction de l'opinion.","delay":1},
+                    {"from":"italy","text":"T'es vraiment une lavette...","delay":1},
+                    {"from":"ue","text":"OK C'EST LA MERDE !","delay":1},
+                    {"from":"france","text":"Quoi ?","delay":1},
+                    {"from":"ue","text":"TOUT !","delay":1},
+                    {"from":"ue","text":"Viktor qui barricade ses frontières, Alexis et Matteo qui croulent sous les %migrants%, Angela et toi qui passez votre temps à retourner votre veste, David qui s'en fout...","delay":1},
+                    {"from":"ue","text":"Elle est belle l'Europe unifiée franchement !","delay":1},
+                    {"from":"france","text":"Relax, JC, on va s'en sortir...","delay":1},
+                    {"from":"ue","text":"Ha oui ? J'aimerais bien savoir comment ! ","delay":1}
 				],
 				"responses":[
 					{
@@ -107,24 +107,24 @@
             
           "5":{
 				"messages":[
-					{"from":"ue","text":"Ouais. Nickel. Super idée. Je me demande pourquoi on n'y a pas pensé avant. T'es un putain de génie François."},
-                    {"from":"ue","text":"Et puisque t'es motivé, je vais te laisser gérer avec Bachar, hein. Tu me raconteras."},
-                    {"from":"france","text":"Pfff..."},
-                    {"from":"france","text":"Après ça tu pourras pas dire que j'ai rien branlé, hein !"},
-                    {"from":"france","text":"Hrm..."},
-                    {"from":"france","text":"Bachar ?"},
-                    {"from":"syria","text":"On se connaît ?"},
-                    {"from":"france","text":"Euh...je suis François, de France."},
-                    {"from":"syria","text":"Ha oui...La France... Qu'est-ce que tu veux ?"},
-                    {"from":"france","text":"He ben, avec les copains en Europe, on a discuté, et on s'est dit que 230 000 morts, c'est quand même beaucoup. "},
-                    {"from":"syria","text":"La guerre...quel drame n'est-ce pas ?"},
-                    {"from":"france","text":"Oui, justement...on se disait qu'il faudrait peut-être l'arrêter, la guerre..."},
-                    {"from":"syria","text":"Ha, mais moi je ne demande que ça !"},
-                    {"from":"syria","text":"Mais entre l'armée syrienne libre d'un côté, Daesh de l'autre et les combattants kurdes au nord, je ne vois pas vraiment comment régler ça dans la minute, vois-tu. "}
+					{"from":"ue","text":"Ouais. Nickel. Super idée. Je me demande pourquoi on n'y a pas pensé avant. T'es un putain de génie François.","delay":1},
+                    {"from":"ue","text":"Et puisque t'es motivé, je vais te laisser gérer avec Bachar, hein. Tu me raconteras.","delay":1},
+                    {"from":"france","text":"Pfff...","delay":1},
+                    {"from":"france","text":"Après ça tu pourras pas dire que j'ai rien branlé, hein !","delay":1},
+                    {"from":"france","text":"Hrm...","delay":1},
+                    {"from":"france","text":"Bachar ?","delay":1},
+                    {"from":"syria","text":"On se connaît ?","delay":1},
+                    {"from":"france","text":"Euh...je suis François, de France.","delay":1},
+                    {"from":"syria","text":"Ha oui...La France... Qu'est-ce que tu veux ?","delay":1},
+                    {"from":"france","text":"He ben, avec les copains en Europe, on a discuté, et on s'est dit que 230 000 morts, c'est quand même beaucoup. ","delay":1},
+                    {"from":"syria","text":"La guerre...quel drame n'est-ce pas ?","delay":1},
+                    {"from":"france","text":"Oui, justement...on se disait qu'il faudrait peut-être l'arrêter, la guerre...","delay":1},
+                    {"from":"syria","text":"Ha, mais moi je ne demande que ça !","delay":1},
+                    {"from":"syria","text":"Mais entre l'armée syrienne libre d'un côté, Daesh de l'autre et les combattants kurdes au nord, je ne vois pas vraiment comment régler ça dans la minute, vois-tu. ","delay":1}
 				],
 				"responses":[
 					{
-						"text":"Tu es foutu Bachar !.",
+						"text":"Tu es foutu Bachar !",
 						"goto":7
 						
 					},
@@ -140,26 +140,26 @@
             
           "6":{
 				"messages":[
-					{"from":"ue","text":"C'est vrai qu'il en a pas branlé une depuis le début lui..."},
-                    {"from":"ue","text":"Si t'arrivais à le convaincre de nous donner un coup de main, ça pourrait pas faire de mal."},
-                    {"from":"france","text":"Moi ?"},
-                    {"from":"ue","text":"Ben oui, toi. C'est ton pote, non ? "},
-                    {"from":"france","text":"Pote, pote...c'est vite dit. On s'est serré la main quelques fois ouais..."},
-                    {"from":"ue","text":"Allez, tu mets ta plus belle cravate, et tu vas lui demander."},
-                    {"from":"france","text":"Je vais lui envoyer un texto plutôt, il me comprend jamais avec mon accent..."},
-                    {"from":"ue","text":"Si tu veux. "},
-                    {"from":"france","text":"Salut Barack, c'est François."},
-                    {"from":"usa","text":"Ha, buongiorno Votre Éminence."},
-                    {"from":"france","text":"Non, pas lui, l'autre."},
-                    {"from":"usa","text":"Oh. pardon. Salut. Qu'est-ce que tu veux ? "},
-                    {"from":"france","text":"Je voulais te parler de notre crise des%migrants% là..."},
-                    {"from":"usa","text":"Ah ouais, j'en ai entendu parler. C'est pas fini encore ?"},
-                    {"from":"france","text":"Pas vraiment..."},
-                    {"from":"usa","text":"Ha. Pas de bol. Et qu'est-ce que j'ai à voir là-dedans, moi ?"},
-                    {"from":"france","text":"Qu'est-ce que t'as à voir là-dedans ? T'est gonflé ! C'est quand même pas nous qui passons notre temps à foutre la merde au Moyen-Orient ! "},
-                    {"from":"france","text":"Enfin, si...mais moins, quoi."},
-                    {"from":"france","text":"Du coup, avec les potos, on se disait que tu pourrais venir nous filer un coup de main..."},
-                    {"from":"usa","text":"Vous avez besoin de quoi exactement ?"}
+					{"from":"ue","text":"C'est vrai qu'il en a pas branlé une depuis le début lui...","delay":1},
+                    {"from":"ue","text":"Si t'arrivais à le convaincre de nous donner un coup de main, ça pourrait pas faire de mal.","delay":1},
+                    {"from":"france","text":"Moi ?","delay":1},
+                    {"from":"ue","text":"Ben oui, toi. C'est ton pote, non ? ","delay":1},
+                    {"from":"france","text":"Pote, pote...c'est vite dit. On s'est serré la main quelques fois ouais...","delay":1},
+                    {"from":"ue","text":"Allez, tu mets ta plus belle cravate, et tu vas lui demander.","delay":1},
+                    {"from":"france","text":"Je vais lui envoyer un texto plutôt, il me comprend jamais avec mon accent...","delay":1},
+                    {"from":"ue","text":"Si tu veux. ","delay":1},
+                    {"from":"france","text":"Salut Barack, c'est François.","delay":1},
+                    {"from":"usa","text":"Ha, buongiorno Votre Éminence.","delay":1},
+                    {"from":"france","text":"Non, pas lui, l'autre.","delay":1},
+                    {"from":"usa","text":"Oh. pardon. Salut. Qu'est-ce que tu veux ? ","delay":1},
+                    {"from":"france","text":"Je voulais te parler de notre crise des %migrants% là...","delay":1},
+                    {"from":"usa","text":"Ah ouais, j'en ai entendu parler. C'est pas fini encore ?","delay":1},
+                    {"from":"france","text":"Pas vraiment...","delay":1},
+                    {"from":"usa","text":"Ha. Pas de bol. Et qu'est-ce que j'ai à voir là-dedans, moi ?","delay":1},
+                    {"from":"france","text":"Qu'est-ce que t'as à voir là-dedans ? T'est gonflé ! C'est quand même pas nous qui passons notre temps à foutre la merde au Moyen-Orient ! ","delay":1},
+                    {"from":"france","text":"Enfin, si...mais moins, quoi.","delay":1},
+                    {"from":"france","text":"Du coup, avec les potos, on se disait que tu pourrais venir nous filer un coup de main...","delay":1},
+                    {"from":"usa","text":"Vous avez besoin de quoi exactement ?","delay":1}
 				],
 				"responses":[
 					{
@@ -178,26 +178,26 @@
 
           "7":{
 				"messages":[
-					{"from":"france","text":"Tu as ton peuple contre toi, tu as l'Europe contre toi, tu as même ces connards du Daech contre toi. Tu vas finir comme Mouammar !"},
-                    {"from":"syria","text":"Écoute-moi bien Francis..."},
-                    {"from":"france","text":"François."},
-                    {"from":"syria","text":"Le capitaine ne pense pas à la mort ni à la vie, il pense à sauver son navire. S'il fait naufrage, tout le monde mourra."},
+					{"from":"france","text":"Tu as ton peuple contre toi, tu as l'Europe contre toi, tu as même ces connards du Daech contre toi. Tu vas finir comme Mouammar !","delay":1},
+                    {"from":"syria","text":"Écoute-moi bien Francis...","delay":1},
+                    {"from":"france","text":"François.","delay":1},
+                    {"from":"syria","text":"Le capitaine ne pense pas à la mort ni à la vie, il pense à sauver son navire. S'il fait naufrage, tout le monde mourra.","delay":1},
                     {"from":"france","text":"T'es un putain de psycho Bachar...","delay":4},
-                    {"from":"syria","text":"Puisque je vois qu'on ne peut pas discuter courtoisement, je crains de devoir te laisser. J'ai des barils de TNT à larguer. "},
-                    {"from":"france","text":"Sur Daech ?"},
-                    {"from":"syria","text":"Non non..."},
-                    {"from":"ue","text":"Alors ?"},
-                    {"from":"france","text":"Désolé, mais je crois que c'est mort."},
-                    {"from":"ue","text":"J'imagine que ça valait le coup d'essayer..."},
-                    {"from":"hungary","text":"Hé, François."},
-                    {"from":"france","text":"Quoi ? C'est pas le moment là !"},
-                    {"from":"hungary","text":"Nan, mais c'est super important. "},
-                    {"from":"france","text":"Plus que la Syrie ? "},
-                    {"from":"hungary","text":"Grave ! T'a googlé David aujourd'hui ?"},
-                    {"from":"france","text":"HA BEN DAVID, MON COHON !"},
-                    {"from":"uk","text":"Fuck, tu vas pas t'y mettre toi aussi."},
-                    {"from":"france","text":"Pardon pardon, mais franchement gg ! Tous les médias ne parlent que des%migrants %, là je pense que t'as bien réussi à détourner l'attention. On est tranquille pour un petit moment."},
-                    {"from":"uk","text":"Parle pour toi : c'est pas toi que ta mère harcèle pour savoir si t'as vraiment mis tes couilles dans la gueule d'un porc."}
+                    {"from":"syria","text":"Puisque je vois qu'on ne peut pas discuter courtoisement, je crains de devoir te laisser. J'ai des barils de TNT à larguer. ","delay":1},
+                    {"from":"france","text":"Sur Daech ?","delay":1},
+                    {"from":"syria","text":"Non non...","delay":1},
+                    {"from":"ue","text":"Alors ?","delay":1},
+                    {"from":"france","text":"Désolé, mais je crois que c'est mort.","delay":1},
+                    {"from":"ue","text":"J'imagine que ça valait le coup d'essayer...","delay":1},
+                    {"from":"hungary","text":"Hé, François.","delay":1},
+                    {"from":"france","text":"Quoi ? C'est pas le moment là !","delay":1},
+                    {"from":"hungary","text":"Nan, mais c'est super important. ","delay":1},
+                    {"from":"france","text":"Plus que la Syrie ? ","delay":1},
+                    {"from":"hungary","text":"Grave ! T'a googlé David aujourd'hui ?","delay":1},
+                    {"from":"france","text":"HA BEN DAVID, MON COHON !","delay":1},
+                    {"from":"uk","text":"Fuck, tu vas pas t'y mettre toi aussi.","delay":1},
+                    {"from":"france","text":"Pardon pardon, mais franchement gg ! Tous les médias ne parlent que des %migrants%, là je pense que t'as bien réussi à détourner l'attention. On est tranquille pour un petit moment.","delay":1},
+                    {"from":"uk","text":"Parle pour toi : c'est pas toi que ta mère harcèle pour savoir si t'as vraiment mis tes couilles dans la gueule d'un porc.","delay":1}
 				],
 				"responses":[
 					{
@@ -216,23 +216,23 @@
             
          "8":{
 				"messages":[
-					{"from":"syria","text":"Hmm...maintenant que tu le dis, c'est vrai que ce serait peut-être le moment..."},
-                    {"from":"syria","text":"C'est pas comme si j'allais me sortir vivant de toutes ces histoires. Et puis je commence à en avoir ma claque de Damas. Si tu voyais ma pauvre capitale ! Tout est détruit ! "},
-                    {"from":"syria","text":"C'est même pas sûr que Daech soit content de récupérer ce tas de ruines."},
-                    {"from":"france","text":"Daech ? "},
-                    {"from":"syria","text":"Ben quoi...tu crois quand même pas que c'est l'Armée Syrienne Libre qui va reprendre le pouvoir une fois que je serai parti ?"},
-                    {"from":"syria","text":"Allez, je te laisse, j'ai hâte de voir la gueule des salafistes quand ils apprendront la nouvelle. "},
-                    {"from":"ue","text":"Alors ? "},
-                    {"from":"france","text":"JC...je crois que j'ai fait une connerie..."},
-                    {"from":"hungary","text":"Hé, François."},
-                    {"from":"france","text":"Quoi ? C'est pas le moment là !"},
-                    {"from":"hungary","text":"Nan, mais c'est super important. "},
-                    {"from":"france","text":"Plus que la Syrie ? "},
-                    {"from":"hungary","text":"Grave ! T'a googlé David aujourd'hui ?"},
-                    {"from":"france","text":"HA BEN DAVID, MON COHON !"},
-                    {"from":"uk","text":"Fuck, tu vas pas t'y mettre toi aussi."},
-                    {"from":"france","text":"Pardon pardon, mais franchement gg ! Tous les médias ne parlent que des%migrants %, là je pense que t'as bien réussi à détourner l'attention. On est tranquille pour un petit moment."},
-                    {"from":"uk","text":"Parle pour toi : c'est pas toi que ta mère harcèle pour savoir si t'as vraiment mis tes couilles dans la gueule d'un porc."}
+					{"from":"syria","text":"Hmm...maintenant que tu le dis, c'est vrai que ce serait peut-être le moment...","delay":1},
+                    {"from":"syria","text":"C'est pas comme si j'allais me sortir vivant de toutes ces histoires. Et puis je commence à en avoir ma claque de Damas. Si tu voyais ma pauvre capitale ! Tout est détruit ! ","delay":1},
+                    {"from":"syria","text":"C'est même pas sûr que Daech soit content de récupérer ce tas de ruines.","delay":1},
+                    {"from":"france","text":"Daech ? ","delay":1},
+                    {"from":"syria","text":"Ben quoi...tu crois quand même pas que c'est l'Armée Syrienne Libre qui va reprendre le pouvoir une fois que je serai parti ?","delay":1},
+                    {"from":"syria","text":"Allez, je te laisse, j'ai hâte de voir la gueule des salafistes quand ils apprendront la nouvelle. ","delay":1},
+                    {"from":"ue","text":"Alors ? ","delay":1},
+                    {"from":"france","text":"JC...je crois que j'ai fait une connerie...","delay":1},
+                    {"from":"hungary","text":"Hé, François.","delay":1},
+                    {"from":"france","text":"Quoi ? C'est pas le moment là !","delay":1},
+                    {"from":"hungary","text":"Nan, mais c'est super important. ","delay":1},
+                    {"from":"france","text":"Plus que la Syrie ? ","delay":1},
+                    {"from":"hungary","text":"Grave ! T'a googlé David aujourd'hui ?","delay":1},
+                    {"from":"france","text":"HA BEN DAVID, MON COHON !","delay":1},
+                    {"from":"uk","text":"Fuck, tu vas pas t'y mettre toi aussi.","delay":1},
+                    {"from":"france","text":"Pardon pardon, mais franchement gg ! Tous les médias ne parlent que des%migrants %, là je pense que t'as bien réussi à détourner l'attention. On est tranquille pour un petit moment.","delay":1},
+                    {"from":"uk","text":"Parle pour toi : c'est pas toi que ta mère harcèle pour savoir si t'as vraiment mis tes couilles dans la gueule d'un porc.","delay":1}
 				],
 				"responses":[
 					{
@@ -253,28 +253,28 @@
 
           "9":{
 				"messages":[
-					{"from":"france","text":"C'est un peu votre truc à vous les interventions militaires."},
-                    {"from":"usa","text":"Franchement, après l'Irak et l'Afghanistan, je suis moyen chaud là...Et puis c'est la fin de mon mandat."},
-                    {"from":"usa","text":"À la limite, bon, si Bachar commence à sortir des armes chimiques je veux bien faire un effort parce que ça c'est inacceptable, mais sinon..."},
-                    {"from":"france","text":"Il les a sorties les armes chimiques..."},
-                    {"from":"usa","text":"Ha ouais ? Bon ben pardon, j'ai rien dit alors."},
-                    {"from":"france","text":"Vazy, fais pas ton chien ! T'as un budget militaire plus de deux fois supérieur à toute l'U.E, tu peux faire un geste."},
-                    {"from":"usa","text":"Ouais, mais non, après si je combats Bachar je fais le jeu de Daech."},
-                    {"from":"france","text":"Ben combat Daech alors, côté iranien."},
-                    {"from":"usa","text":"Non, mais ça va pas le faire non plus. Si je soutiens les chiites c'est l'Arabie Saoudite qui va me tomber sur la gueule. Et je parle même pas de Vladimir qui va encore me saouler si je n'envoie ne serait-ce qu'un soldat en Syrie."},
-                    {"from":"usa","text":"Non, écoute, le mieux c'est encore que vous vous démerdiez. Vous vous en sortez déjà super bien je trouve. Franchement, j'adore votre leadership. Changez pas ! Allez, bye."},
-                    {"from":"ue","text":"Alors ?"},
-                    {"from":"france","text":"Il en a rien à carrer."},
-                    {"from":"ue","text":"Ben on est pas dans la merde..."},
-			         {"from":"hungary","text":"Hé, François."},
-                    {"from":"france","text":"Quoi ? C'est pas le moment là !"},
-                    {"from":"hungary","text":"Nan, mais c'est super important. "},
-                    {"from":"france","text":"Plus que la Syrie ? "},
-                    {"from":"hungary","text":"Grave ! T'a googlé David aujourd'hui ?"},
-                    {"from":"france","text":"HA BEN DAVID, MON COHON !"},
-                    {"from":"uk","text":"Fuck, tu vas pas t'y mettre toi aussi."},
-                    {"from":"france","text":"Pardon pardon, mais franchement gg ! Tous les médias ne parlent que des%migrants %, là je pense que t'as bien réussi à détourner l'attention. On est tranquille pour un petit moment."},
-                    {"from":"uk","text":"Parle pour toi : c'est pas toi que ta mère harcèle pour savoir si t'as vraiment mis tes couilles dans la gueule d'un porc."}
+					{"from":"france","text":"C'est un peu votre truc à vous les interventions militaires.","delay":1},
+                    {"from":"usa","text":"Franchement, après l'Irak et l'Afghanistan, je suis moyen chaud là...Et puis c'est la fin de mon mandat.","delay":1},
+                    {"from":"usa","text":"À la limite, bon, si Bachar commence à sortir des armes chimiques je veux bien faire un effort parce que ça c'est inacceptable, mais sinon...","delay":1},
+                    {"from":"france","text":"Il les a sorties les armes chimiques...","delay":1},
+                    {"from":"usa","text":"Ha ouais ? Bon ben pardon, j'ai rien dit alors.","delay":1},
+                    {"from":"france","text":"Vazy, fais pas ton chien ! T'as un budget militaire plus de deux fois supérieur à toute l'U.E, tu peux faire un geste.","delay":1},
+                    {"from":"usa","text":"Ouais, mais non, après si je combats Bachar je fais le jeu de Daech.","delay":1},
+                    {"from":"france","text":"Ben combat Daech alors, côté iranien.","delay":1},
+                    {"from":"usa","text":"Non, mais ça va pas le faire non plus. Si je soutiens les chiites c'est l'Arabie Saoudite qui va me tomber sur la gueule. Et je parle même pas de Vladimir qui va encore me saouler si je n'envoie ne serait-ce qu'un soldat en Syrie.","delay":1},
+                    {"from":"usa","text":"Non, écoute, le mieux c'est encore que vous vous démerdiez. Vous vous en sortez déjà super bien je trouve. Franchement, j'adore votre leadership. Changez pas ! Allez, bye.","delay":1},
+                    {"from":"ue","text":"Alors ?","delay":1},
+                    {"from":"france","text":"Il en a rien à carrer.","delay":1},
+                    {"from":"ue","text":"Ben on est pas dans la merde...","delay":1},
+			         {"from":"hungary","text":"Hé, François.","delay":1},
+                    {"from":"france","text":"Quoi ? C'est pas le moment là !","delay":1},
+                    {"from":"hungary","text":"Nan, mais c'est super important. ","delay":1},
+                    {"from":"france","text":"Plus que la Syrie ? ","delay":1},
+                    {"from":"hungary","text":"Grave ! T'a googlé David aujourd'hui ?","delay":1},
+                    {"from":"france","text":"HA BEN DAVID, MON COHON !","delay":1},
+                    {"from":"uk","text":"Fuck, tu vas pas t'y mettre toi aussi.","delay":1},
+                    {"from":"france","text":"Pardon pardon, mais franchement gg ! Tous les médias ne parlent que des%migrants %, là je pense que t'as bien réussi à détourner l'attention. On est tranquille pour un petit moment.","delay":1},
+                    {"from":"uk","text":"Parle pour toi : c'est pas toi que ta mère harcèle pour savoir si t'as vraiment mis tes couilles dans la gueule d'un porc.","delay":1}
 				],
 				"responses":[
 					{
@@ -295,27 +295,27 @@
 
           "10":{
 				"messages":[
-					{"from":"usa","text":"Alors là c'est toi qu'est gonflé ! J'en ai déjà accepté 15 000 en quatre ans. "},
-                    {"from":"france","text":"Et moi j'ai annoncé que j'en prendrais le double en deux fois moins de temps, et encore, je passe pour un gros rat. "},
-                    {"from":"usa","text":"Nan, mais je m'en fous, est-ce que je te demande de récupérer des latinos, moi ? Parce ce que là c'est en millions que ça se compte."},
-                    {"from":"france","text":"Nan, mais c'est pas pareil...là on parle de réfugiés de guerre quand même. "},
-                    {"from":"usa","text":"Je t'assure que chez moi ils font pas la différence, tout ce qui est un peu basané pour eux c'est de la graine de terroriste."},
-                    {"from":"france","text":"Ouais...je connais."},
-                    {"from":"usa","text":"Même moi j'en ai chié..."},
-                    {"from":"usa","text":"Donc tu vois François, ce qu'on va faire, c'est qu'on va se démerder chacun de notre côté. Chacun son continent, et les %migrants% seront bien gardés. "},
-                    {"from":"france","text":"Ha ben merci pour rien hein ! "},
-                    {"from":"ue","text":"Alors ? "},
-                    {"from":"france","text":"Ben écoute, je pensais que Viktor avait une longueur d'avance, mais il semble qu'il y ait finalement de la concurrence pour le trône du roi des connards."},
-                    {"from":"ue","text":"Ben on est pas dans la merde..."},
-                    {"from":"hungary","text":"Hé, François."},
-                    {"from":"france","text":"Quoi ? C'est pas le moment là !"},
-                    {"from":"hungary","text":"Nan, mais c'est super important. "},
-                    {"from":"france","text":"Plus que la Syrie ? "},
-                    {"from":"hungary","text":"Grave ! T'a googlé David aujourd'hui ?"},
-                    {"from":"france","text":"HA BEN DAVID, MON COHON !"},
-                    {"from":"uk","text":"Fuck, tu vas pas t'y mettre toi aussi."},
-                    {"from":"france","text":"Pardon pardon, mais franchement gg ! Tous les médias ne parlent que des%migrants %, là je pense que t'as bien réussi à détourner l'attention. On est tranquille pour un petit moment."},
-                    {"from":"uk","text":"Parle pour toi : c'est pas toi que ta mère harcèle pour savoir si t'as vraiment mis tes couilles dans la gueule d'un porc."}
+					{"from":"usa","text":"Alors là c'est toi qu'est gonflé ! J'en ai déjà accepté 15 000 en quatre ans. ","delay":1},
+                    {"from":"france","text":"Et moi j'ai annoncé que j'en prendrais le double en deux fois moins de temps, et encore, je passe pour un gros rat. ","delay":1},
+                    {"from":"usa","text":"Nan, mais je m'en fous, est-ce que je te demande de récupérer des latinos, moi ? Parce ce que là c'est en millions que ça se compte.","delay":1},
+                    {"from":"france","text":"Nan, mais c'est pas pareil...là on parle de réfugiés de guerre quand même. ","delay":1},
+                    {"from":"usa","text":"Je t'assure que chez moi ils font pas la différence, tout ce qui est un peu basané pour eux c'est de la graine de terroriste.","delay":1},
+                    {"from":"france","text":"Ouais...je connais.","delay":1},
+                    {"from":"usa","text":"Même moi j'en ai chié...","delay":1},
+                    {"from":"usa","text":"Donc tu vois François, ce qu'on va faire, c'est qu'on va se démerder chacun de notre côté. Chacun son continent, et les %migrants% seront bien gardés. ","delay":1},
+                    {"from":"france","text":"Ha ben merci pour rien hein ! ","delay":1},
+                    {"from":"ue","text":"Alors ? ","delay":1},
+                    {"from":"france","text":"Ben écoute, je pensais que Viktor avait une longueur d'avance, mais il semble qu'il y ait finalement de la concurrence pour le trône du roi des connards.","delay":1},
+                    {"from":"ue","text":"Ben on est pas dans la merde...","delay":1},
+                    {"from":"hungary","text":"Hé, François.","delay":1},
+                    {"from":"france","text":"Quoi ? C'est pas le moment là !","delay":1},
+                    {"from":"hungary","text":"Nan, mais c'est super important. ","delay":1},
+                    {"from":"france","text":"Plus que la Syrie ? ","delay":1},
+                    {"from":"hungary","text":"Grave ! T'a googlé David aujourd'hui ?","delay":1},
+                    {"from":"france","text":"HA BEN DAVID, MON COHON !","delay":1},
+                    {"from":"uk","text":"Fuck, tu vas pas t'y mettre toi aussi.","delay":1},
+                    {"from":"france","text":"Pardon pardon, mais franchement gg ! Tous les médias ne parlent que des%migrants %, là je pense que t'as bien réussi à détourner l'attention. On est tranquille pour un petit moment.","delay":1},
+                    {"from":"uk","text":"Parle pour toi : c'est pas toi que ta mère harcèle pour savoir si t'as vraiment mis tes couilles dans la gueule d'un porc.","delay":1}
 				],
 				"responses":[
 					{
@@ -334,14 +334,14 @@
 
          "11":{
 				"messages":[
-					{"from":"uk","text":"Attends, qu'est-ce que t'insinues là ? "},
-                    {"from":"france","text":"Moi ? Ha, mais rien !"},
-                    {"from":"france","text":"Juste que bon, si tu récupérais un peu de mes %migrants% qui squattent à Calais et que tu te retirais pas des négociations sur la répartition, ben on gérerait peut-être un poil mieux. "},
-                    {"from":"uk","text":"Écoute, là j'ai vraiment autre chose à penser, alors tes %migrants% tu peux te les mettre où je pense !"},
-                    {"from":"france","text":"Quel tempérament de cochon ! "},
-                    {"from":"uk","text":"Ok. C'est bon. Je te bloque."},
-                    {"from":"france","text":"Rhoo David ! C'est bon ! C'était juste une blagounette !"},
-                    {"from":"france","text":"David ?"},
+					{"from":"uk","text":"Attends, qu'est-ce que t'insinues là ? ","delay":1},
+                    {"from":"france","text":"Moi ? Ha, mais rien !","delay":1},
+                    {"from":"france","text":"Juste que bon, si tu récupérais un peu de mes %migrants% qui squattent à Calais et que tu te retirais pas des négociations sur la répartition, ben on gérerait peut-être un poil mieux. ","delay":1},
+                    {"from":"uk","text":"Écoute, là j'ai vraiment autre chose à penser, alors tes %migrants% tu peux te les mettre où je pense !","delay":1},
+                    {"from":"france","text":"Quel tempérament de cochon ! ","delay":1},
+                    {"from":"uk","text":"Ok. C'est bon. Je te bloque.","delay":1},
+                    {"from":"france","text":"Rhoo David ! C'est bon ! C'était juste une blagounette !","delay":1},
+                    {"from":"france","text":"David ?","delay":1},
                     {"from":"germany","text":"Fanche...je crois qu'on a un blème...","delay":4}
 				],
 				"responses":[
@@ -362,11 +362,11 @@
 
           "12":{
 				"messages":[
-					{"from":"france","text":"Tu peux me le dire à moi, je juge pas ! J'ai trompé ma femme alors..."},
-                    {"from":"france","text":"Bon, avec une humaine, mais quand même !"},
-                    {"from":"uk","text":"Ha, mais c'est bon vous m'avez tous saoulé ! Je vous bloque."},
-                    {"from":"france","text":"Nan, mais David attends, faut qu'on parle des %migrants%..."},
-                    {"from":"france","text":"David ?"},
+					{"from":"france","text":"Tu peux me le dire à moi, je juge pas ! J'ai trompé ma femme alors...","delay":1},
+                    {"from":"france","text":"Bon, avec une humaine, mais quand même !","delay":1},
+                    {"from":"uk","text":"Ha, mais c'est bon vous m'avez tous saoulé ! Je vous bloque.","delay":1},
+                    {"from":"france","text":"Nan, mais David attends, faut qu'on parle des %migrants%...","delay":1},
+                    {"from":"france","text":"David ?","delay":1},
                     {"from":"germany","text":"Fanche...je crois qu'on a un blème...","delay":4}
 				],
 				"responses":[
@@ -385,20 +385,20 @@
 
           "13":{
 				"messages":[
-					{"from":"germany","text":"Pire."},
-                    {"from":"france","text":"Tu te souviens du demandeur d'asile qu'on a rembarré cet été?"},
-                    {"from":"france","text":"Si tu crois que je me souviens de tous les demandeurs d'asile que j'ai rembarré !"},
-                    {"from":"germany","text":"Nan, t'es con ! Pas un Syrien, l'Américain, là..."},
-                    {"from":"france","text":"Snowden ?"},
-                    {"from":"germany","text":"Ouais ! Voilà !"},
-                    {"from":"germany","text":"Je crois qu'il a gardé une dent contre nous."},
-                    {"from":"france","text":"...Attends, tu veux pas dire que..."},
-                    {"from":"germany","text":"Si. Il vient de leaker toutes nos conversations SMS."},
-                    {"from":"france","text":"...Toutes...toutes ?"},
-                    {"from":"germany","text":"Depuis Mai, ouais. "},
-                    {"from":"france","text":"..."},
+					{"from":"germany","text":"Pire.","delay":1},
+                    {"from":"germany","text":"Tu te souviens du demandeur d'asile qu'on a rembarré cet été?","delay":1},
+                    {"from":"france","text":"Si tu crois que je me souviens de tous les demandeurs d'asile que j'ai rembarré !","delay":1},
+                    {"from":"germany","text":"Nan, t'es con ! Pas un Syrien, l'Américain, là...","delay":1},
+                    {"from":"france","text":"Snowden ?","delay":1},
+                    {"from":"germany","text":"Ouais ! Voilà !","delay":1},
+                    {"from":"germany","text":"Je crois qu'il a gardé une dent contre nous.","delay":1},
+                    {"from":"france","text":"...Attends, tu veux pas dire que...","delay":1},
+                    {"from":"germany","text":"Si. Il vient de leaker toutes nos conversations SMS.","delay":1},
+                    {"from":"france","text":"...Toutes...toutes ?","delay":1},
+                    {"from":"germany","text":"Depuis Mai, ouais. ","delay":1},
+                    {"from":"france","text":"...","delay":1},
                     {"from":"france","text":"Mais on va avoir l'air très très très con !","delay":4},
-                    {"from":"germany","text":"Ha ben ça..."}
+                    {"from":"germany","text":"Ha ben ça...","delay":1}
 				],
 				"responses":[
 					{
@@ -417,12 +417,12 @@
  
         "14":{
 				"messages":[
-					{"from":"germany","text":"2017, et toi ?"},
-                    {"from":"france","text":"Pareil. Tu comptais te représenter ?"},
-                    {"from":"germany","text":"Bah ouais, mais bon, là ça devient mal barré."},
-                    {"from":"france","text":"Ouais...moi j'y croyais pas trop de toutes façon. Bon, faut voir le bon côté des choses: on n'a plus qu'une grosse année à tenir."},
-                    {"from":"germany","text":"Et pour les %migrants%, on fait quoi du coup ? "},
-                    {"from":"france","text":"Pareil : on attend."}
+					{"from":"germany","text":"2017, et toi ?","delay":1},
+                    {"from":"france","text":"Pareil. Tu comptais te représenter ?","delay":1},
+                    {"from":"germany","text":"Bah ouais, mais bon, là ça devient mal barré.","delay":1},
+                    {"from":"france","text":"Ouais...moi j'y croyais pas trop de toutes façon. Bon, faut voir le bon côté des choses: on n'a plus qu'une grosse année à tenir.","delay":1},
+                    {"from":"germany","text":"Et pour les %migrants%, on fait quoi du coup ? ","delay":1},
+                    {"from":"france","text":"Pareil : on attend.","delay":1}
                         ],
 				"goto":"end"
 			},
@@ -432,11 +432,11 @@
 
           "15":{
 				"messages":[
-					{"from":"germany","text":"Genre en jouant la carte de la transparence ?"},
-                    {"from":"france","text":"Par exemple, ouais."},
-                    {"from":"germany","text":"On a raconté quand même pas mal de merde dans ces SMS..."},
-                    {"from":"france","text":"C'est pas important ça :"},
-                    {"from":"france","text":"Tu crois vraiment que les gens vont les lire ?"}
+					{"from":"germany","text":"Genre en jouant la carte de la transparence ?","delay":1},
+                    {"from":"france","text":"Par exemple, ouais.","delay":1},
+                    {"from":"germany","text":"On a raconté quand même pas mal de merde dans ces SMS...","delay":1},
+                    {"from":"france","text":"C'est pas important ça :","delay":1},
+                    {"from":"france","text":"Tu crois vraiment que les gens vont les lire ?","delay":1}
                             ],
 				"goto":"end"
 			}
