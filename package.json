@@ -23,12 +23,17 @@
     "angular": "./node_modules/angular/angular.min.js",
     "angular-route": "./node_modules/angular-ui-router/release/angular-ui-router.min.js",
     "angular-bootstrap": "./node_modules/angular-ui-bootstrap/ui-bootstrap.min.js",
+    "angular-animate": "./node_modules/angular-animate/angular-animate.min.js",
     "jquery": "./node_modules/jquery/dist/jquery.min.js",
-    "bootstrap": "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+    "bootstrap": "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+    "gsap": "./node_modules/gsap/src/minified/TweenLite.min.js"
   },
   "browserify-shim": {
     "jquery": {
       "exports": "$"
+    },
+    "gsap": {
+      "exports": "gsap"
     },
     "bootstrap": {
       "exports": "bootstrap",
@@ -43,6 +48,12 @@
       ]
     },
     "angular-route": {
+      "exports": null,
+      "depends": [
+        "angular"
+      ]
+    },
+    "angular-animate": {
       "exports": null,
       "depends": [
         "angular"
@@ -69,9 +80,11 @@
     "jquery": "^2.1.4"
   },
   "devDependencies": {
+    "angular-animate": "^1.4.6",
     "browserify": "^11.1.0",
     "browserify-shim": "^3.8.10",
     "del": "^2.0.2",
+    "gsap": "^1.18.0",
     "gulp": "^3.9.0",
     "gulp-connect": "^2.2.0",
     "gulp-gzip": "^1.2.0",

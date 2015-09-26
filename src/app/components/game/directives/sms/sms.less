@@ -1,13 +1,111 @@
  .sms{
  	margin-top: 10px;
+
+ 	&.user-france{
+ 		.message{
+ 			background-color: #002395;
+ 			color: @sms-white;
+ 		}
+ 		.avatar{
+ 			background-image: url('/assets/images/flag-france.jpg');
+ 		}
+ 	}
+
+ 	&.user-germany{
+ 		.message{
+ 			background-color: #fe0000;
+ 			color: @sms-white;
+ 		}
+ 		.avatar{
+ 			background-image: url('/assets/images/flag-germany.jpg');
+ 		}
+ 	}
+
+ 	&.user-italy{
+
+		.message{
+ 			background-color: #00a059;
+ 			color: @sms-white;
+ 		}
+ 		.avatar{
+ 			background-image: url('/assets/images/flag-italy.jpg');
+ 		}
+ 	}
+
+ 	&.user-eu{
+
+		.message{
+ 			background-color: #ffff00;
+ 			color: @sms-black;
+ 		}
+ 		.avatar{
+ 			background-image: url('/assets/images/flag-eu.jpg');
+ 		}
+ 	}
+
+ 	&.user-hungary{
+
+		.message{
+ 			background-color: #f1c30c;
+ 			color: @sms-black;
+ 		}
+ 		.avatar{
+ 			background-image: url('/assets/images/flag-hungary.jpg');
+ 		}
+ 	}
+
+ 	&.user-greece{
+
+		.message{
+ 			background-color: #0d5eaf;
+ 			color: @sms-white;
+ 		}
+ 		.avatar{
+			background-image: url('/assets/images/flag-greece.jpg');
+ 		}
+ 	}
+
+ 	&.user-uk{
+
+		.message{
+ 			background-color: #0d5eaf;
+ 			color: @sms-white;
+ 		}
+ 		.avatar{
+			background-image: url('/assets/images/flag-uk.jpg');
+ 		}
+ 	}
+
+ 	&.user-usa{
+
+		.message{
+ 			background-color: #0d5eaf;
+ 			color: @sms-white;
+ 		}
+ 		.avatar{
+			background-image: url('/assets/images/flag-usa.jpg');
+ 		}
+ 	}
+
+ 	&.user-syria{
+
+		.message{
+ 			background-color: #0d5eaf;
+ 			color: @sms-white;
+ 		}
+ 		.avatar{
+			background-image: url('/assets/images/flag-syria.jpg');
+ 		}
+ 	}
+
  	.user{
  		.avatar{
  			display: inline-block;
 	 		border-radius: 50%;
 	 		width: 32px;
 	 		height: 32px;
-	 		background: @sms-light-gray;
-	 		/*border: 1px solid @sms-dark-gray; */
+	 		
+	 		/*border: 1px solid @sms-light-gray;*/
 	 		float: left;
 	 		margin-right: 5px;
 	 		overflow: hidden;
@@ -15,14 +113,46 @@
  		line-height: 32px;
  		height: 32px;
  		margin-bottom: 5px;
+ 		font-weight: bold;
 
  	}
  	.message {
  		background: @sms-light-gray;
 	 	border-radius: 10px;
+	 	display: inline-block;
 	 	padding: 10px;
+	 	
  	}
  	
+
+ 	&.left{
+ 		margin-right: 20%;
+ 		.message {
+ 			border-top-left-radius: 0;
+ 			margin-left: 32px;
+ 		}
+ 		
+ 	}
+
+ 	&.right{
+ 		margin-left: 20%;
+ 		text-align: right;
+ 		.message {
+ 			border-top-right-radius: 0;
+ 			margin-right: 37px;
+ 			text-align: right;
+ 		}
+ 		.user{
+ 			position: relative;
+ 			padding-right: 40px;
+ 			text-align: right;
+ 			.avatar{
+ 				position: absolute;
+ 				right: 0;
+ 			}
+ 		}
+ 		
+ 	}
 
  }
  

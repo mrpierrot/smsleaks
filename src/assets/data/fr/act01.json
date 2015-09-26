@@ -1,0 +1,711 @@
+{
+		"sequences":{
+			"1":{
+				"messages":[
+                    {"from":"uk","text":"François, t'es lourd avec ton nouveau camps de Calais en janvier dernier.","delay":1},
+                    {"from":"uk","text":"J'ai l'impression que ça incite tous les migrants illégaux du coin à venir toquer à ma porte.","delay":1},
+                    {"from":"uk","text":"J'ai cru lire que c'était dur avec les locaux d'extrême droite. Mais bon quand même. Tiens tes frontière bordel !","delay":1},
+                    {"from":"uk","text":"Sinon, Julie va bien ?","delay":1}
+            
+				],
+				"responses":[
+					{
+						"text":"Viens dans l’espace Shengen et on en reparle.",
+						"goto":2,
+						"friendship":{
+							"uk":-5
+						}
+					},
+					{
+						"text":"Calm down baby. On va trouver une solution.",
+						"goto":3,
+						"friendship":{
+							"uk":5
+						}
+					}
+				]
+			},
+			"2":{
+				"messages":[
+					{"from":"france","text":"Si vraiment tu veux arrêter l'immigration vers l'Angleterre, arrête d'aider autant les étrangers. ","delay":1},
+                    {"from":"france","text":"C'est ça qui leur fait miroiter je-ne-sais-quoi.","delay":1},
+                    {"from":"france","text":"En attendant c'est moi qui doit m'en occuper !","delay":1},
+                    {"from":"france","text":"Ça coute du pognon.","delay":1},
+                    {"from":"france","text":"Et puis c'est pas agréable de veiller sur des gens dont la seule envie est de se barrer chez le voisin.","delay":1},
+                    {"from":"france","text":"Pour l'instant, c'est quelques centaines de personnes sur des bateaux en Mediterrannées ou en rade à Calais…","delay":1},
+                    {"from":"france","text":"Mais demain ils seront combien ?","delay":1},
+                    {"from":"france","text":"Mais oui sinon Julie va bien. Je te remercie. Et toi ta petite famille ?","delay":1},
+                    {"from":"uk","text":"La Grande-Bretagne ne donne pas plus que la France en terme d'aides sociales pour les étrangers. En France, je lisais que ça correspondait à 80,15 euros par semaine durant un mois. Ici, c'est environ 52€ quelque soit la situation. Mais t'inquiète pas, je vais régler la situation en supprimant ces aides. C'est même un de mes axe de la prochaine élection en mai.","delay":1}
+				]
+			},
+            "responses":[
+					{
+						"text":"Le logment des étrangers, nous on le fait pas. Et ça, ça donne leur donne envie d'aller voir les britons. Mais passons.",
+						"goto":4,
+						"friendship":{
+							"uk":0
+                        }
+                        
+                    },
+                {
+						"text":"Soit. J'ai pas envie de me prendre la tête avec ça. J'ai d'autres choses à penser.",
+						"goto":4,
+						"friendship":{
+							"uk":0
+						}
+                }
+            ]
+        },
+			"3":{
+				"messages":[
+					{"from":"france","text":"Je vais faire ce que je puex pour freiner Manuel et Bernard là dessus. Mais je te promets vraiment rien. Ils y tiennent. La sécurité, c'est luer dada. ","delay":1},
+                    {"from":"france","text":"En attendant, il va bien falloir qu'on se répartisse ce flux de personnes. Je vais pas faire mon relou et imposer des quotas, mais qu'on se partage le boulot !" , "delay":1},
+                    {"from":"france","text":"Pour l'instant, c'est quelques centaines de personnes sur des bateaux en Mediterrannées ou en rade à Calais…","delay":1},
+                    {"from":"france","text":"Mais demain ils seront combien ?","delay":1},
+                    {"from":"france","text":"Mais oui sinon Julie va bien. Je te remercie. Et toi ta petite famille ?","delay":1},
+                    {"from":"uk","text":"Bien. Attendons mai pour parler d'Europe et tout ça. J'ai une élection à gagner. Va pas mettre le boxon dans ma campagne, j'ai déjà ue ma dose avec les écossais. ","delay":1},
+                    {"from":"uk","text":"Si tu croise un journaliste, tu puex lui dire que je « soutiens le principe de libre circulation des travailluers ».","delay":1}  
+                  ],
+                "responses":[
+					{
+						"text":"T'es gentil, je suis président moi. Pas messager^^",
+						"goto":4,
+						"friendship":{
+							"uk":-1
+						}
+			},
+                    {
+						"text":"J'y penserai. Mais pas sûr que ça plaise à mon électorat",
+						"goto":4,
+						"friendship":{
+							"uk":0
+						}    }]
+            },           
+			"4":{ 
+                "messages":[ 
+                    {"from":"uk","text": "Tiens en parlant de campagne, tu parles de quoi pour parler des gens dans les bateaux ?" ,"delay":1},
+                    {"from":"uk","text":"Des marins ?","delay":1},
+                    {"from":"uk","text":"Non je déconne. Il faut aussi qu'on se coordonne là dessus si on vuet être crédible.","delay":2},
+                    {"from":"uk","text":"Mais il faut faire attention à ce genre de chose. Je veux dire….","delay":1},
+                    {"from":"uk","text":"C’est la com’. Les médias seront au taquet dans les mois à venir. Calais, l’Italie qui va gueuler tôt ou tard…","delay":1},
+                    {"from":"uk","text":"Préparons nous","delay":1},
+                    {"from":"uk","text":"Du coup ce sont des migrants ? Des réfugiés ? Des demandeurs d'asiles ? Des étranger ?","delay":1}   				],
+				"responses":[
+					{
+						"text":"Des marins ? \\o/",
+						"goto":5,
+						"friendship":{
+							"uk":-2
+						}
+					},
+					{
+						"text":"Demandeurs d'asiles ?",
+						"goto":6,
+						"friendship":{
+							"uk":0
+						}
+					}
+				]
+			},
+                
+              "5": {
+                  "messages":[
+					{"from":"france","text":"Non, va pour :","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"migrants",
+						"goto":7,
+                        "data":{
+							"%migrants":"migrants"
+						},
+						"friendship":{
+							"uk":0 
+					}
+                } ,
+                        {
+						"text":"réfugiés",
+						"goto":7,
+                        "data":{
+							"%migrants":"réfugiés"
+						},
+						"friendship":{
+							"uk":0
+					}
+                }
+        ]
+}, 
+       "6":  {
+            "messages":[
+					{"from":"france","text":"Non ça marche pas bien. Va pour :","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"migrants",
+						"goto":7,
+                        "data":{
+							"%migrants":"migrants"
+						},
+						"friendship":{
+							"uk":0 
+					}
+                } ,
+                        {
+						"text":"réfugiés",
+						"goto":7,
+                        "data":{
+							"%migrants":"réfugiés"
+						},
+						"friendship":{
+							"uk":0
+					}
+                }
+        ]
+            },
+        "7":  {
+            "messages":[
+					{"from":"uk","text":"Ok. Je balance ça alors.","delay":1},
+                    {"from":"uk","text":"J'imagine qu'Angela et les autres embrayeront dessus.","delay":1},
+                    {"from":"italy","text":"Bon les gars, il va falloir qu'on se bouge un peu.","delay":1},
+                    {"from":"italy","text":"C'est sympas de se voir pour parler de nos vacances boursières en Grèce.","delay":1},
+                    {"from":"italy","text":"Mais 1)","delay":1},
+                    {"from":"italy","text":"Je digère mal la feta....","delay":2},
+                    {"from":"italy","text":"Et 2)","delay":1},
+                    {"from":"italy","text":"On a compté aujourd'hui 400 naufragés au large Lampedusa.","delay":2},
+                    {"from":"italy","text":"Cela commence à faire beaucoup en une suele journée.","delay":1},
+                    {"from":"alexis","text":"Hey ho ! Nous aussi on puet pas accueillir toute la misère du monde.","delay":1},
+                    {"from":"alexis","text":"Et tu vas voir quand Bruxelle va te tomber dessus. On va rire","delay":1},
+                    {"from":"italy","text":"Ouai ouai...","delay":1},
+                    {"from":"italy","text":"Bon du coup j'ai réuni mon gouvernement. C'est la lose","delay":3},
+                    {"from":"italy","text":"Je propose un petit sommet ueropéen extraordinaire qui est pour ?","delay":1},
+                    {"from":"germany","text":"Perso j'ai la flemme d'un sommet.","delay":1},
+                    {"from":"germany","text":"Ce flonflon et ce protocole… Ça me fatigue.","delay":1},
+                    {"from":"germany","text":"J'ai l'impression qu'on se voit tout le temps.","delay":1},
+                    {"from":"germany","text":"J'ai un pays à gérer moi.","delay":1},
+                    {"from":"uk","text":"Vot' problème. Pas le mien.","delay":1},
+                    {"from":"italy","text":"David, t'abuses. Sériuex !","delay":1},
+                    {"from":"hungary","text":"Moi je suis pour le sommet. C'est important comme question.","delay":1},
+                    {"from":"hungary","text":"Et puis perso j'ai des choses à dire et j'aimerai bien marquer le coup.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Un petit sommet pour entendre les propositions de Victor et les autres ?",
+						"goto":8,
+						"friendship":{
+							"germany":0,
+                            "hungary":5,
+                            "english":0,
+                            "italy":0
+					   }
+                    }, 
+                    {
+						"text":"On a vraiment le choix ? Je crois pas. Go",
+						"goto":8	 
+                    }
+                ]
+            },
+                     "8": {
+                  "messages":[
+					{"from":"germany","text":"Bon ben si Fanch est ok... Je puex pas dire non.","delay":1},
+                    {"from":"hungary","text":"Je me passerai bien de migrants perso.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"[Discuter avec Victor] On discute ?",
+						"goto":9,
+                        "friendship":{
+							"hungary":5
+                        }
+				   }, 
+                    {
+						"text":"[Discuter avec Matteo] On se consulte ?",
+						"goto":8,
+						"friendship":{
+							"italy":5 
+					   }
+                    }
+                ]
+            },
+        "9": {
+                  "messages":[
+					{"from":"hungary","text":"Yep ! Avec plaisir !","delay":1},
+                    {"from":"hungary","text":"Bah alors ? Tu prépares quoi pour le sommet  ? Petit cachotier ;-)","delay":1},
+                    {"from":"hungary","text":"Bon tu le dis pas, hein ?","delay":1},
+                    {"from":"hungary","text":"Si on fait un sommet, je l'annonce au grand jour.","delay":1},
+                    {"from":"hungary","text":"C'est bien simple. Je vuex pas d'immigré en Hongrie.","delay":1},
+                    {"from":"hungary","text":"Je vais devoir le dire au grand jour au sommet. Genre un grand truc bien définitif dans la presse genre :","delay":1},
+                    {"from":"hungary","text":"...","delay":1},
+                    {"from":"hungary","text":"Je sais pas moi...","delay":1},
+                    {"from":"hungary","text":"« Nous ne voulons pas d'immigrés en Hongrie ». Tu penses que ça passe bien à la télé ?","delay":1} 
+                  ],
+                  "responses":[
+					{
+						"text":"Tu vas casser l'ambiance.",
+						"goto":10,
+                        "friendship":{
+							"hungary":-5
+                        }
+				   }, 
+                    {
+						"text":"Ah ok.",
+						"goto":12,
+						"friendship":{
+							"hungary":5 
+					   }
+                    }
+                ]
+            },
+    "10": {
+                  "messages":[
+					{"from":"france","text":"Je sais pas toi, mais je sais que les autres voulaient donner un grand élan de solidarité et tout.","delay":1},
+                    {"from":"france","text":"Il va donc falloir trouver d'autres solutions. Il doit bien y en avoir.","delay":1},
+                    {"from":"hungary","text":"C'est aussi ce que je me dis. Mais c'est ça où je me prends l'extrême droite.","delay":1},
+                    {"from":"hungary","text":"Et j'ai moyennement envie tu comprends.","delay":1},
+                    {"from":"hungary","text":"Du coup, tu proposes quoi de ton côté ?","delay":1}
+                  ],
+        
+                  "responses":[
+					{
+						"text":"On trouvera une solution internationale.",
+						"goto":11,
+                        "friendship":{
+							"hungary":5
+                        }
+				   }, 
+                    {
+						"text":"On trouveras un accord ueropéen.",
+						"goto":13,
+						"friendship":{
+							"hungary":-5 
+					   }
+                    }
+                ]
+            },
+   "11": {
+                  "messages":[
+					{"from":"france","text":"On a bien sauvé les boat people du Vietnam.","delay":1},
+                    {"from":"france","text":"Y avait BHL, Kouchner, Sartes… C’était l’époque, y avait de l’ambiance.","delay":1},
+                    {"from":"france","text":"A ce prix là, va pas me dire que les ricains puevent pas héberger un peu de syriens !","delay":1},
+                    {"from":"hungary","text":"Mouai.","delay":1},
+                    {"from":"hungary","text":"Du coup, tu proposes quoi de ton côté ?","delay":1},
+                    {"from":"hungary","text":"Mouai.","delay":1},
+                    {"from":"hungary","text":"Il va falloir qu'on se charge de cette question tôt ou tard.","delay":1},
+                    {"from":"hungary","text":"Mais pour l’instant, Bachard est trop occupé à rester au pouvoir, Barack se bouge pas, et Poutine…","delay":1},
+                    {"from":"hungary","text":"J’ai du mal à imaginer un  gros truc international de la mort qui puisse arrêter tout ces gens.","delay":1},
+                      {"from":"hungary","text":"En tout cas pas tout de suite.","delay":1}
+                  ],
+        
+                  "responses":[
+					{
+						"text":"On attend et on avisera.",
+						"goto":16,
+                        "friendship":{
+							"hungary":5
+                        }
+				   }, 
+                    {
+						"text":"On verra au sommet.",
+						"goto":16,
+						"friendship":{
+							"hungary":-5 
+					   }
+                    }
+                ]
+            },
+     "12": {
+                  "messages":[
+					{"from":"france","text":"Je comprends. Je peux pas faire ça moi. Je suis de gauche quand même.","delay":1},
+                    {"from":"france","text":"Mais du coup, comment on fait ?.","delay":1},
+                    {"from":"hungary","text":"Bah là justement, je suis un peu embêté.","delay":1},
+                    {"from":"hungary","text":"Je me demande si je vais pas fermer les frontières de la Hongrie.","delay":1},
+                    {"from":"hungary","text":"C'est un peu raide, je sais.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Soit.",
+						"goto":14,
+                        "friendship":{
+							"hungary":5
+                        }
+				   }, 
+                    {
+						"text":" Evite ça !",
+						"goto":15,
+						"friendship":{
+							"hungary":-5 
+					   }
+                    }
+                ]
+            },
+    "13": {
+                  "messages":[
+					{"from":"france","text":"Mais en tout cas pas de quotas obligatoire !","delay":1},
+                    {"from":"france","text":"Je vois déjà Juncker parler de répartition en fonction du PIB ou du taux de chômage.","delay":1},
+                    {"from":"france","text":"Moi je suis pas chaud.","delay":1},
+                    {"from":"france","text":"Si on force la main des gouvernement, on va encore gueuler sur Bruxelle.","delay":1},
+                    {"from":"france","text":"Comme quoi ils font tout, que c’est plus l’état qui décide..","delay":1},
+                    {"from":"france","text":"Donc non au quotas et oui à une solution globale.","delay":1},
+                    {"from":"france","text":"On finance des camps comme Calais ou Lampedusa.","delay":1},
+                    {"from":"france","text":"Et on fait le tri à l’entrée de l’Europe.","delay":1},
+                    {"from":"france","text":"Et paf ! Tout est réglé, on puet retourner s’occuper de nos affaires","delay":1},
+                    {"from":"hungary","text":"L’Europe, l’Europe…","delay":1},
+                    {"from":"france","text":"L’Europe, l’Europe…","delay":1},
+                    {"from":"france","text":"On a bien vu ce que ça a donné pour la Grèce.","delay":1},
+                    {"from":"france","text":"Je demande à voir.","delay":1}  
+                  ],
+                  "responses":[
+					{
+						"text":"Pareil.",
+						"goto":16,
+                        "friendship":{
+							"hungary":5
+                        }
+				   }, 
+                    {
+						"text":"Ouai, c'est chaud.",
+						"goto":16,
+						"friendship":{
+							"hungary":-5 
+					   }
+                    }
+                ]
+            },
+    "14": {
+                  "messages":[
+					{"from":"france","text":"Ça va te demander de l’équipement tout ça.","delay":1},
+                    {"from":"france","text":"Des grillages, des hommes, des armes…","delay":1},
+                    {"from":"france","text":"Tu sais qu'en France s’y connait en maintien de l’ordre. Certains nous demandent même nos services.","delay":1},
+                    {"from":"france","text":"J’imagine que Dassault & cie pourront te vendre duex trois choses si tu vuex.","delay":1},
+                    {"from":"france","text":"Mais bon ce ne sont pas mes affaires après tout.","delay":1},
+                    {"from":"france","text":"Je suis de gauche quand même.","delay":1},
+                    {"from":"hungary","text":"Tout mais pas des rafales !","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Hahaha.",
+						"goto":19,
+                        "friendship":{
+							"hungary":5
+                        }
+				   }, 
+                    {
+						"text":"Touché.",
+						"goto":19,
+						"friendship":{
+							"hungary":-5 
+					   }
+                    }
+                ]
+            },
+     "15": {
+                  "messages":[
+					{"from":"france","text":"Evite ça !","delay":1},
+                    {"from":"france","text":"Tu vas relancer le débat sur les frontières au sein de l’Europe.","delay":1},
+                    {"from":"france","text":"Et puis ça va être dur pour tes voisins.","delay":1},
+                    {"from":"hungary","text":"Ouai. J’imagine que la Croatie va prendre cher. ","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Pareil.",
+						"goto":19,
+                        "friendship":{
+							"hungary":5
+                        }
+				   }, 
+                    {
+						"text":"Ouai, c'est chaud.",
+						"goto":19,
+						"friendship":{
+							"hungary":-5 
+					   }
+                    }
+                ]
+            },
+    "8": {
+                  "messages":[
+					{"from":"italy","text":"Si !","delay":1},
+                    {"from":"france","text":"Tu puex me rafraichir la mémoire sur la situation italienne.","delay":1},
+                    {"from":"italy","text":"C’est assez simple.","delay":1},
+                    {"from":"italy","text":"En 2013, on comptait 42 000 migrants et réfugiés sur nos côtes. Et là en juillet, on va atteindre 66 000.","delay":2},
+                    {"from":"italy","text":"Y a les Pouilles, mais y a Lampedusa dont tu as sans doute entendu parler, y a …","delay":1},
+                    {"from":"france","text":"Ouai, ouai. Les JT français en parlent beaucoup.","delay":1},
+                    {"from":"france","text":"Mais bon ils sont que de passages chez toi.","delay":1},
+                    {"from":"france","text":"C’est pas chez toi qu’ils restent.","delay":1},
+                    {"from":"france","text":"Moi en 2013, j’ai ue 60 100 demandes d’asiles.","delay":1}, 
+                      {"from":"italy","text":"Moi j’ai ue 30 000.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Bah de quoi tu te plains alors ?",
+						"goto":16,
+                        "friendship":{
+							"italy":-5
+                        }
+				   }, 
+                    {
+						"text":"Je suis avec toi. Tkt.",
+						"goto":17,
+						"friendship":{
+							"italy":5 
+					   }
+                    }
+                ]
+            },
+     "16": {
+                  "messages":[
+					{"from":"france","text":"Et puis en plus l’Europe t’aide.","delay":1}, 
+                    {"from":"italy","text":"Encore huereux !","delay":1},
+                    {"from":"italy","text":"Mais elle était où l'Europe quand l'opération Mare Nostrum interceptait 73 000 naufragés ?","delay":1},
+                    {"from":"italy","text":"Frontex & cie, LA BLAGUE !","delay":2},
+                    {"from":"italy","text":"En 2014, on triplait le nombre de migrants arrivés par la mer.","delay":1}, 
+                    {"from":"italy","text":"L'aide a pas triplé à ma connaissance.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Fais pas ton relou",
+						"goto":20,
+                        "friendship":{
+							"italy":-5
+                        }
+				   }, 
+                    {
+						"text":"Ok ok. Respect mec.",
+						"goto":18,
+						"friendship":{
+							"italy":5 
+					   }
+                    }
+                ]
+            },
+     "17": {
+                  "messages":[
+					{"from":"italy","text":"Merci.","delay":3},    
+                    {"from":"italy","text":"Ce serait bien que les nations unies s'installent en Libye pour aider le pays à gérer les flux de migrants et réfugiés dès leur départ.","delay":1},
+                    {"from":"italy","text":"J’ai les réfugiés et les italiens anti-immigrés sur le dos.","delay":1},
+                    {"from":"italy","text":"En 2013, on comptait 42 000 migrants et réfugiés sur nos côtes. Et là en juillet, on va atteindre 66 000.","delay":2},
+                    {"from":"italy","text":"En 2014, on triplait le nombre de migrant arrivés par la mer. L’aide de l’Europe, elle, n’a pas triplé à ma connaissance.","delay":1},    
+                    {"from":"italy","text":"C’est un peu compliqué je t’avouerais.","delay":1},
+                    {"from":"italy","text":"Demande aux confrères.","delay":1}, 
+                    {"from":"italy","text":"De toute façon je vais exposer le truc au sommet européen et ça va aller.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Je suis avec toi mec.",
+						"goto":18,
+                        "friendship":{
+							"italy":5
+                        }
+				   }, 
+                    {
+						"text":"Attendons de voir.",
+						"goto":18,
+						"friendship":{
+							"italy":-5 
+					   }
+                    }
+                ]
+            },
+    "18": {
+                  "messages":[
+					{"from":"france","text":"Tout va dépendre de ce que vont dire les autres au sommet.","delay":1},   
+                    {"from":"france","text":"Je me méfis de Victor et de David.","delay":1},
+                    {"from":"france","text":"Et puis y a toujours Angela...","delay":1},
+                    {"from":"italy","text":"Je sais que David et Angela sont pas dispo pour en parler.","delay":2},
+                    {"from":"italy","text":"Essai Victor ou discute avec JC.","delay":1},
+                    {"from":"italy","text":"Je les vois glander sur IRC.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"[Discuter avec Victor] On discute ?",
+						"goto":9,
+                        "friendship":{
+							"hungary":5
+                        }
+				   }, 
+                    {
+						"text":"[Discuter avec JC] Hello",
+						"goto":21,
+                        "friendship":{
+							"ue":5
+					   }
+                    }
+                ]
+            },
+    "19": {
+                  "messages":[
+					{"from":"france","text":"Je le sens mal ce coup des migrants quand même.","delay":1},
+                    {"from":"france","text":"C'est le genre de sujet qui revient tous les mois sur le tapis.","delay":1},
+                    {"from":"france","text":"Les gens ont à peine le temps d'oublier qu'il y a déjà un nouveau naufrage ou des cadavres sur une plage.","delay":1},
+                    {"from":"france","text":"C'est comme si ça revenait aussi souvent que les mauvais chiffres du chômage.","delay":1},
+                    {"from":"france","text":"Un jour il va y avoir une photo choc ou un truc comme ça.","delay":1},
+                    {"from":"hungary","text":"Maiiis non.","delay":1},
+                    {"from":"hungary","text":"T’inquiète pas va.","delay":1},
+                    {"from":"hungary","text":"JC va bien trouver quelque chose.","delay":1},
+                    {"from":"hungary","text":"Demande lui","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"[Discuter avec JC] Hello",
+						"goto":21,
+                        "friendship":{
+							"ue":5
+                        }
+				   }, 
+                    {
+						"text":"[Discuter avec JC] Hi, t’as un plan ?",
+						"goto":21,
+						"friendship":{
+							"ue":-5 
+					   }
+                    }
+                ]
+            },
+     "20": {
+                  "messages":[
+					{"from":"italy","text":"Je fais mon relou si je veux !","delay":1},
+                    {"from":"italy","text":"Tu veux que je te parle de Vintimille ?","delay":1},
+                    {"from":"italy","text":"Tu sais la ville frontalière qui reçoit plus de migrant de France que du reste de l’Italie ?","delay":1},
+                    {"from":"italy","text":"C’est pas très Shengen ça !","delay":1},
+                    {"from":"italy","text":"Je connais des gens qui se feront un plaisir de te le rappeler quand tu vas venir à Milan pour l’expo Universelle.","delay":1},
+                      
+                    {"from":"italy","text":"Bon ok. Je me calme..","delay":4},
+                    {"from":"italy","text":"Ce serait bien que tu tapes un pue du poing sur la table au sommet ueropéen.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"C'est vrai.",
+						"goto":18,
+                        "friendship":{
+							"italy":5
+                        }
+				   }, 
+                    {
+						"text":"C'est pas faux.",
+						"goto":18,
+						"friendship":{
+							"italy":-5 
+					   }
+                    }
+                ]
+            },
+     "21": {
+                  "messages":[
+					{"from":"ue","text":"Hello","delay":1}, 
+                    {"from":"ue","text":"Bon ben le sommet se prépare déjà.","delay":1},   
+                    {"from":"ue","text":"J’espère que toi et les autres vous êtes chaud patate.","delay":1},
+                    {"from":"ue","text":"On peut jouer un gros coup là.","delay":1},
+                    {"from":"france","text":"Sans doute.","delay":1},
+                    {"from":"ue","text":"Tu penses quoi toi ?","delay":1},  
+                    {"from":"ue","text":"Quotas de répartition de migrants obligatoire ? ","delay":1},
+                    {"from":"ue","text":"Plan de financement ? ","delay":1},
+                    {"from":"ue","text":"Perso, je suis pour les quotas","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Plan de financement.",
+						"goto":22,
+                        "friendship":{
+							"ue":-5
+                        }
+				   }, 
+                    {
+						"text":"Quotas, non ?",
+						"goto":23,
+						"friendship":{
+							"ue":5 
+					   }
+                    }
+                ]
+            },
+     "22": {
+                  "messages":[
+					{"from":"france","text":"Je ne suis pas pour un quotas.","delay":1}, 
+                    {"from":"france","text":"Si les gens sont pas content, ils vont encore mettre ça sur le dos de l’Europe.","delay":1},   
+                    {"from":"france","text":"J’espère que toi et les autres vous êtes chaud patate.","delay":1},
+                    {"from":"france","text":"Et j’aime pas tirer sur les ambulances en fue.","delay":1},
+                    {"from":"ue","text":"T’es dur là !","delay":1},
+                    {"from":"ue","text":"Sois gentil. Pas méchant.","delay":1},
+                    {"from":"ue","text":"C'est pas gentil d'être méchant.","delay":1},
+                    {"from":"france","text":"?????","delay":1},
+                    {"from":"france","text":"Tu craques. Repose toi un pue.","delay":1},
+                    {"from":"ue","text":"Ouai.","delay":1},
+                    {"from":"ue","text":"Toutes ces crises... Comment veut tu que mon cerveau lache pas de temps en temps.","delay":1},  
+                    {"from":"ue","text":"J’attends toujours les 8 milliards du plan d’Investissement.","delay":1},
+                    {"from":"ue","text":"Et puis t’es où quand la Grèce paye pas ses dettes ?","delay":1},
+                    {"from":"ue","text":"Angela, elle est là quand on en a besoin. Toi, on t'entendait pas trop.","delay":1},
+                    {"from":"france","text":"Ouai ouai. Il faut que je rediscute de tout ces sujets avec mes conseillers.","delay":1},  
+                    {"from":"ue","text":"Sinon, ils vont pluerer en disant que tu les écoutes jamais ?","delay":1},
+                    {"from":"france","text":"C'est quasiment ça.","delay":1},
+                    {"from":"france","text":"Quoi que je fasse, si ça foire c'est de ma faute. Si ça marche, c'est grâce à uex.","delay":1}, 
+                    {"from":"ue","text":"Cherche Jue d'influence. C'est un petit jue sympas comme tout. Tu pourrais puet-être avoir deux trois tuyaux de com' pour les calmer.","delay":1},  
+                    {"from":"france","text":"Ok. J'y penserai","delay":1},
+                    {"from":"ue","text":"Bon c’est pas le tout mais on a un sommet européen extraordinaire à organiser.","delay":1},
+                    {"from":"ue","text":"On se revoit là bas.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Ouai, bonne journée",
+						"goto":{"act":"act02","seq":2},
+                        "friendship":{
+							"ue":5
+                        }
+				   }, 
+                    {
+						"text":"Ok. T'as intérêt à nous préparer un sommet aux oignons !",
+						"goto":23,
+						"friendship":{
+							"ue":-5  
+					   }
+                    }
+                ]
+            },
+    "23": {
+                  "messages":[
+					{"from":"france","text":"C’est pas mon style de passer de passer en force ou d'être trop contraignant...","delay":1}, 
+                    {"from":"ue","text":"Et le 49.3 ? Parce qu'entre ta loi sur les bus et le renseignement... T'as fait fort quand même !","delay":1},
+                    {"from":"france","text":"Oui bon ok.","delay":1},  
+                    {"from":"france","text":"Mais si on fait en fonction de factuer locaux de chaque pays ueropéen, c’est déjà pas mal.","delay":1},
+                    {"from":"ue","text":"Et puis ça ressert les liens ueropéens.","delay":1},
+                    {"from":"ue","text":"Exactement ! Tu lis dans mes pensées.","delay":1},  
+                    {"from":"ue","text":"C'est à force de te voir au moins une fois par mois. Ce genre d'expérience ça change un homme","delay":1},
+                    {"from":"france","text":"Ouai. Bon il faut que j'en parle à mes conseillers.","delay":1},  
+                    {"from":"ue","text":"Sinon, ils vont pleurer en disant que tu les écoutes jamais ?","delay":1},
+                    {"from":"france","text":"C'est quasiment ça.","delay":1},
+                    {"from":"france","text":"Quoi que je fasse, si ça foire c'est de ma faute. Si ça marche, c'est grâce à eux.","delay":1}, 
+                    {"from":"ue","text":"Cherche Jeu d'influence. C'est un petit jue sympas comme tout. Tu pourrais puet-être avoir duex trois tuyaux de com' pour les calmer.","delay":1},  
+                    {"from":"france","text":"Ok. J'y penserai","delay":1},  
+                    {"from":"ue","text":"Bon allez. Il faut que je bosse. Je compte sur toi pour me suivre pendant et après le sommet.","delay":1},
+                    {"from":"france","text":"Si les gens sont pas content, ils vont encore mettre ça sur le dos de l’Europe.","delay":1},   
+                    {"from":"france","text":"J’espère que toi et les autres vous êtes chaud patate.","delay":1},
+                    {"from":"france","text":"Et j’aime pas tirer sur les ambulances en feu.","delay":1},
+                    {"from":"ue","text":"T’es dur là !","delay":1},
+                    {"from":"ue","text":"Sois gentil. Pas méchant.","delay":1},
+                    {"from":"ue","text":"C'est pas gentil d'être méchant.","delay":1},
+                    {"from":"france","text":"?????","delay":1},
+                    {"from":"france","text":"Tu craques. Repose toi un peu.","delay":1},
+                    {"from":"ue","text":"Ouai.","delay":1},
+                    {"from":"ue","text":"Toutes ces crises... Comment vuet tu que mon cerveau lache pas de temps en temps.","delay":1},  
+                    {"from":"ue","text":"J’attends toujours les 8 milliards du plan d’Investissement.","delay":1},
+                    {"from":"ue","text":"Et puis t’es où quand la Grèce paye pas ses dettes ?","delay":1},
+                    {"from":"ue","text":"Angela, elle est là quand on en a besoin. Toi, on t'entendait pas trop.","delay":1},
+                    {"from":"ue","text":"Bon c’est pas le tout mais on a un sommet ueropéen extraordinaire à organiser.","delay":1},
+                    {"from":"ue","text":"On se revoit là bas.","delay":1}
+                  ],
+                  "responses":[
+					{
+						"text":"Ouai, bonne journée",
+						"goto":{"act":"act02","seq":2},
+                        "friendship":{
+							"ue":5
+                        }
+				   }, 
+                    {
+						"text":"Ok. T'as intérêt à nous préparer un sommet aux oignons !",
+						"goto":23,
+						"friendship":{
+							"ue":-5 
+					   }
+                    }
+                ]
+            }
+        }

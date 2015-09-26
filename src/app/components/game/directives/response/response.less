@@ -1,19 +1,26 @@
 .response{
 
- 	background: @sms-light-gray;
+ 	background: #002395;
 	border-radius: 10px;
 	padding: 10px;
-	&:hover{
-		background: @sms-dark-gray;
-	}
-	display: inline-block;
+	color: @sms-white;
 	width: 49%;
+	height: 100%;
 	margin: 10px 0;
+	cursor: pointer;
+
+	&:hover{
+		background: @sms-light-gray;
+		color: @sms-black;
+	}
+
+
 	&:first-child{
 		margin-right: 1%;
 	}
 	&:last-child{
 		margin-left: 1%;
 	}
+
 
 }

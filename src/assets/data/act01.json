@@ -4,6 +4,9 @@
 			"messages":[
 				{"from":"germany","text":"Comment vas tu François ?","delay":1},
 				{"from":"germany","text":"Hein dis ?","delay":1},
+				{"from":"eu","text":"Yo !","delay":1},
+				{"from":"hungary","text":"Pouet !","delay":1},
+				{"from":"greece","text":"Je suis l'alpha et l'omega.","delay":1},
 				{"from":"italy","text":"Ouais, comment va le français ? ","delay":1}
 			],
 			"responses":[
@@ -58,8 +61,8 @@
 				},
 				{
 					"text":"T'es trop une merde Angela, ça me gave.",
-					"goto":["german.friendship > 2",4,{"act":"acte02","seq":1}],
-					"if":"german.friendship > 2",
+					"goto":["germany.friendship > 2",4,{"act":"act02","seq":1}],
+					"if":"germany.friendship > 2",
 					"friendship":{
 						"germany":-5
 					}
@@ -80,7 +83,7 @@
 				},
 				{
 					"text":"P'ti fromage",
-					"goto":{"act":"acte02","seq":1},
+					"goto":{"act":"act02","seq":1},
 					"data":{
 						"fr_name":"P'ti fromage"
 					}
@@ -90,9 +93,9 @@
 		"5":{
 			"messages":[
 				{"from":"italy","text":"Ok %fr_name% "},
-				{"from":"hungaria","text":"Ça me va aussi,  %fr_name% "}
+				{"from":"hungary","text":"Ça me va aussi,  %fr_name% "}
 			],
-			"goto":{"act":"acte02","seq":2}
+			"goto":{"act":"act02","seq":2}
 		}
 	}
 

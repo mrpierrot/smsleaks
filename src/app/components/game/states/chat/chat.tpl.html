@@ -2,10 +2,13 @@
 <div class="game">
 
 	<div class="messages" >
-		<sms data="msg" ng-repeat="msg in messages" />
+		<sms data="msg" ng-repeat="msg in messages"/>
 
 	</div>
-	<div class="responses">
-		<response data="res" ng-repeat="res in responses" />
+	<div class="responses-container" ng-show="showResponses">
+		<div class="responses-label" >Répondre : </div>
+		<div class="responses" >
+			<response data="res" ng-repeat="res in responses" />
+		</div>
 	</div>
 </div>

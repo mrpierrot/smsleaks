@@ -1,27 +1,39 @@
 {
 	"france":{
-		"name":"François",
-		"avatar":""
+		"name":"François"
 	},
 	"germany":{
 		"name":"Angela",
-		"avatar":"",
 		"friendship":0
 	},
 	"italy":{
 		"name":"Matteo",
-		"avatar":"",
 		"friendship":0
 	},
 	"greece":{
 		"name":"Alexis",
-		"avatar":"",
 		"friendship":0
 	},
 	"hungary":{
 		"name":"Victor",
-		"avatar":"",
+		"friendship":0
+	},
+	"eu":{
+		"name":"Jean Claude",
+		"friendship":0
+	},
+	"uk":{
+		"name":"David",
+		"friendship":0
+	},
+	"usa":{
+		"name":"Barack",
+		"friendship":0
+	},
+	"syria":{
+		"name":"Bashar",
 		"friendship":0
 	}
+
 
 }
