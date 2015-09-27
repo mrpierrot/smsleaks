@@ -92,7 +92,8 @@ gulp.task('build-index',function(){
 	return gulp.src(pkg.project.source+'/index.html')
         .pipe(template({
         	title:pkg.name,
-        	bundle: pkg.project.bundle.dest
+        	bundleJS: pkg.project.bundle.dest,
+        	bundleCSS: pkg.project.bundle.css+'/bundle.css',
         }))
         .pipe(gulp.dest(buildDir));
 });
@@ -112,7 +113,7 @@ gulp.task('less', function () {
 	   	.pipe(sourcemaps.init({loadMaps: true}))
 	   		//.pipe(uglify())
     	.pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest(buildDir+'/css'))
+    .pipe(gulp.dest(buildDir+pkg.project.bundle.css))
     .pipe(livereload());
 });
 

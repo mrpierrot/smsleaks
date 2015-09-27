@@ -12,7 +12,8 @@
     "bundle": {
       "main": "/app/app.js",
       "dest": "/app/bundle.js",
-      "assets": "/assets"
+      "assets": "/assets",
+      "css": "/app/css"
     },
     "server": {
       "port": 1983,
