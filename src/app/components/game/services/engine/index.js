@@ -106,7 +106,7 @@ module.exports = function(angular,config){
                         scope.playerContinue = lastUserWrite == player;
                         responsesDisplay.splice(0,responsesDisplay.length);
                         nextSingleMsg.goQueue = true;
-                        nextSingleMsg.text = replaceStrings(replaceStrings.text);
+                        nextSingleMsg.text = replaceStrings(nextSingleMsg.text);
                         responsesDisplay.push(nextSingleMsg);
                         responsesEnabled = true;
                         scope.$emit('showResponses');      
