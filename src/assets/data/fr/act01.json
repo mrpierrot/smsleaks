@@ -14,7 +14,7 @@
         },
         {
           "from": "uk",
-          "text": "Ouai. En attendants, j'ai tous les migrants illégaux du coin qui toque à ma porte.",
+          "text": "ouais. En attendant, j'ai tous les migrants illégaux du coin qui toque à ma porte.",
           "delay": 1
         },
         {
@@ -69,7 +69,7 @@
         },
         {
           "from": "france",
-          "text": "Mais oui sinon Julie va bien. Je te remercie. Et toi ta petite famille ?",
+          "text": "Mais n'empeche que vous aider plus les %migrants§ que nous !",
           "delay": 1
         },
         {
@@ -80,7 +80,7 @@
       ],
       "responses": [
         {
-          "text": "Mouai. Tu paies rien pour attendre.",
+          "text": "Mouais. Tu paies rien pour attendre.",
           "goto": 4,
           "friendship": {
             "uk": 0
@@ -124,7 +124,7 @@
         },
         {
           "from": "uk",
-          "text": "Ouai ouai, on verra.",
+          "text": "Ouais ouais, on verra.",
           "delay": 1
         },
         {
@@ -184,7 +184,7 @@
         },
         {
           "from": "france",
-          "text": "Ouai t'as raison.",
+          "text": "ouais t'as raison.",
           "delay": 1
         },
         {
@@ -561,7 +561,7 @@
         },
         {
           "from": "hungary",
-          "text": "Euh ouai. Les goûts et les couleurs hein.",
+          "text": "Euh ouais. Les goûts et les couleurs hein.",
           "delay": 1
         },
         {
@@ -711,7 +711,7 @@
         },
         {
           "from": "hungary",
-          "text": "Ouai, l’Europe, l’Europe…",
+          "text": "ouais, l’Europe, l’Europe…",
           "delay": 1
         },
         {
@@ -728,14 +728,14 @@
       "responses": [
         {
           "text": "Pareil.",
-          "goto": 16,
+          "goto": 15,
           "friendship": {
             "hungary": 5
           }
         },
         {
-          "text": "Ouai, c'est chaud.",
-          "goto": 16,
+          "text": "ouais, c'est chaud.",
+          "goto": 15,
           "friendship": {
             "hungary": -5
           }
@@ -751,7 +751,7 @@
         },
         {
           "from": "hungary",
-          "text": "Ouai, mais y a des réducs sur le barbelé en ce moment",
+          "text": "ouais, mais y a des réducs sur le barbelé en ce moment",
           "delay": 1
         },
         {
@@ -771,7 +771,7 @@
         },
         {
           "from": "hungary",
-          "text": "Ouai j'ai reçu le catalogue à la maison.",
+          "text": "ouais j'ai reçu le catalogue à la maison.",
           "delay": 1
         },
         {
@@ -821,12 +821,12 @@
         },
         {
           "from": "france",
-          "text": "Et puis ça va être dur pour tes voisins.",
+          "text": "Ca va être dur pour tes voisins.",
           "delay": 1
         },
         {
           "from": "hungary",
-          "text": "Ouai. J’imagine que la Croatie va prendre cher. ",
+          "text": "ouais. J’imagine que la Croatie va prendre cher. ",
           "delay": 1
         }
       ],
@@ -921,7 +921,7 @@
         },
         {
           "from": "france",
-          "text": "Ouai et ?",
+          "text": "ouais et ?",
           "delay": 1
         },
         {
@@ -1236,7 +1236,7 @@
         },
         {
           "from": "ue",
-          "text": "Ouai on a pas besoin de ça.",
+          "text": "ouais on a pas besoin de ça.",
           "delay": 1
         },
         {
@@ -1261,7 +1261,7 @@
         },
         {
           "from": "france",
-          "text": "Ouai. Bon il faut que j'en parle à mes conseillers.",
+          "text": "ouais. Bon il faut que j'en parle à mes conseillers.",
           "delay": 1
         },
         {
@@ -1377,7 +1377,7 @@
       ],
       "responses": [
         {
-          "text": "Ouai, bonne journée",
+          "text": "ouais, bonne journée",
           "goto": {
             "act": "act02",
             "seq": 1
@@ -1437,7 +1437,7 @@
         },
         {
           "from": "france",
-          "text": "Ouai. Bon il faut que j'en parle à mes conseillers.",
+          "text": "ouais. Bon il faut que j'en parle à mes conseillers.",
           "delay": 1
         },
         {
@@ -1553,7 +1553,7 @@
       ],
       "responses": [
         {
-          "text": "Ouai, bonne journée",
+          "text": "ouais, bonne journée",
           "goto": {
             "act": "act02",
             "seq": 1

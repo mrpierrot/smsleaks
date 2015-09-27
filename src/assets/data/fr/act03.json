@@ -212,9 +212,9 @@
 				"messages":[
 					{"from":"germany","text":"Ça m'embête mais bon...","delay":1}, 
                     {"from":"germany","text":"Je me vois pas trop dire quoi que ce soit vu ce qui vient de sortir.","delay":1},
-                    {"from":"france","text":"Ouai.", "delay":1},
+                    {"from":"france","text":"Ouais.", "delay":1},
                     {"from":"france","text":"Après l'histoire du camion avec les femmes et enfants morts dedans... On peut pas se permettre de ne pas réagir face à une image aussi forte.","delay":1},
-                    {"from":"germany","text":"Ouai","delay":1},
+                    {"from":"germany","text":"Ouais","delay":1},
                     {"from":"germany","text":"T'appelle Viktor pour faire un point avec lui ? Il peut pas trop me voir en ce moment.","delay":1},
                     {"from":"germany","text":"Si tu veux pas, je le fais mais bon... J'ai pas envie de me farcir 1h de blabla pour rien parce qu'il peut pas m'encadrer.","delay":1},
                     {"from":"germany","text":"Parce qu'il va falloir discuter concrètement avec JC.","delay":1},
@@ -243,9 +243,9 @@
     "8":{
 				"messages":[
 					{"from":"france","text":"T'es là Viktor ?","delay":1}, 
-                    {"from":"hungary","text":"Ouai. J'imagine que tu me contactes suite à la photo du gosse en Turquie.","delay":1},
+                    {"from":"hungary","text":"Ouais. J'imagine que tu me contactes suite à la photo du gosse en Turquie.","delay":1},
                     {"from":"france","text":"C'est ça.", "delay":1},
-                    {"from":"france","text":"Ouai. Il faut que nos équipes se coordonnent.", "delay":1},
+                    {"from":"france","text":"Ouais. Il faut que nos équipes se coordonnent.", "delay":1},
                     {"from":"hungary","text":"Je mets en contact mes services avec les tiens. Qu'est-ce que je peux faire d'autre ? ", "delay":1},
 
                     {"from":"france","text":"On va se bouger avec Angela.", "delay":1},
@@ -265,7 +265,7 @@
                         
                     },
                 {
-						"text":"Ouai ça va créer un appel d'air aux migrants",
+						"text":"Ouais ça va créer un appel d'air aux migrants",
 						"goto":["hungary.friendship > 5",11,{"act":"act03","seq":12}],
 						"friendship":{
 							"hungary":5
@@ -348,7 +348,7 @@
                     {"from":"france","text":"Vas-y molo quand même.", "delay":1},
                     {"from":"france","text":"C'est l'Allemagne. Une des grosses puissances européennes.", "delay":1},
                     {"from":"france","text":"Elle a plus de députés au parlement européen que nous.", "delay":1},
-                    {"from":"hungary","text":"Mouai. Je me méfie, mais il faudra peut-être en arriver là un jour.", "delay":1},
+                    {"from":"hungary","text":"Mouais. Je me méfie, mais il faudra peut-être en arriver là un jour.", "delay":1},
                     {"from":"germany","text":"Bonjour tout le monde.","delay":3},
                     {"from":"germany","text":"Devant l'afflux de migrants en Allemagne, je suis obligé de fermer les frontières.","delay":1},
                     {"from":"france","text":"Ah ?", "delay":1},   
@@ -481,7 +481,7 @@
                     {"from":"ue","text":"Son père aurait survécu au naufrage.","delay":1},
                     {"from":"france","text":"L'horreur.","delay":1},
                     {"from":"ue","text":"T'imagines les gosses qui ont vu passer ça sur Twitter ?","delay":1},  
-                    {"from":"france","text":"Ouai. Espérons que ça réveille les consciences. Et que ça fasse bouger les choses","delay":1},  
+                    {"from":"france","text":"Ouais. Espérons que ça réveille les consciences. Et que ça fasse bouger les choses","delay":1},  
                     {"from":"ue","text":"T'as raison. Au boulot !","delay":1},  
                     {"from":"france","text":"C'est pas le moment de déconner.","delay":1},  
                     {"from":"ue","text":"Il va falloir trouver des solutions.","delay":1},  
@@ -652,7 +652,7 @@
                     {"from":"france","text":"Non, moi c'est le président normal.","delay":1},
                     {"from":"germany","text":"Ah oui j'avais oublié.","delay":1},  
                     {"from":"france","text":"Et le président des bisous aussi. Mais ça c'est que quand je visite des écoles. C'est le genre de trucs qui plait beaucoup aux gamins","delay":1},
-                    {"from":"germany","text":"Ouai enfin pour l'instant on n'est pas les présidents des migrants","delay":1},
+                    {"from":"germany","text":"Ouais enfin pour l'instant on n'est pas les présidents des migrants","delay":1},
                     {"from":"france","text":"C'est le moins qu'on puisse dire.","delay":1},
                     {"from":"germany","text":"Comment on fait alors ?","delay":1}
 

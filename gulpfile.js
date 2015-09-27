@@ -14,6 +14,7 @@ var gulp = require('gulp'),
 	source = require('vinyl-source-stream'),
 	buffer = require('vinyl-buffer'),
 	template = require('gulp-template'),
+	gulpif = require('gulp-if'),
 	del = require('del'),
 	rename = require('gulp-rename'),
 	path = require('path'),
@@ -22,45 +23,41 @@ var gulp = require('gulp'),
 	less = require('gulp-less'),
 	livereload = require('gulp-livereload');
 
+var options = require("minimist")(process.argv.slice(2));
+var buildDir = options.production?pkg.project.dist:pkg.project.build;
+
 var browserified = browserify({
 	cache: {},
     packageCache: {},
 	entries: pkg.project.source+pkg.project.bundle.main,
-	debug:true
+	debug:true,
+	transform:[
+		[stringify,{extensions: ['.html']}]
+	]
 });
 
 var watchified = watchify(browserified);
 
 function bundle(b){
-	var basename = path.basename(pkg.project.build+pkg.project.bundle.dest);
-	var dirname = path.dirname(pkg.project.build+pkg.project.bundle.dest);
+	var basename = path.basename(buildDir+pkg.project.bundle.dest);
+	var dirname = path.dirname(buildDir+pkg.project.bundle.dest);
 	return b
-		.transform(stringify({
-		  extensions: ['.html']/*,
-		  minify: true,
-		  minifier: {
-		    extensions: ['.html'],
-		    options: {
-		      // html-minifier options 
-		    }
-		  }*/
-		}))
 	    .bundle()
 		.on('error', gutil.log.bind(gutil, 'Browserify Error'))
 	   	.pipe(source(basename))
 	   	.pipe(buffer())
 	   	.pipe(sourcemaps.init({loadMaps: true}))
-	   		//.pipe(uglify())
+	   	.pipe(gulpif(options.production, uglify()))
     	.pipe(sourcemaps.write('./'))
     	.pipe(gulp.dest(dirname))
-    	//.pipe(livereload());
+    	.pipe(livereload());
 }
 
 /**
  * Clean build directory
  */
 gulp.task('clean', function(cb) {
-  return del([pkg.project.build+'/*']);
+  return del([buildDir+'/*']);
 });
 
 /**
@@ -68,15 +65,15 @@ gulp.task('clean', function(cb) {
  */
 gulp.task('connect',function(){
 	connect.server({
-		root:pkg.project.build,
-		port:pkg.project.server.port/*,
+		root:buildDir,
+		port:pkg.project.server.port,
 		livereload:{
 			port:pkg.project.server['livereload-port']
-		}*/
+		}
 	});
-	 /*livereload.listen({
+	 livereload.listen({
 	 	port:pkg.project.server['livereload-port']
-	 });*/
+	 });
 })
 
 gulp.task('browserify',function(){
@@ -97,12 +94,13 @@ gulp.task('build-index',function(){
         	title:pkg.name,
         	bundle: pkg.project.bundle.dest
         }))
-        .pipe(gulp.dest(pkg.project.build));
+        .pipe(gulp.dest(buildDir));
 });
 
 gulp.task('assets',function(){
 	return gulp.src(pkg.project.source+pkg.project.bundle.assets+'/**/*')
-	.pipe(gulp.dest(pkg.project.build+pkg.project.bundle.assets));
+	.pipe(gulp.dest(buildDir+pkg.project.bundle.assets))
+	.pipe(livereload());
 });
 
 
@@ -114,25 +112,28 @@ gulp.task('less', function () {
 	   	.pipe(sourcemaps.init({loadMaps: true}))
 	   		//.pipe(uglify())
     	.pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest(pkg.project.build+'/css'));
+    .pipe(gulp.dest(buildDir+'/css'))
+    .pipe(livereload());
 });
-/*
-gulp.task('less', function () {
-  return gulp.src(pkg.project.source+'/bundle.less')
-    .pipe(less())
-    .pipe(gulp.dest(pkg.project.build+'/css'));
-});
-*/
-
 
 
 gulp.task('default',function(){
-	gulp.watch(pkg.project.source+'/**/*.less',['less']);
-	runSequence(
-		['clean'],
-		['build-index','assets','watchify','less'],
-		['connect']
-	);
+	if(options.production){
+		return runSequence(
+			['clean'],
+			['build-index','assets','browserify','less'],
+			['connect']
+		);
+	}else{
+		gulp.watch(pkg.project.source+'/**/*.less',['less']);
+		gulp.watch(pkg.project.source+'/assets/**/*',['assets']);
+		runSequence(
+			['clean'],
+			['build-index','assets','watchify','less'],
+			['connect']
+		);
+	}
+	
 
 });
 
