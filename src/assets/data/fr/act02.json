@@ -4,13 +4,19 @@
 				"messages":[
                     
                     
-                    {"from":"greece","text":"Hé François t'as deux minutes?","delay":1},
-                    {"from":"france","text":"Ha nan désolé Alexis j'ai réunion avec l'UE","delay":1},
-                    {"from":"greece","text":"Avec l'UE? Attends, mais je représente la Grèce, je suis pas censé être invité du coup?","delay":1},
-                    {"from":"france","text":"Ha merde...je sais plus...JC a du se dire que t'étais occupé. Allez je dois te laisser ","delay":1},
-                    {"from":"ue","text":"François, faut qu'on parle.","delay":1},
-					{"from":"france","text":"Jean-Claude, si c'est encore pour me bassiner avec ton plan d'investissement je t'ai déjà dit : ce sera 8 milliards, pas un euro de plus.","delay":1},
-                    {"from":"ue","text":"Relax ! C'est bon, j'ai pigé, t'es un pince, on va pas revenir là-dessus. Non, je te contacte parce que j'ai une bonne nouvelle à t'annoncer. ","delay":1}            
+                    {"from":"greece","text":"Hé François t'as deux minutes?", "timestamp":"2015-04-23T09:57" },
+                    {"from":"france","text":"Ha nan désolé Alexis j'ai réunion extraordinaire avec le conseil" },
+                    {"from":"greece","text":"Avec le conseil? Attends, mais je suis pas censé y être du coup? " },
+                    {"from":"france","text":"Ha merde...je sais plus...on dû se dire que t'étais déjà assez occupé. Allez, bisous."}, 
+                    {"from":"germany","text":"Ce que c'est chiant ces minutes de silence pour les naufragés...","timestamp":"2015-04-23T10:01"},
+                    {"from":"france","text":"haha j'étais en train de t'envoyer un texto!"},
+                    {"from":"germany","text":"Bon, de toutes façon on est d'accord hein? On dit que la situation en Méditerranée est une tragédie, qu'on va lutter contre les traficants dans le respect du droit international, prévenir les flux migratoires irréguliers, renforcer la solidarité et la responsabilité interne, et puis on attend des nouvelles de la commission."},
+                    {"from":"france","text":"ça me semble bien."},
+                    {"from":"france","text":"Ha, ça y est, on dirait qu'on peut parler!"},
+                    {"from":"germany","text":"Bon, allez, courage. On se retrouve à l'after."},
+                    {"from":"ue","text":"François, faut qu'on parle.","timestamp":"2015-05-13T11:30"},
+					{"from":"france","text":"Jean-Claude, si c'est encore pour me bassiner avec ton plan d'investissement je t'ai déjà dit : ce sera 8 milliards, pas un euro de plus."},
+                    {"from":"ue","text":"Relax ! C'est bon, j'ai pigé, t'es un pince, on va pas revenir là-dessus. Non, je te contacte parce que j'ai une bonne nouvelle à t'annoncer. "}            
 				],
 				"responses":[
 					{
@@ -28,14 +34,14 @@
             
           "2":{
 				"messages":[
-					{"from":"france","text":"Vas-y balance.","delay":1},
-                    {"from":"ue","text":"Bon, tu te souviens du problème de démographie dont tu m'avais parlé ?","delay":1},
-                    {"from":"france","text":"Ouais...","delay":1},
-                    {"from":"ue","text":"Et ta difficulté à trouver de la main-d’œuvre dans les nouvelles technologies et l'ingénierie ?","delay":1},
-                    {"from":"france","text":"Va droit au but s'il te plaît, j'ai un président tchadien qui m'attend là.","delay":1},
-                    {"from":"ue","text":"Bon, ben j'ai trouvé une solution pour résoudre ces deux problèmes d'un seul coup.","delay":1},
-                    {"from":"france","text":"...","delay":1},
-                    {"from":"ue","text":"tu vas accueillir des %migrants% !","delay":1}
+					{"from":"france","text":"Vas-y balance."},
+                    {"from":"ue","text":"Bon, tu te souviens du problème de démographie dont tu m'avais parlé ?"},
+                    {"from":"france","text":"Ouais..."},
+                    {"from":"ue","text":"Et ta difficulté à trouver de la main-d’œuvre dans les nouvelles technologies et l'ingénierie ?"},
+                    {"from":"france","text":"Va droit au but s'il te plaît, j'ai un président tchadien qui m'attend là."},
+                    {"from":"ue","text":"Bon, ben j'ai trouvé une solution pour résoudre ces deux problèmes d'un seul coup."},
+                    {"from":"france","text":"..."},
+                    {"from":"ue","text":"tu vas accueillir des %migrants% !"}
 				],
 				"responses":[
 					{
@@ -53,15 +59,15 @@
             
            "3":{
 				"messages":[
-                    {"from":"ue","text":"Rhaaa, mais écoute-moi au moins !","delay":1},
-					{"from":"german","text":"Vas-y balance.","delay":1},
-                    {"from":"ue","text":"Bon, tu te souviens du problème de démographie dont tu m'avais parlé ?","delay":1},
-                    {"from":"france","text":"Ouais...","delay":1},
-                    {"from":"ue","text":"Et ta difficulté à trouver de la main-d’œuvre dans les nouvelles technologies et l'ingénierie ?","delay":1},
-                    {"from":"france","text":"Va droit au but s'il te plaît, j'ai un président tchadien qui m'attend là.","delay":1},
-                    {"from":"ue","text":"Bon, ben j'ai trouvé une solution pour résoudre ces deux problèmes d'un seul coup.","delay":1},
-                    {"from":"france","text":"...","delay":1},
-                    {"from":"ue","text":"tu vas accueillir des %migrants% !","delay":1}
+                    {"from":"ue","text":"Rhaaa, mais écoute-moi au moins !"},
+					{"from":"france","text":"Vas-y balance."},
+                    {"from":"ue","text":"Bon, tu te souviens du problème de démographie dont tu m'avais parlé ?"},
+                    {"from":"france","text":"Ouais..."},
+                    {"from":"ue","text":"Et ta difficulté à trouver de la main-d’œuvre dans les nouvelles technologies et l'ingénierie ?"},
+                    {"from":"france","text":"Va droit au but s'il te plaît, j'ai un président tchadien qui m'attend là."},
+                    {"from":"ue","text":"Bon, ben j'ai trouvé une solution pour résoudre ces deux problèmes d'un seul coup."},
+                    {"from":"france","text":"..."},
+                    {"from":"ue","text":"tu vas accueillir des %migrants% !"}
 				],
 				"responses":[
 					{
@@ -79,13 +85,13 @@
             
            	"4":{
 				"messages":[
-					{"from":"ue","text":"Ok ?","delay":1},
-                    {"from":"france","text":"Ben ouais Ok. On va pas les laisser crever aux frontières quand même.","delay":1},
-                    {"from":"ue","text":"Ha c'est marrant je m'attendais pas à ça de toi.","delay":1},
-                    {"from":"france","text":"Tu t'attendais à quoi ? Je suis de gauche quand même je te rappelle.","delay":1},
-                    {"from":"ue","text":"Nan nan, mais c'est juste que...","delay":1},
-                    {"from":"france","text":"Juste quoi ?","delay":1},
-                    {"from":"ue","text":"Nan rien oublie. Bon ben c'est cool alors.","delay":1}
+					{"from":"ue","text":"Ok ?"},
+                    {"from":"france","text":"Ben ouais Ok. On va pas les laisser crever aux frontières quand même."},
+                    {"from":"ue","text":"Ha c'est marrant je m'attendais pas à ça de toi."},
+                    {"from":"france","text":"Tu t'attendais à quoi ? Je suis de gauche quand même je te rappelle."},
+                    {"from":"ue","text":"Nan nan, mais c'est juste que..."},
+                    {"from":"france","text":"Juste quoi ?"},
+                    {"from":"ue","text":"Nan rien oublie. Bon ben c'est cool alors."}
 				],
 				"responses":[
 					{
@@ -104,10 +110,10 @@
 
 			"5":{
 				"messages":[
-					{"from":"france","text":"J'en accueille déjà des %migrants% ! J'ai accordé 15 000 demandes d'asiles rien que l'année dernière !","delay":1},
-                    {"from":"ue","text":"Ouais enfin, là, sur mon papier, j'ai marqué 22 % d'asiles accordés, c'est pas super jojo. Collectivement je te rappelle qu'on est à 45 % quand même !","delay":1},
-                    {"from":"france","text":"Et quoi ? Tu vas quand même pas me forcer à en prendre plus quand même ?","delay":1},
-                    {"from":"ue","text":"Ben...si...","delay":1}                
+					{"from":"france","text":"J'en accueille déjà des %migrants% ! J'ai accordé 15 000 demandes d'asiles rien que l'année dernière !"},
+                    {"from":"ue","text":"Ouais enfin, là, sur mon papier, j'ai marqué 22 % d'asiles accordés, c'est pas super jojo. Collectivement je te rappelle qu'on est à 45 % quand même !"},
+                    {"from":"france","text":"Et quoi ? Tu vas quand même pas me forcer à en prendre plus quand même ?"},
+                    {"from":"ue","text":"Ben...si..."}                
 				],
 				"responses":[
 					{
@@ -128,15 +134,15 @@
 
             "6":{
 				"messages":[
-					{"from":"ue","text":"Rappelle-toi qu'on parle d'effort collectif hein !","delay":1},
-                    {"from":"france","text":"Oui, Ok, combien ? ","delay":1},
-                    {"from":"ue","text":"J'ai pris des mecs pour calculer ça de manière juste, en fonction du PIB, des habitants...","delay":1},
-                    {"from":"france","text":"Combien?","delay":1},
-                    {"from":"ue","text":"Dans ton cas...disons...une augmentation de 14 %","delay":1},
-                    {"from":"france","text":"Haaaa, mais ça vaaaaaa","delay":1},
-                    {"from":"france","text":"Franchement, tu m'as fait flipper l'espace d'un instant.","delay":1},
-                    {"from":"france","text":"Bon donc, 22 %, plus 14 %, ça fait quoi, quelque chose dans les 23,1 %?","delay":1},
-                    {"from":"ue","text":"Euh non...pas 14 % de 22 %...14 % en plus. 36 %. 6.750 demandeurs d'asile en plus dans les deux ans.","delay":1}
+					{"from":"ue","text":"Rappelle-toi qu'on parle d'effort collectif hein !"},
+                    {"from":"france","text":"Oui, Ok, combien ? "},
+                    {"from":"ue","text":"J'ai pris des mecs pour calculer ça de manière juste, en fonction du PIB, des habitants..."},
+                    {"from":"france","text":"Combien?"},
+                    {"from":"ue","text":"Dans ton cas...disons...une augmentation de 14 %"},
+                    {"from":"france","text":"Haaaa, mais ça vaaaaaa"},
+                    {"from":"france","text":"Franchement, tu m'as fait flipper l'espace d'un instant."},
+                    {"from":"france","text":"Bon donc, 22 %, plus 14 %, ça fait quoi, quelque chose dans les 23,1 %?"},
+                    {"from":"ue","text":"Euh non...pas 14 % de 22 %...14 % en plus. 36 %. 6.750 demandeurs d'asile en plus."}
                                         
 				],
 				"responses":[
@@ -165,23 +171,23 @@
             
             "7":{
 				"messages":[
-					{"from":"ue","text":"...J'ai évoqué l'idée.","delay":1},
-                    {"from":"france","text":"Et ?","delay":1},
-                    {"from":"ue","text":"Je sais pas...j'ai toujours du mal à la cerner.","delay":1},
-                    {"from":"ue","text":"Tu pourrais peut-être essayer de la convaincre toi, vu que t'es d'accord.","delay":1},
-                    {"from":"france","text":"Ola ola! J'ai pas dit Ok encore...","delay":1},
-                    {"from":"ue","text":"Ben si.","delay":1},
-                    {"from":"france","text":"Non, j'ai dit que j'étais OK pour une meilleure répartition des %migrants%, mais si on commence à parler quota c'est autre chose.","delay":1},
-                    {"from":"ue","text":"Vazy, t'as déjà fait ton gros rat pour le plan d'investissement, tu peux me rendre ce service quand même...","delay":1},
-                    {"from":"france","text":"Bon ok, je vais voir ce que je peux faire.","delay":1},
-                    {"from":"france","text":"Angeeelaaaa!","delay":1},
-                    {"from":"france","text":"J’ai suivi ton allocution avant-hier, tu as été FOR-MI-DABLE!","delay":1},
-                    {"from":"france","text":"Et ce tailleur en soie jaune moutarde...du meilleur goût! Il est nouveau?","delay":1},
-                    {"from":"germany","text":"Est-ce que je te charrie sur ta chapka kazakhe moi?","delay":1},
-                    {"from":"france","text":"Quelle susceptibilité! Moi qui essayais de te faire un compliment…","delay":1},
-                    {"from":"germany","text":"Un compliment? Vas-y, balance, tu veux quoi?","delay":1},
-                    {"from":"gerfranceman","text":"Pragmatique. Directe. Tout ce que j’aime. Bon, puisque toi non plus tu ne veux pas tourner autour du pot, je voudrais te parler du plan de Jean-Claude, sur les %migrants%...","delay":1},
-                    {"from":"germany","text":"Ouais, et alors?","delay":1}  
+					{"from":"ue","text":"...J'ai évoqué l'idée."},
+                    {"from":"france","text":"Et ?"},
+                    {"from":"ue","text":"Je sais pas...j'ai toujours du mal à la cerner."},
+                    {"from":"ue","text":"Tu pourrais peut-être essayer de la convaincre toi, vu que t'es d'accord."},
+                    {"from":"france","text":"Ola ola! J'ai pas dit Ok encore..."},
+                    {"from":"ue","text":"Ben si."},
+                    {"from":"france","text":"Non, j'ai dit que j'étais OK pour une meilleure répartition des %migrants%, mais si on commence à parler quota c'est autre chose."},
+                    {"from":"ue","text":"Vazy, t'as déjà fait ton gros rat pour le plan d'investissement, tu peux me rendre ce service quand même..."},
+                    {"from":"france","text":"Bon ok, je vais voir ce que je peux faire."},
+                    {"from":"france","text":"Angeeelaaaa!","timestamp":"2015-05-14T18:11"},
+                    {"from":"france","text":"J’ai suivi ton allocution avant-hier, tu as été FOR-MI-DABLE!"},
+                    {"from":"france","text":"Et ce tailleur en soie jaune moutarde...du meilleur goût! Il est nouveau?"},
+                    {"from":"germany","text":"Est-ce que je te charrie sur ta chapka kazakhe moi?"},
+                    {"from":"france","text":"Quelle susceptibilité! Moi qui essayais de te faire un compliment…"},
+                    {"from":"germany","text":"Un compliment? Vas-y, balance, tu veux quoi?"},
+                    {"from":"gerfranceman","text":"Pragmatique. Directe. Tout ce que j’aime. Bon, puisque toi non plus tu ne veux pas tourner autour du pot, je voudrais te parler du plan de Jean-Claude, sur les %migrants%..."},
+                    {"from":"germany","text":"Ouais, et alors?"}  
                     
                     
 				],
@@ -208,22 +214,22 @@
 
             "8":{
 				"messages":[
-                    {"from":"ue","text":"C'est pas ce que j'ai dit...Mais disons que pas mal d'entre nous soutiennent déjà la proposition.","delay":1},
-                    {"from":"france","text":"Qui ?","delay":1},
-                    {"from":"ue","text":"Je ne sais pas si je peux te dire...","delay":1},
-                    {"from":"france","text":"Pas Angela quand même ?","delay":1},
-                    {"from":"ue","text":"Angela...c'est compliqué. ","delay":1},
-                    {"from":"france","text":"...C'est Matteo, c'est ça ? C'est lui qui t'a mis cette idée en tête ?","delay":4},
-                    {"from":"france","text":"Ha putain, il va m'entendre lui.","delay":1},
-                     {"from":"france","text":"Ho ! Matteo! C'est quoi cette histoire de quotas ?","delay":4},
-                    {"from":"italy","text":"Ah ouais, d'accord, tu dis même plus bonjour...","delay":1},
-                    {"from":"france","text":"Ouais ouais, buongiorno. Bon, écoute, moi je veux bien aider à une meilleure répartition des %migrants%, mais si vous commencer à jouer au jeu des quotas on va pas être copains.","delay":1},
-                    {"from":"italy","text":"Tu veux qu'on parle de la frontière ?","delay":1},
-                    {"from":"france","text":"Quelle frontière ?","delay":1},
-                    {"from":"italy","text":"Ta frontière. Ma frontière. Non parce que moi au sud je me tape les réfugiés qui arrivent de Méditerranée, et au nord, tous ceux que tu laisses pas entrer.","delay":1},
-                    {"from":"france","text":"On a un protocole...","delay":1},
-                    {"from":"italy","text":"Et moi j'ai 10 000 %migrants% sans-abri dans les couilles alors tu va arrêter de jouer au con et prendre la part qui te revient.","delay":1},
-                    {"from":"italy","text":"Dans les Pouilles* pardon. Foutue auto-correction.","delay":1}
+                    {"from":"ue","text":"C'est pas ce que j'ai dit...Mais disons que pas mal d'entre nous soutiennent déjà la proposition."},
+                    {"from":"france","text":"Qui ?"},
+                    {"from":"ue","text":"Je ne sais pas si je peux te dire..."},
+                    {"from":"france","text":"Pas Angela quand même ?"},
+                    {"from":"ue","text":"Angela...c'est compliqué. "},
+                    {"from":"france","text":"...C'est Matteo, c'est ça ? C'est lui qui t'a mis cette idée en tête ?"},
+                    {"from":"france","text":"Ha putain, il va m'entendre lui."},
+                     {"from":"france","text":"Ho ! Matteo! C'est quoi cette histoire de quotas ?", "timestamp":"2015-05-13T15:10"},
+                    {"from":"italy","text":"Ah ouais, d'accord, tu dis même plus bonjour..."},
+                    {"from":"france","text":"Ouais ouais, buongiorno. Bon, écoute, moi je veux bien aider à une meilleure répartition des %migrants%, mais si vous commencer à jouer au jeu des quotas on va pas être copains."},
+                    {"from":"italy","text":"Tu veux qu'on parle de la frontière ?"},
+                    {"from":"france","text":"Quelle frontière ?"},
+                    {"from":"italy","text":"Ta frontière. Ma frontière. Non parce que moi au sud je me tape les réfugiés qui arrivent de Méditerranée, et au nord, tous ceux que tu laisses pas entrer."},
+                    {"from":"france","text":"On a un protocole..."},
+                    {"from":"italy","text":"Et moi j'ai 10 000 %migrants% sans-abri dans les couilles alors tu va arrêter de jouer au con et prendre la part qui te revient."},
+                    {"from":"italy","text":"Dans les Pouilles* pardon. Foutue auto-correction."}
      
 				],
 				"responses":[
@@ -242,23 +248,23 @@
 
             "9":{
 				"messages":[
-					{"from":"france","text":"Et Angela elle prend combien ?","delay":1},
-                    {"from":"ue","text":"8800.","delay":1},
-                    {"from":"france","text":"Haha bien fait pour sa gueule.","delay":1},
-                    {"from":"ue","text":"Euh ben d'ailleurs, puisque t'as l'air motivé sur ce projet, si tu pouvais m'aider un peu l'aider à la convaincre...","delay":1},
-                    {"from":"france","text":"Ola ola! J'ai pas dit Ok encore...","delay":1},
-                    {"from":"ue","text":"Ben si.","delay":1},
-                    {"from":"france","text":"Non, j'ai dit que j'étais OK pour une meilleure répartition des %migrants%, mais si on commence à parler quota c'est autre chose.","delay":1},
-                    {"from":"ue","text":"Vazy, t'as déjà fait ton gros rat pour le plan d'investissement, tu peux me rendre ce service quand même...","delay":1},
-                    {"from":"france","text":"Bon ok, je vais voir ce que je peux faire.","delay":1},
-                    {"from":"france","text":"Angeeelaaaa!","delay":1},
-                    {"from":"france","text":"J’ai suivi ton allocution avant-hier, tu as été FOR-MI-DABLE!","delay":1},
-                    {"from":"france","text":"Et ce tailleur en soie jaune moutarde...du meilleur goût! Il est nouveau?","delay":1},
-                    {"from":"germany","text":"Est-ce que je te charrie sur ta chapka kazakhe moi?","delay":1},
-                    {"from":"france","text":"Quelle susceptibilité! Moi qui essayais de te faire un compliment…","delay":1},
-                    {"from":"germany","text":"Un compliment? Vas-y, balance, tu veux quoi?","delay":1},
-                    {"from":"france","text":"Pragmatique. Directe. Tout ce que j’aime. Bon, puisque toi non plus tu ne veux pas tourner autour du pot, je voudrais te parler du plan de Jean-Claude, sur les %migrants%...","delay":1},
-                    {"from":"germany","text":"Ouais, et alors?","delay":1}
+					{"from":"france","text":"Et Angela elle prend combien ?"},
+                    {"from":"ue","text":"8800."},
+                    {"from":"france","text":"Haha bien fait pour sa gueule."},
+                    {"from":"ue","text":"Euh ben d'ailleurs, puisque t'as l'air motivé sur ce projet, si tu pouvais m'aider un peu l'aider à la convaincre..."},
+                    {"from":"france","text":"Ola ola! J'ai pas dit Ok encore..."},
+                    {"from":"ue","text":"Ben si."},
+                    {"from":"france","text":"Non, j'ai dit que j'étais OK pour une meilleure répartition des %migrants%, mais si on commence à parler quota c'est autre chose."},
+                    {"from":"ue","text":"Vazy, t'as déjà fait ton gros rat pour le plan d'investissement, tu peux me rendre ce service quand même..."},
+                    {"from":"france","text":"Bon ok, je vais voir ce que je peux faire."},
+                    {"from":"france","text":"Angeeelaaaa!","timestamp":"2015-05-14T18:11"},
+                    {"from":"france","text":"J’ai suivi ton allocution avant-hier, tu as été FOR-MI-DABLE!"},
+                    {"from":"france","text":"Et ce tailleur en soie jaune moutarde...du meilleur goût! Il est nouveau?"},
+                    {"from":"germany","text":"Est-ce que je te charrie sur ta chapka kazakhe moi?"},
+                    {"from":"france","text":"Quelle susceptibilité! Moi qui essayais de te faire un compliment…"},
+                    {"from":"germany","text":"Un compliment? Vas-y, balance, tu veux quoi?"},
+                    {"from":"france","text":"Pragmatique. Directe. Tout ce que j’aime. Bon, puisque toi non plus tu ne veux pas tourner autour du pot, je voudrais te parler du plan de Jean-Claude, sur les %migrants%..."},
+                    {"from":"germany","text":"Ouais, et alors?"}
                     
                     
 				],
@@ -279,21 +285,21 @@
 
             "10":{
 				"messages":[
-					{"from":"ue","text":"Quoi non ?","delay":1},
-                    {"from":"france","text":"Non. Ça va pas être possible quoi.","delay":1},
-                    {"from":"france","text":"Une meilleure répartition des %migrants%, je veux bien, mais là les quotas ça va pas le faire.","delay":1},
-                    {"from":"france","text":"C'est Matteo qui t'a mis cette idée en tête ?","delay":1},
-                    {"from":"ue","text":"Disons que sa situation n'est pas étrangère à la proposition.","delay":1},
-                    {"from":"france","text":"Ah putain, il va m'entendre lui.","delay":1},
-                    {"from":"france","text":"Ho ! Matteo! C'est quoi cette histoire de quotas ?","delay":4},
-                    {"from":"italy","text":"Ah ouais, d'accord, tu dis même plus bonjour...","delay":1},
-                    {"from":"france","text":"Ouais ouais, buongiorno. Bon, écoute, moi je veux bien aider à une meilleure répartition des %migrants%, mais si vous commencer à jouer au jeu des quotas on va pas être copains.","delay":1},
-                    {"from":"italy","text":"Tu veux qu'on parle de la frontière ?","delay":1},
-                    {"from":"france","text":"Quelle frontière ?","delay":1},
-                    {"from":"italy","text":"Ta frontière. Ma frontière. Non parce que moi au sud je me tape les réfugiés qui arrivent de Méditerranée, et au nord, tous ceux que tu laisses pas entrer.","delay":1},
-                    {"from":"france","text":"On a un protocole...","delay":1},
-                    {"from":"italy","text":"Et moi j'ai 10 000 %migrants% sans-abri dans les couilles alors tu va arrêter de jouer au con et prendre la part qui te revient.","delay":1},
-                    {"from":"italy","text":"Dans les Pouilles* pardon. Foutue auto-correction.","delay":1}
+					{"from":"ue","text":"Quoi non ?"},
+                    {"from":"france","text":"Non. Ça va pas être possible quoi."},
+                    {"from":"france","text":"Une meilleure répartition des %migrants%, je veux bien, mais là les quotas ça va pas le faire."},
+                    {"from":"france","text":"C'est Matteo qui t'a mis cette idée en tête ?"},
+                    {"from":"ue","text":"Disons que sa situation n'est pas étrangère à la proposition."},
+                    {"from":"france","text":"Ah putain, il va m'entendre lui."},
+                    {"from":"france","text":"Ho ! Matteo! C'est quoi cette histoire de quotas ?","timestamp":"2015-05-13T15:10"},
+                    {"from":"italy","text":"Ah ouais, d'accord, tu dis même plus bonjour..."},
+                    {"from":"france","text":"Ouais ouais, buongiorno. Bon, écoute, moi je veux bien aider à une meilleure répartition des %migrants%, mais si vous commencer à jouer au jeu des quotas on va pas être copains."},
+                    {"from":"italy","text":"Tu veux qu'on parle de la frontière ?"},
+                    {"from":"france","text":"Quelle frontière ?"},
+                    {"from":"italy","text":"Ta frontière. Ma frontière. Non parce que moi au sud je me tape les réfugiés qui arrivent de Méditerranée, et au nord, tous ceux que tu laisses pas entrer."},
+                    {"from":"france","text":"On a un protocole..."},
+                    {"from":"italy","text":"Et moi j'ai 10 000 %migrants% sans-abri dans les couilles alors tu va arrêter de jouer au con et prendre la part qui te revient."},
+                    {"from":"italy","text":"Dans les Pouilles* pardon. Foutue auto-correction."}
      
 				],
 				"responses":[
@@ -312,19 +318,19 @@
 
             			"11":{
 				"messages":[
-					{"from":"france","text":"Parce que c'est pas en me balançant des noms d'oiseaux que tu vas réussir à me mettre à ta botte, ok ?","delay":1},
-                    {"from":"france","text":"...à ta botte...t'as pigé ?","delay":1},
-                    {"from":"france","text":"Non parce que ton pays ressemble un peu à une botte...","delay":1},
-                    {"from":"italy","text":"Ta gueule.","delay":1},
-                    {"from":"france","text":"Donc, ce que je te propose, c'est qu'on oublie ces quotas, qu'on se mette d'accord pour dire qu'on veut une meilleure répartition des %migrants% dans l'U.E, qu'on immortalise ça avec un serrage de pince devant les photographes et qu'on oublie toute cette histoire.","delay":1},
-                    {"from":"italy","text":"Ton serrage de pince tu peux te le mettre ou je pense. ","delay":1},
-                    {"from":"france","text":"Ha elle est belle l'amitié franco-italienne !","delay":1},
-                    {"from":"italy","text":"Ta gueule, François, ta gueule.","delay":1},
-                    {"from":"hungary","text":"Hé ma gueule, tu as entendu la dernière de Jean-Claude?","delay":1},
-                    {"from":"france","text":"Oui Viktor, malheureusement, j’ai entendu.","delay":1},
-                    {"from":"hungary","text":"J’espère que tu ne vas pas accepter un truc pareil. On va pas laisser ces musulmans nous envahir!","delay":1},
-                    {"from":"france","text":"On dit %migrants% maintenant. ","delay":1},
-                    {"from":"hungary","text":"Migrant, réfugiés, Arabes, musulmans...ça change rien au problème. Je te rappelle que j’ai l’extrême droite qui me colle au derrière, c’est pas le moment pour moi de bafouer les valeurs chrétiennes.","delay":1}
+					{"from":"france","text":"Parce que c'est pas en me balançant des noms d'oiseaux que tu vas réussir à me mettre à ta botte, ok ?"},
+                    {"from":"france","text":"...à ta botte...t'as pigé ?"},
+                    {"from":"france","text":"Non parce que ton pays ressemble un peu à une botte..."},
+                    {"from":"italy","text":"Ta gueule."},
+                    {"from":"france","text":"Donc, ce que je te propose, c'est qu'on oublie ces quotas, qu'on se mette d'accord pour dire qu'on veut une meilleure répartition des %migrants% dans l'U.E, qu'on immortalise ça avec un serrage de pince devant les photographes et qu'on oublie toute cette histoire."},
+                    {"from":"italy","text":"Ton serrage de pince tu peux te le mettre ou je pense. "},
+                    {"from":"france","text":"Ha elle est belle l'amitié franco-italienne !"},
+                    {"from":"italy","text":"Ta gueule, François, ta gueule."},
+                    {"from":"hungary","text":"Hé ma gueule, tu as entendu la dernière de Jean-Claude?","timestamp":"2015-05-15T19:21"},
+                    {"from":"france","text":"Oui Viktor, malheureusement, j’ai entendu."},
+                    {"from":"hungary","text":"J’espère que tu ne vas pas accepter un truc pareil. On va pas laisser ces musulmans nous envahir!"},
+                    {"from":"france","text":"On dit %migrants% maintenant. "},
+                    {"from":"hungary","text":"Migrant, réfugiés, Arabes, musulmans...ça change rien au problème. Je te rappelle que j’ai l’extrême droite qui me colle au derrière, c’est pas le moment pour moi de bafouer les valeurs chrétiennes."}
 				],
 				"responses":[
 					{
@@ -348,21 +354,21 @@
             
             			"12":{
 				"messages":[
-					{"from":"france","text":"Tu voudrais bien dire que c'était mon idée, la meilleure répartition des %migrants% tout ça ?","delay":1},
-                    {"from":"france","text":"Non parce que j'ai l'impression que je suis un peu en train de perdre mon électorat socialiste, j'ai besoin de réaffirmer une position de gauche.","delay":1},
-                    {"from":"france","text":" Et franchement, si je peux le faire sans avoir à passer des lois genre mariage pour tous, ça m'arrangerait pas mal. C'était un peu le bordel.","delay":1},
-                    {"from":"italy","text":"Haha ouais j'ai vu. Putain, moi j'ai promis l'union civile aux couples homos, je sais pas encore comment je vais m'en sortir.","delay":1},
-                    {"from":"france","text":"Bon, donc on est d'accord ? Je prends tes %migrants%, et on la joue amitié gaucho-Franco-Italienne ?","delay":1},
-                    {"from":"italy","text":"Ok...mais il va encore falloir convaincre la boche","delay":1},
-                    {"from":"france","text":"Angela ? Je m'en occupe.","delay":1},
-                    {"from":"france","text":"Angeeelaaaa!","delay":1},
-                    {"from":"france","text":"J’ai suivi ton allocution avant-hier, tu as été FOR-MI-DABLE!","delay":1},
-                    {"from":"france","text":"Et ce tailleur en soie jaune moutarde...du meilleur goût! Il est nouveau?","delay":1},
-                    {"from":"germany","text":"Est-ce que je te charrie sur ta chapka kazakhe moi?","delay":1},
-                    {"from":"france","text":"Quelle susceptibilité! Moi qui essayais de te faire un compliment…","delay":1},
-                    {"from":"germany","text":"Un compliment? Vas-y, balance, tu veux quoi?","delay":1},
-                    {"from":"france","text":"Pragmatique. Directe. Tout ce que j’aime. Bon, puisque toi non plus tu ne veux pas tourner autour du pot, je voudrais te parler du plan de Jean-Claude, sur les %migrants%...","delay":1},
-                    {"from":"germany","text":"Ouais, et alors?","delay":1}    
+					{"from":"france","text":"Tu voudrais bien dire que c'était mon idée, la meilleure répartition des %migrants% tout ça ?"},
+                    {"from":"france","text":"Non parce que j'ai l'impression que je suis un peu en train de perdre mon électorat socialiste, j'ai besoin de réaffirmer une position de gauche."},
+                    {"from":"france","text":" Et franchement, si je peux le faire sans avoir à passer des lois genre mariage pour tous, ça m'arrangerait pas mal. C'était un peu le bordel."},
+                    {"from":"italy","text":"Haha ouais j'ai vu. Putain, moi j'ai promis l'union civile aux couples homos, je sais pas encore comment je vais m'en sortir."},
+                    {"from":"france","text":"Bon, donc on est d'accord ? Je prends tes %migrants%, et on la joue amitié gaucho-Franco-Italienne ?"},
+                    {"from":"italy","text":"Ok...mais il va encore falloir convaincre la boche"},
+                    {"from":"france","text":"Angela ? Je m'en occupe."},
+                    {"from":"france","text":"Angeeelaaaa!","timestamp":"2015-05-14T18:11"},
+                    {"from":"france","text":"J’ai suivi ton allocution avant-hier, tu as été FOR-MI-DABLE!"},
+                    {"from":"france","text":"Et ce tailleur en soie jaune moutarde...du meilleur goût! Il est nouveau?"},
+                    {"from":"germany","text":"Est-ce que je te charrie sur ta chapka kazakhe moi?"},
+                    {"from":"france","text":"Quelle susceptibilité! Moi qui essayais de te faire un compliment…"},
+                    {"from":"germany","text":"Un compliment? Vas-y, balance, tu veux quoi?"},
+                    {"from":"france","text":"Pragmatique. Directe. Tout ce que j’aime. Bon, puisque toi non plus tu ne veux pas tourner autour du pot, je voudrais te parler du plan de Jean-Claude, sur les %migrants%..."},
+                    {"from":"germany","text":"Ouais, et alors?"}    
                     
                     
 				],
@@ -382,10 +388,10 @@
             
             			"13":{
 				"messages":[
-					{"from":"germany","text":"Ha bon? C’était pourtant ton idée la meilleure répartition des %migrants% dans l’UE.","delay":1},
-                    {"from":"france","text":"HA! Enfin quelqu’un qui le reconnaît!","delay":1},
-                    {"from":"france","text":"Ben du coup, tu vois, mon plan, c’est une meilleure répartition des %migrants% dans l’UE, mais SANS les quotas.","delay":1},
-                    {"from":"germany","text":"Et tu comptes faire comment du coup?","delay":1}
+					{"from":"germany","text":"Ha bon? C’était pourtant ton idée la meilleure répartition des %migrants% dans l’UE."},
+                    {"from":"france","text":"HA! Enfin quelqu’un qui le reconnaît!"},
+                    {"from":"france","text":"Ben du coup, tu vois, mon plan, c’est une meilleure répartition des %migrants% dans l’UE, mais SANS les quotas."},
+                    {"from":"germany","text":"Et tu comptes faire comment du coup?"}
         
 				],
 				"responses":[
@@ -403,11 +409,11 @@
             			"14":{
 				"messages":[
                 
-					{"from":"germany","text":"Il faut, il faut, t’es marrant, toi. C’est pas toi la première destination des %migrants% en Europe.","delay":1},
-                    {"from":"france","text":"Il faut te sentir flattée, les gens t’aiment Angela! ","delay":1},
-                    {"from":"germany","text":"Alors toi tu dois te sentir merdeux d’être derrière la Hongrie, l’Autriche et l’Italie, non?","delay":1},
-                    {"from":"france","text":"Ben justement, soutenir cette mesure remonterait un peu ma côte. ","delay":1},
-                    {"from":"germany","text":"Mais tu serais prêt à les récupérer, toi, tes  6.750 migrants en plus?","delay":1}
+					{"from":"germany","text":"Il faut, il faut, t’es marrant, toi. C’est pas toi la première destination des %migrants% en Europe."},
+                    {"from":"france","text":"Il faut te sentir flattée, les gens t’aiment Angela! "},
+                    {"from":"germany","text":"Alors toi tu dois te sentir merdeux d’être derrière la Hongrie, l’Autriche et l’Italie, non?"},
+                    {"from":"france","text":"Ben justement, soutenir cette mesure remonterait un peu ma côte. "},
+                    {"from":"germany","text":"Mais tu serais prêt à les récupérer, toi, tes  6.750 migrants en plus?"}
                 
 				],
 				"responses":[
@@ -428,18 +434,18 @@
 
       			"15":{
 				"messages":[
-					{"from":"france","text":"Entre nous, toi, moi, Matteo...on a déjà fait beaucoup non?","delay":1},
-                    {"from":"france","text":"Pourquoi ce serait pas un peu aux autres de faire des efforts?","delay":1},
-                    {"from":"germany","text":"Les autres? Quels autres?","delay":1},
-                    {"from":"france","text":"Je sais pas, les autres. Pas nous quoi. ","delay":1},
-                    {"from":"germany","text":"Ha ouais, je vois que t’as un plan en béton. Bon ben du coup si tu penses qu’à ta gueule je vais faire pareil, hein. ","delay":1},
-                    {"from":"france","text":"Ça veut dire quoi ça? Tu vas soutenir la commission ou tu vas t’opposer?","delay":1},
-                    {"from":"germany","text":"Tu verras bien gros malin.","delay":1},        
-                    {"from":"hungary","text":"Hé ma gueule, tu as entendu la dernière de Jean-Claude?","delay":1},
-                    {"from":"france","text":"Oui Viktor, malheureusement, j’ai entendu.","delay":1},
-                    {"from":"hungary","text":"J’espère que tu ne vas pas accepter un truc pareil. On va pas laisser ces musulmans nous envahir!","delay":1},
-                    {"from":"france","text":"On dit %migrants% maintenant. ","delay":1},
-                    {"from":"hungary","text":"Migrant, réfugiés, Arabes, musulmans...ça change rien au problème. Je te rappelle que j’ai l’extrême droite qui me colle au derrière, c’est pas le moment pour moi de bafouer les valeurs chrétiennes.","delay":1}
+					{"from":"france","text":"Entre nous, toi, moi, Matteo...on a déjà fait beaucoup non?"},
+                    {"from":"france","text":"Pourquoi ce serait pas un peu aux autres de faire des efforts?"},
+                    {"from":"germany","text":"Les autres? Quels autres?"},
+                    {"from":"france","text":"Je sais pas, les autres. Pas nous quoi. "},
+                    {"from":"germany","text":"Ha ouais, je vois que t’as un plan en béton. Bon ben du coup si tu penses qu’à ta gueule je vais faire pareil, hein. "},
+                    {"from":"france","text":"Ça veut dire quoi ça? Tu vas soutenir la commission ou tu vas t’opposer?"},
+                    {"from":"germany","text":"Tu verras bien gros malin."},        
+                    {"from":"hungary","text":"Hé ma gueule, tu as entendu la dernière de Jean-Claude?","timestamp":"2015-05-15T19:21"},
+                    {"from":"france","text":"Oui Viktor, malheureusement, j’ai entendu."},
+                    {"from":"hungary","text":"J’espère que tu ne vas pas accepter un truc pareil. On va pas laisser ces musulmans nous envahir!"},
+                    {"from":"france","text":"On dit %migrants% maintenant. "},
+                    {"from":"hungary","text":"Migrant, réfugiés, Arabes, musulmans...ça change rien au problème. Je te rappelle que j’ai l’extrême droite qui me colle au derrière, c’est pas le moment pour moi de bafouer les valeurs chrétiennes."}
 				],
 				"responses":[
 					{
@@ -457,19 +463,19 @@
 
                   			"16":{
 				"messages":[
-					{"from":"france","text":"Je veux dire, c’est pas comme si l’opinion publique en avait quelque chose à faire, si?","delay":1},
-                    {"from":"germany","text":"...Pas faux ","delay":1},
-                    {"from":"germany","text":"Mais imagine qu’il se passe un truc bien glauque, un truc bien médiatique qui fait la couv’ des magazines. On va avoir l’air fins après.","delay":1},
-                    {"from":"france","text":"On verra bien. Je sais pas les tiens, mais les miens ont la mémoire plutôt courte. ","delay":1},
-                    {"from":"germany","text":"Bon, Ok, écoute, on part là-dessus, je te tiens au jus si y’a du changement de mon côté.","delay":1},
-                    {"from":"france","text":"Nickel.","delay":1},
-                    {"from":"germany","text":"BFF?","delay":1},
-                     {"from":"france","text":"BFF!","delay":1},
-                    {"from":"hungary","text":"Hé ma gueule, tu as entendu la dernière de Jean-Claude?","delay":1},
-                    {"from":"france","text":"Oui Viktor, malheureusement, j’ai entendu.","delay":1},
-                    {"from":"hungary","text":"J’espère que tu ne vas pas accepter un truc pareil. On va pas laisser ces musulmans nous envahir!","delay":1},
-                    {"from":"france","text":"On dit %migrants% maintenant. ","delay":1},
-                    {"from":"hungary","text":"Migrant, réfugiés, Arabes, musulmans...ça change rien au problème. Je te rappelle que j’ai l’extrême droite qui me colle au derrière, c’est pas le moment pour moi de bafouer les valeurs chrétiennes.","delay":1}
+					{"from":"france","text":"Je veux dire, c’est pas comme si l’opinion publique en avait quelque chose à faire, si?"},
+                    {"from":"germany","text":"...Pas faux "},
+                    {"from":"germany","text":"Mais imagine qu’il se passe un truc bien glauque, un truc bien médiatique qui fait la couv’ des magazines. On va avoir l’air fins après."},
+                    {"from":"france","text":"On verra bien. Je sais pas les tiens, mais les miens ont la mémoire plutôt courte. "},
+                    {"from":"germany","text":"Bon, Ok, écoute, on part là-dessus, je te tiens au jus si y’a du changement de mon côté."},
+                    {"from":"france","text":"Nickel."},
+                    {"from":"germany","text":"BFF?"},
+                     {"from":"france","text":"BFF!"},
+                    {"from":"hungary","text":"Hé ma gueule, tu as entendu la dernière de Jean-Claude?","timestamp":"2015-05-15T19:21"},
+                    {"from":"france","text":"Oui Viktor, malheureusement, j’ai entendu."},
+                    {"from":"hungary","text":"J’espère que tu ne vas pas accepter un truc pareil. On va pas laisser ces musulmans nous envahir!"},
+                    {"from":"france","text":"On dit %migrants% maintenant. "},
+                    {"from":"hungary","text":"Migrant, réfugiés, Arabes, musulmans...ça change rien au problème. Je te rappelle que j’ai l’extrême droite qui me colle au derrière, c’est pas le moment pour moi de bafouer les valeurs chrétiennes."}
 				],
 				"responses":[
 					{
@@ -487,14 +493,14 @@
             
             "17":{
 				"messages":[
-					{"from":"germany","text":"Ha ouais d’accord, je vois le genre. Bon ben du coup si tu penses qu’à ta gueule je vais faire pareil, hein. ","delay":1},
-                    {"from":"france","text":"Ça veut dire quoi ça? Tu vas soutenir la commission ou tu vas t’opposer?","delay":1},
-                    {"from":"germany","text":"Tu verras bien gros malin.","delay":1},
-                    {"from":"hungary","text":"Hé ma gueule, tu as entendu la dernière de Jean-Claude?","delay":1},
-                    {"from":"france","text":"Oui Viktor, malheureusement, j’ai entendu.","delay":1},
-                    {"from":"hungary","text":"J’espère que tu ne vas pas accepter un truc pareil. On va pas laisser ces musulmans nous envahir!","delay":1},
-                    {"from":"france","text":"On dit %migrants% maintenant. ","delay":1},
-                    {"from":"hungary","text":"Migrant, réfugiés, Arabes, musulmans...ça change rien au problème. Je te rappelle que j’ai l’extrême droite qui me colle au derrière, c’est pas le moment pour moi de bafouer les valeurs chrétiennes.","delay":1}
+					{"from":"germany","text":"Ha ouais d’accord, je vois le genre. Bon ben du coup si tu penses qu’à ta gueule je vais faire pareil, hein. "},
+                    {"from":"france","text":"Ça veut dire quoi ça? Tu vas soutenir la commission ou tu vas t’opposer?"},
+                    {"from":"germany","text":"Tu verras bien gros malin."},
+                    {"from":"hungary","text":"Hé ma gueule, tu as entendu la dernière de Jean-Claude?","timestamp":"2015-05-15T19:21"},
+                    {"from":"france","text":"Oui Viktor, malheureusement, j’ai entendu."},
+                    {"from":"hungary","text":"J’espère que tu ne vas pas accepter un truc pareil. On va pas laisser ces musulmans nous envahir!"},
+                    {"from":"france","text":"On dit %migrants% maintenant. "},
+                    {"from":"hungary","text":"Migrant, réfugiés, Arabes, musulmans...ça change rien au problème. Je te rappelle que j’ai l’extrême droite qui me colle au derrière, c’est pas le moment pour moi de bafouer les valeurs chrétiennes."}
 				],
 				"responses":[
 					{
@@ -513,18 +519,18 @@
                
             "18":{
 				"messages":[
-					{"from":"france","text":"On a 2.6 millions de logements vides en France, on devrait bien être capable d’en réquisitionner quelques-uns. ","delay":1},
-                    {"from":"germany","text":"Ha ben Fanch, je dois dire que ta bonne volonté me surprend. ","delay":1},
-                    {"from":"germany","text":"Elle me fait chier un peu aussi. Avec David qui va exercer son droit de retrait, je vais avoir l’air de quoi moi, si je suis la seule opposée à la commission? Tu vas voir qu’il y’aurait encore des abrutis pour me traiter de nazie. ","delay":1},
-                    {"from":"germany","text":"Bon écoute, je vais y réfléchir, mais franchement je promets rien. ","delay":1},
-                    {"from":"france","text":"Merci Angela.","delay":1},
-                    {"from":"germany","text":"BFF?","delay":1},
-                    {"from":"france","text":"BFF!","delay":1},
-                    {"from":"hungary","text":"Hé ma gueule, tu as entendu la dernière de Jean-Claude?","delay":1},
-                    {"from":"france","text":"Oui Viktor, malheureusement, j’ai entendu.","delay":1},
-                    {"from":"hungary","text":"J’espère que tu ne vas pas accepter un truc pareil. On va pas laisser ces musulmans nous envahir!","delay":1},
-                    {"from":"france","text":"On dit %migrants% maintenant. ","delay":1},
-                    {"from":"hungary","text":"Migrant, réfugiés, Arabes, musulmans...ça change rien au problème. Je te rappelle que j’ai l’extrême droite qui me colle au derrière, c’est pas le moment pour moi de bafouer les valeurs chrétiennes.","delay":1}
+					{"from":"france","text":"On a 2.6 millions de logements vides en France, on devrait bien être capable d’en réquisitionner quelques-uns. "},
+                    {"from":"germany","text":"Ha ben Fanch, je dois dire que ta bonne volonté me surprend. "},
+                    {"from":"germany","text":"Elle me fait chier un peu aussi. Avec David qui va exercer son droit de retrait, je vais avoir l’air de quoi moi, si je suis la seule opposée à la commission? Tu vas voir qu’il y’aurait encore des abrutis pour me traiter de nazie. "},
+                    {"from":"germany","text":"Bon écoute, je vais y réfléchir, mais franchement je promets rien. "},
+                    {"from":"france","text":"Merci Angela."},
+                    {"from":"germany","text":"BFF?"},
+                    {"from":"france","text":"BFF!"},
+                    {"from":"hungary","text":"Hé ma gueule, tu as entendu la dernière de Jean-Claude?","timestamp":"2015-05-15T19:21"},
+                    {"from":"france","text":"Oui Viktor, malheureusement, j’ai entendu."},
+                    {"from":"hungary","text":"J’espère que tu ne vas pas accepter un truc pareil. On va pas laisser ces musulmans nous envahir!"},
+                    {"from":"france","text":"On dit %migrants% maintenant. "},
+                    {"from":"hungary","text":"Migrant, réfugiés, Arabes, musulmans...ça change rien au problème. Je te rappelle que j’ai l’extrême droite qui me colle au derrière, c’est pas le moment pour moi de bafouer les valeurs chrétiennes."}
 				],
 				"responses":[
 					{
@@ -541,16 +547,16 @@
             
             "19":{
 				"messages":[
-					{"from":"france","text":"... mais avant tout il faudrait donner l’image d’une Europe unie, tu penses pas? ","delay":1},
-                    {"from":"hungary","text":"Unie contre les musulmans! ","delay":1},
-                    {"from":"france","text":"Tu vois? C’est chiant, on peut jamais parler avec toi. Moi aussi je m’en passerais bien des réfugiés, mais tu peux pas en parler comme ça, faut prendre des pincettes.","delay":1},
-                    {"from":"france","text":"Genre moi, par exemple, je dis qu’il “Il n'est pas question qu'il y ait des quotas d'immigrés.” mais que “nous devons faire en sorte que d'autres pays puissent également prendre leur part, c'est ce qu'on appelle la répartition”","delay":1},
-                    {"from":"hungary","text":"Et ça marche?","delay":1},
-                    {"from":"france","text":"On verra bien. De toute façon ça ne devrait pas tarder à se tasser cette histoire de crise des migrants.","delay":1},
-                    {"from":"hungary","text":"Oui ben j’espère bien, parce que sinon moi les %migrants% je te les fous direct dans un train et j’installe des barbelés à la frontière! ","delay":1},
-                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","delay":4},
-                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E.","delay":1},
-                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?","delay":1}
+					{"from":"france","text":"... mais avant tout il faudrait donner l’image d’une Europe unie, tu penses pas? "},
+                    {"from":"hungary","text":"Unie contre les musulmans! "},
+                    {"from":"france","text":"Tu vois? C’est chiant, on peut jamais parler avec toi. Moi aussi je m’en passerais bien des réfugiés, mais tu peux pas en parler comme ça, faut prendre des pincettes."},
+                    {"from":"france","text":"Genre moi, par exemple, je dis qu’il “Il n'est pas question qu'il y ait des quotas d'immigrés.” mais que “nous devons faire en sorte que d'autres pays puissent également prendre leur part, c'est ce qu'on appelle la répartition”"},
+                    {"from":"hungary","text":"Et ça marche?"},
+                    {"from":"france","text":"On verra bien. De toute façon ça ne devrait pas tarder à se tasser cette histoire de crise des migrants."},
+                    {"from":"hungary","text":"Oui ben j’espère bien, parce que sinon moi les %migrants% je te les fous direct dans un train et j’installe des barbelés à la frontière! "},
+                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","timestamp":"2015-05-19T18:42"},
+                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E."},
+                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?"}
                     
 				],
 				"responses":[
@@ -567,16 +573,16 @@
             
                         "20":{
 				"messages":[
-					{"from":"hungary","text":"Ha ouais d’accord. Donc toi t’as déjà choisi ton camp, ça t’a pas suffi Charlie Hebdo? ","delay":1},
-                    {"from":"france","text":"Ça n'a rien à voir...","delay":1},
-                    {"from":"hungary","text":"N’empêche. Je veux pas de musulmans chez moi. Mais perdre l’identité chrétienne de l’Europe, ça t’en touche une sans faire bouger l’autre si j’ai bien compris.","delay":1},
-                    {"from":"france","text":"...La France est un pays laïc Viktor","delay":1},
-                    {"from":"hungary","text":"Ouais ouais, c’est bon, message reçu. Je sais pas ce qui m’a pris de m’adresser à toi. J’aurais plutôt dû en parler à Vlad.","delay":1},
-                    {"from":"france","text":"Vladimir n’a pas son mot à dire là-dessus. ","delay":1},
-                    {"from":"hungary","text":"Ben peut-être que ça serait pas plus mal! Lui au moins il me comprend.","delay":1},
-                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","delay":4},
-                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E.","delay":1},
-                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?","delay":1}
+					{"from":"hungary","text":"Ha ouais d’accord. Donc toi t’as déjà choisi ton camp, ça t’a pas suffi Charlie Hebdo? "},
+                    {"from":"france","text":"Ça n'a rien à voir..."},
+                    {"from":"hungary","text":"N’empêche. Je veux pas de musulmans chez moi. Mais perdre l’identité chrétienne de l’Europe, ça t’en touche une sans faire bouger l’autre si j’ai bien compris."},
+                    {"from":"france","text":"...La France est un pays laïc Viktor"},
+                    {"from":"hungary","text":"Ouais ouais, c’est bon, message reçu. Je sais pas ce qui m’a pris de m’adresser à toi. J’aurais plutôt dû en parler à Vlad."},
+                    {"from":"france","text":"Vladimir n’a pas son mot à dire là-dessus. "},
+                    {"from":"hungary","text":"Ben peut-être que ça serait pas plus mal! Lui au moins il me comprend."},
+                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","timestamp":"2015-05-19T18:42"},
+                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E."},
+                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?"}
                     
 				],
 				"responses":[
@@ -594,13 +600,13 @@
 
            			"21":{
 				"messages":[
-					{"from":"ue","text":"Ha ouais d’accord. D’abord Viktor, puis David, puis toi...C’est plus une opposition, c’est une mutinerie!","delay":1},
-                    {"from":"france","text":"Désolé Jean-Claude, mais je trouve que c’est rabaisser les %migrants% que d’imposer des quotas aux frontières. Ce ne sont pas de la marchandise, ce sont des êtres humains.","delay":1},
-                    {"from":"ue","text":"Ouais ouais c’est ça.  ","delay":1},
-                    {"from":"france","text":"Le mieux, c’est qu’on impose une meilleure répartition des %migrants% dans l’U.E,, mais sur une base volontaire!","delay":1},
-                    {"from":"ue","text":"Donc en gros, on laisse Alexis et Matteo se démerder…","delay":1},
-                    {"from":"france","text":"Mais non! Tu vois, tu y mets de la mauvaise volonté! On va aider, tu vas voir! Et je te parie que d’ici quelques mois tout le monde aura réalisé à quel point ces quotas étaient une mauvaise idée!","delay":1},
-                    {"from":"ue","text":"On verra….","delay":1}
+					{"from":"ue","text":"Ha ouais d’accord. D’abord Viktor, puis David, puis toi...C’est plus une opposition, c’est une mutinerie!"},
+                    {"from":"france","text":"Désolé Jean-Claude, mais je trouve que c’est rabaisser les %migrants% que d’imposer des quotas aux frontières. Ce ne sont pas de la marchandise, ce sont des êtres humains."},
+                    {"from":"ue","text":"Ouais ouais c’est ça.  "},
+                    {"from":"france","text":"Le mieux, c’est qu’on impose une meilleure répartition des %migrants% dans l’U.E,, mais sur une base volontaire!"},
+                    {"from":"ue","text":"Donc en gros, on laisse Alexis et Matteo se démerder…"},
+                    {"from":"france","text":"Mais non! Tu vois, tu y mets de la mauvaise volonté! On va aider, tu vas voir! Et je te parie que d’ici quelques mois tout le monde aura réalisé à quel point ces quotas étaient une mauvaise idée!"},
+                    {"from":"ue","text":"On verra…."}
                    
             ],
 				"goto":{"act":"act03","seq":1}
@@ -609,16 +615,16 @@
             
             "22":{
 				"messages":[
-				    {"from":"ue","text":"Ça me fait plaisir d’avoir ton soutien François, vraiment. ","delay":1},
-                    {"from":"ue","text":"Par contre de toute façon c’est mort, Angela a fait sa relou. Viktor et David aussi, mais bon, ça ne m’étonne pas vraiment. ","delay":1},
-                    {"from":"france","text":"Ha merde...du coup on fait quoi?","delay":1},
-                    {"from":"ue","text":"Ben, on fait comme on a dit, on va vers une meilleure répartition, mais sans les quotas. Un mécanisme de répartition volontaire, quoi.","delay":1},
-                    {"from":"france","text":"Donc en fait, tout le monde fait un peu ce qu’il veut? ","delay":1},
-                    {"from":"ue","text":"C’est ça.","delay":1},
-                    {"from":"france","text":"Donc personne fait rien?","delay":1},
-                     {"from":"ue","text":"Voilà. ","delay":1},
-                     {"from":"france","text":"Eh ben on est pas sortis de la merde. ","delay":1},
-                     {"from":"ue","text":"Comme tu dis.","delay":1}        
+				    {"from":"ue","text":"Ça me fait plaisir d’avoir ton soutien François, vraiment. "},
+                    {"from":"ue","text":"Par contre de toute façon c’est mort, Angela a fait sa relou. Viktor et David aussi, mais bon, ça ne m’étonne pas vraiment. "},
+                    {"from":"france","text":"Ha merde...du coup on fait quoi?"},
+                    {"from":"ue","text":"Ben, on fait comme on a dit, on va vers une meilleure répartition, mais sans les quotas. Un mécanisme de répartition volontaire, quoi."},
+                    {"from":"france","text":"Donc en fait, tout le monde fait un peu ce qu’il veut? "},
+                    {"from":"ue","text":"C’est ça."},
+                    {"from":"france","text":"Donc personne fait rien?"},
+                     {"from":"ue","text":"Voilà. "},
+                     {"from":"france","text":"Eh ben on est pas sortis de la merde. "},
+                     {"from":"ue","text":"Comme tu dis."}        
                 ],
 				"goto":{"act":"act03","seq":1}
 			},
@@ -626,10 +632,10 @@
 				
             "23":{
 				"messages":[
-					{"from":"germany","text":"Ha bon? C’était pourtant ton idée la meilleure répartition des %migrants% dans l’UE.","delay":1},
-                    {"from":"france","text":"HA! Enfin quelqu’un qui le reconnaît!","delay":1},
-                    {"from":"france","text":"Ben du coup, tu vois, mon plan, c’est une meilleure répartition des %migrants% dans l’UE, mais SANS les quotas.","delay":1},
-                    {"from":"germany","text":"Et tu comptes faire comment du coup?","delay":1}
+					{"from":"germany","text":"Ha bon? C’était pourtant ton idée la meilleure répartition des %migrants% dans l’UE."},
+                    {"from":"france","text":"HA! Enfin quelqu’un qui le reconnaît!"},
+                    {"from":"france","text":"Ben du coup, tu vois, mon plan, c’est une meilleure répartition des %migrants% dans l’UE, mais SANS les quotas."},
+                    {"from":"germany","text":"Et tu comptes faire comment du coup?"}
         
 				],
 				"responses":[
@@ -647,11 +653,11 @@
 			"24":{
 				"messages":[
                 
-					{"from":"germany","text":"Il faut, il faut, t’es marrant, toi. C’est pas toi la première destination des %migrants% en Europe.","delay":1},
-                    {"from":"france","text":"Il faut te sentir flattée, les gens t’aiment Angela! ","delay":1},
-                    {"from":"germany","text":"Alors toi tu dois te sentir merdeux d’être derrière la Hongrie, l’Autriche et l’Italie, non?","delay":1},
-                    {"from":"france","text":"Ben justement, soutenir cette mesure remonterait un peu ma côte. ","delay":1},
-                    {"from":"germany","text":"Mais tu serais prêt à les récupérer, toi, tes  6.750 migrants en plus?","delay":1}
+					{"from":"germany","text":"Il faut, il faut, t’es marrant, toi. C’est pas toi la première destination des %migrants% en Europe."},
+                    {"from":"france","text":"Il faut te sentir flattée, les gens t’aiment Angela! "},
+                    {"from":"germany","text":"Alors toi tu dois te sentir merdeux d’être derrière la Hongrie, l’Autriche et l’Italie, non?"},
+                    {"from":"france","text":"Ben justement, soutenir cette mesure remonterait un peu ma côte. "},
+                    {"from":"germany","text":"Mais tu serais prêt à les récupérer, toi, tes  6.750 migrants en plus?"}
                 
 				],
 				"responses":[
@@ -672,16 +678,16 @@
 
       			"25":{
 				"messages":[
-					{"from":"france","text":"Entre nous, toi, moi, Matteo...on a déjà fait beaucoup non?","delay":1},
-                    {"from":"france","text":"Pourquoi ce serait pas un peu aux autres de faire des efforts?","delay":1},
-                    {"from":"germany","text":"Les autres? Quels autres?","delay":1},
-                    {"from":"france","text":"Je sais pas, les autres. Pas nous quoi. ","delay":1},
-                    {"from":"germany","text":"Ha ouais, je vois que t’as un plan en béton. Bon ben du coup si tu penses qu’à ta gueule je vais faire pareil, hein. ","delay":1},
-                    {"from":"france","text":"Ça veut dire quoi ça? Tu vas soutenir la commission ou tu vas t’opposer?","delay":1},
-                    {"from":"germany","text":"Tu verras bien gros malin.","delay":1},
-                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","delay":4},
-                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E.","delay":1},
-                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?","delay":1}
+					{"from":"france","text":"Entre nous, toi, moi, Matteo...on a déjà fait beaucoup non?"},
+                    {"from":"france","text":"Pourquoi ce serait pas un peu aux autres de faire des efforts?"},
+                    {"from":"germany","text":"Les autres? Quels autres?"},
+                    {"from":"france","text":"Je sais pas, les autres. Pas nous quoi. "},
+                    {"from":"germany","text":"Ha ouais, je vois que t’as un plan en béton. Bon ben du coup si tu penses qu’à ta gueule je vais faire pareil, hein. "},
+                    {"from":"france","text":"Ça veut dire quoi ça? Tu vas soutenir la commission ou tu vas t’opposer?"},
+                    {"from":"germany","text":"Tu verras bien gros malin."},
+                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","timestamp":"2015-05-19T18:42"},
+                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E."},
+                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?"}
                     
 				],
 				"responses":[
@@ -700,17 +706,17 @@
 
                   			"26":{
 				"messages":[
-					{"from":"france","text":"Je veux dire, c’est pas comme si l’opinion publique en avait quelque chose à faire, si?","delay":1},
-                    {"from":"germany","text":"...Pas faux ","delay":1},
-                    {"from":"germany","text":"Mais imagine qu’il se passe un truc bien glauque, un truc bien médiatique qui fait la couv’ des magazines. On va avoir l’air fins après.","delay":1},
-                    {"from":"france","text":"On verra bien. Je sais pas les tiens, mais les miens ont la mémoire plutôt courte. ","delay":1},
-                    {"from":"germany","text":"Bon, Ok, écoute, on part là-dessus, je te tiens au jus si y’a du changement de mon côté.","delay":1},
-                    {"from":"france","text":"Nickel.","delay":1},
-                    {"from":"germany","text":"BFF?","delay":1},
-                     {"from":"france","text":"BFF!","delay":1},
-                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","delay":4},
-                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E.","delay":1},
-                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?","delay":1}
+					{"from":"france","text":"Je veux dire, c’est pas comme si l’opinion publique en avait quelque chose à faire, si?"},
+                    {"from":"germany","text":"...Pas faux "},
+                    {"from":"germany","text":"Mais imagine qu’il se passe un truc bien glauque, un truc bien médiatique qui fait la couv’ des magazines. On va avoir l’air fins après."},
+                    {"from":"france","text":"On verra bien. Je sais pas les tiens, mais les miens ont la mémoire plutôt courte. "},
+                    {"from":"germany","text":"Bon, Ok, écoute, on part là-dessus, je te tiens au jus si y’a du changement de mon côté."},
+                    {"from":"france","text":"Nickel."},
+                    {"from":"germany","text":"BFF?"},
+                     {"from":"france","text":"BFF!"},
+                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","timestamp":"2015-05-19T18:42"},
+                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E."},
+                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?"}
                     
 				],
 				"responses":[
@@ -729,12 +735,12 @@
             
                      			"27":{
 				"messages":[
-					{"from":"germany","text":"Ha ouais d’accord, je vois le genre. Bon ben du coup si tu penses qu’à ta gueule je vais faire pareil, hein. ","delay":1},
-                    {"from":"france","text":"Ça veut dire quoi ça? Tu vas soutenir la commission ou tu vas t’opposer?","delay":1},
-                    {"from":"germany","text":"Tu verras bien gros malin.","delay":1},
-                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","delay":4},
-                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E.","delay":1},
-                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?","delay":1}
+					{"from":"germany","text":"Ha ouais d’accord, je vois le genre. Bon ben du coup si tu penses qu’à ta gueule je vais faire pareil, hein. "},
+                    {"from":"france","text":"Ça veut dire quoi ça? Tu vas soutenir la commission ou tu vas t’opposer?"},
+                    {"from":"germany","text":"Tu verras bien gros malin."},
+                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","timestamp":"2015-05-19T18:42"},
+                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E."},
+                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?"}
                     
 				],
 				"responses":[
@@ -754,16 +760,16 @@
                
                             "28":{
 				"messages":[
-					{"from":"france","text":"On a 2.6 millions de logements vides en France, on devrait bien être capable d’en réquisitionner quelques-uns. ","delay":1},
-                    {"from":"germany","text":"Ha ben Fanch, je dois dire que ta bonne volonté me surprend. ","delay":1},
-                    {"from":"germany","text":"Elle me fait chier un peu aussi. Avec David qui va exercer son droit de retrait, je vais avoir l’air de quoi moi, si je suis la seule opposée à la commission? Tu vas voir qu’il y’aurait encore des abrutis pour me traiter de nazie. ","delay":1},
-                    {"from":"germany","text":"Bon écoute, je vais y réfléchir, mais franchement je promets rien. ","delay":1},
-                    {"from":"france","text":"Merci Angela.","delay":1},
-                    {"from":"germany","text":"BFF?","delay":1},
-                    {"from":"france","text":"BFF!","delay":1},
-                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","delay":4},
-                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E.","delay":1},
-                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?","delay":1}
+					{"from":"france","text":"On a 2.6 millions de logements vides en France, on devrait bien être capable d’en réquisitionner quelques-uns. "},
+                    {"from":"germany","text":"Ha ben Fanch, je dois dire que ta bonne volonté me surprend. "},
+                    {"from":"germany","text":"Elle me fait chier un peu aussi. Avec David qui va exercer son droit de retrait, je vais avoir l’air de quoi moi, si je suis la seule opposée à la commission? Tu vas voir qu’il y’aurait encore des abrutis pour me traiter de nazie. "},
+                    {"from":"germany","text":"Bon écoute, je vais y réfléchir, mais franchement je promets rien. "},
+                    {"from":"france","text":"Merci Angela."},
+                    {"from":"germany","text":"BFF?"},
+                    {"from":"france","text":"BFF!"},
+                    {"from":"ue","text":"François, c’est Jean-Claude. Tu as réfléchi à ta position du coup? ","timestamp":"2015-05-19T18:42"},
+                    {"from":"france","text":"Je veux une meilleure répartition des %migrants% dans l’U.E."},
+                    {"from":"ue","text":"Oui, ça, on a pigé, mais pour les quotas, c’est oui ou c’est non?"}
                     
 				],
 				"responses":[

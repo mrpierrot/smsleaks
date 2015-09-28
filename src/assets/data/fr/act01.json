@@ -4,23 +4,20 @@
       "messages": [
         {
           "from": "uk",
-          "text": "François, t'es lourd avec ton nouveau camps de Calais en janvier dernier.",
-          "delay": 1
+          "text": "François, t'es lourd avec ton nouveau camp de Calais.",
+          "timestamp":"2015-04-14T14:01"
         },
         {
           "from": "france",
-          "text": "Euh le camps est même pas encore terminé.",
-          "delay": 1
+          "text": "Camp, camp...t'as de ces mots toi, pour l'instant c'est juste un terrain municipal avec des tentes plantées dessus. "
         },
         {
           "from": "uk",
-          "text": "ouais. En attendant, j'ai tous les migrants illégaux du coin qui toque à ma porte.",
-          "delay": 1
+          "text": "ouais. En attendant, j'ai tous les migrants illégaux du coin qui toquent à ma porte."
         },
         {
           "from": "uk",
-          "text": "Sinon, Julie va bien ?",
-          "delay": 1
+          "text": "(Sinon, Julie va bien ?)"
         }
       ],
       "responses": [
@@ -42,52 +39,42 @@
     },
     "2": {
       "messages": [
-        {
+          {
           "from": "france",
-          "text": "Si vraiment tu veux arrêter l'immigration vers l'Angleterre, arrête d'aider autant les étrangers. ",
-          "delay": 1
+          "text": "Je te rappelles qu'ils sont illégaux uniquement parce que tu les laisses pas entrer."
         },
         {
           "from": "france",
-          "text": "C'est ça qui leur fait miroiter je-ne-sais-quoi.",
-          "delay": 1
+          "text": "Si vraiment tu veux arrêter l'immigration vers la Grande Bretagne, arrête d'aider autant les étrangers. "
+        },
+          {
+          "from": "uk",
+          "text": "Détrompe-toi. On leur donne moins qu'en France en fait."
         },
         {
           "from": "uk",
-          "text": "Pas de ma faute si l'UK s'en sort mieux que la France.",
-          "delay": 1
+          "text": "C'est pas de ma faute s'ils me préfèrent quand même à toi."
         },
         {
           "from": "france",
-          "text": "En attendant c'est moi qui doit m'en occuper !",
-          "delay": 1
+          "text": "En attendant c'est moi qui doit m'en occuper !"
         },
         {
           "from": "uk",
-          "text": "Oui oui, je sais",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Mais n'empeche que vous aider plus les %migrants§ que nous !",
-          "delay": 1
-        },
-        {
-          "from": "uk",
-          "text": "Détrompe toi. On leur donne moins qu'en France en fait.",
-          "delay": 1
+          "text": "Oui oui, je sais"
         }
+
       ],
       "responses": [
         {
-          "text": "Mouais. Tu paies rien pour attendre.",
+          "text": "Et je te rappelle que j'ai une élection à gagner en 2017!",
           "goto": 4,
           "friendship": {
             "uk": 0
           }
         },
         {
-          "text": "Pas envie de me prendre la tête avec ça.",
+          "text": "Et je suis pas sûr que ce soit tip-top pour ta campagne",
           "goto": 4,
           "friendship": {
             "uk": 0
@@ -99,65 +86,55 @@
       "messages": [
         {
           "from": "france",
-          "text": "Je vais faire ce que je peux.",
-          "delay": 1
+          "text": "Je vais faire ce que je peux de mon côté."
         },
         {
           "from": "uk",
-          "text": "Merci bien.",
-          "delay": 1
+          "text": "Merci bien."
         },
         {
           "from": "france",
-          "text": "En attendant, il va bien falloir qu'on se répartisse ce flux de personnes.",
-          "delay": 1
+          "text": "Mais il faut que t'y mette du tien aussi, qu'on se les répartisse un peu."
         },
         {
           "from": "uk",
-          "text": "Et comment tu va faire ?",
-          "delay": 1
+          "text": "Ah ouais, et comment?"
         },
         {
           "from": "france",
-          "text": "Je vais pas faire mon relou et imposer des quotas, mais qu'on se partage le boulot !",
-          "delay": 1
+          "text": "Je vais pas faire mon relou et imposer des quotas, mais qu'on se partage le boulot !"
         },
         {
           "from": "uk",
-          "text": "Ouais ouais, on verra.",
-          "delay": 1
+          "text": "Ouais ouais, on verra."
         },
         {
           "from": "france",
-          "text": "Mais oui sinon Julie va bien. Je te remercie. =)",
-          "delay": 1
+          "text": "Mais oui sinon Julie va bien. Je te remercie. =)"
         },
         {
           "from": "uk",
-          "text": "Bon. J'ai une élection à gagner. Va pas mettre le boxon dans ma campagne, j'ai déjà ma dose avec les écossais. ",
-          "delay": 1
+          "text": "Bon. J'ai une élection à gagner. Va pas mettre le boxon dans ma campagne, j'ai déjà ma dose avec les Écossais. "
         },
         {
           "from": "france",
-          "text": "ok",
-          "delay": 1
+          "text": "ok"
         },
         {
           "from": "uk",
-          "text": "Si tu croise un journaliste, tu peux lui dire que je « soutiens le principe de libre circulation des travailluers ».",
-          "delay": 1
+          "text": "Si tu croises un journaliste, tu peux lui dire que je « soutiens le principe de libre circulation des travailleurs »."
         }
       ],
       "responses": [
         {
-          "text": "T'es gentil, je suis président moi. Pas coursier^^",
+          "text": "T'es gentil, je suis président moi. Pas coursier",
           "goto": 4,
           "friendship": {
             "uk": -1
           }
         },
         {
-          "text": "J'y penserai. Mais pas sûr que ça plaise à mon électorat",
+          "text": "Mais dans un seul sens, ouais, j'ai pigé.",
           "goto": 4,
           "friendship": {
             "uk": 0
@@ -169,38 +146,28 @@
       "messages": [
         {
           "from": "uk",
-          "text": "Tiens en parlant de campagne, tu parles de quoi pour parler des gens dans les bateaux ?",
-          "delay": 1
+          "text": "Tiens en parlant de campagne, tu parles de quoi pour désigner des gens dans les bateaux ?"
         },
         {
           "from": "france",
-          "text": "Euh... j'en parle pas en fait !",
-          "delay": 1
+          "text": "Euh... j'en parle pas en fait !"
         },
         {
           "from": "uk",
-          "text": "Mais il faut faire attention à ce genre de chose.",
-          "delay": 1
+          "text": "Faudrait trouver un terme, qu'on soit un peu raccords. Et là j'en ai besoin pour un discours."
         },
         {
           "from": "france",
-          "text": "ouais t'as raison.",
-          "delay": 1
+          "text": "ouais t'as raison."
         },
         {
           "from": "uk",
-          "text": "J'écris un discours là.",
-          "delay": 1
-        },
-        {
-          "from": "uk",
-          "text": "Du coup ce sont des migrants ? Des réfugiés ? Des demandeurs d'asiles ? Des étranger ?",
-          "delay": 1
+          "text": "Du coup je dis plutôt des migrants ? Des réfugiés ? Des demandeurs d'asile ? Des étranger ?"
         }
       ],
       "responses": [
         {
-          "text": "Des marins ? \\o/",
+          "text": "Des marins ?",
           "goto": 5,
           "friendship": {
             "uk": -2
@@ -219,13 +186,12 @@
       "messages": [
         {
           "from": "france",
-          "text": "Non, va pour :",
-          "delay": 1
+          "text": "Non, je déconne."
         }
       ],
       "responses": [
         {
-          "text": "migrants",
+          "text": "Va pour migrants",
           "goto": 7,
           "data": {
             "migrants": "migrants"
@@ -235,7 +201,7 @@
           }
         },
         {
-          "text": "réfugiés",
+          "text": "Va pour réfugiés",
           "goto": 7,
           "data": {
             "migrants": "réfugiés"
@@ -250,13 +216,12 @@
       "messages": [
         {
           "from": "france",
-          "text": "Non ça marche pas bien. Va pour :",
-          "delay": 1
+          "text": "Non, attends, ça fait genre on veut pas leur accorder."
         }
       ],
       "responses": [
         {
-          "text": "migrants",
+          "text": "Va pour migrants plutôt.",
           "goto": 7,
           "data": {
             "migrants": "migrants"
@@ -266,7 +231,7 @@
           }
         },
         {
-          "text": "réfugiés",
+          "text": "Va pour réfugiés plutôt.",
           "goto": 7,
           "data": {
             "migrants": "réfugiés"
@@ -281,78 +246,64 @@
       "messages": [
         {
           "from": "uk",
-          "text": "Ok. Je balance ça alors.",
-          "delay": 1
+          "text": "Ok. Je balance ça alors."
         },
         {
           "from": "italy",
           "text": "Bon les gars, il va falloir qu'on se bouge un peu.",
-          "delay": 1
+        "timestamp":"2015-04-19T09:14"
         },
         {
           "from": "italy",
-          "text": "On a compté 400 naufragés au large Lampedusa.",
-          "delay": 2
+          "text": "On a compté 700 naufragés au large de Lampedusa."
         },
         {
           "from": "france",
-          "text": "En un an, c'est pas beaucoup, non ?",
-          "delay": 1
+          "text": "En un an, c'est pas beaucoup, non ?"
         },
         {
           "from": "italy",
-          "text": "400 aujourd'hui ! Peut-être plus demain.",
-          "delay": 1
+          "text": "700 aujourd'hui ! Peut-être plus demain."
         },
         {
           "from": "france",
-          "text": "Ah oui quand même !",
-          "delay": 1
+          "text": "Ah oui quand même !"
         },
         {
           "from": "italy",
-          "text": "Je propose un petit sommet extraordinaire qui est pour ?",
-          "delay": 1
+          "text": "Je propose un petit sommet extraordinaire qui est pour ?"
         },
         {
           "from": "germany",
-          "text": "Perso j'ai la flemme d'un sommet.",
-          "delay": 1
+          "text": "Perso j'ai la flemme d'un sommet."
         },
         {
           "from": "france",
-          "text": "Oh ?",
-          "delay": 1
+          "text": "Oh ?"
         },
         {
           "from": "germany",
-          "text": "J'ai l'impression qu'on se voit tout le temps.",
-          "delay": 1
+          "text": "J'ai l'impression qu'on se voit tout le temps."
         },
         {
           "from": "uk",
-          "text": "Vot' problème. Pas le mien.",
-          "delay": 1
+          "text": "Vot' problème. Pas le mien."
         },
         {
           "from": "italy",
-          "text": "David, t'abuses. Sérieux !",
-          "delay": 1
+          "text": "David, t'abuses. Sérieux !"
         },
         {
           "from": "hungary",
-          "text": "Moi je suis pour le sommet. C'est important comme question.",
-          "delay": 1
+          "text": "Moi je suis pour le sommet. C'est important comme question."
         },
         {
           "from": "italy",
-          "text": "Enfin un volontaire",
-          "delay": 1
+          "text": "Enfin un volontaire!"
         },
         {
           "from": "hungary",
-          "text": "Et puis perso j'ai des choses à dire et j'aimerai bien marquer le coup.",
-          "delay": 1
+          "text": "Et puis perso j'ai des choses à dire et j'aimerais bien marquer le coup."
         }
       ],
       "responses": [
@@ -367,7 +318,7 @@
           }
         },
         {
-          "text": "On a vraiment le choix? Je crois pas. Go",
+          "text": "C'est pas comme si on avait vraiment le choix...",
           "goto": 8
         }
       ]
@@ -376,43 +327,37 @@
       "messages": [
         {
           "from": "italy",
-          "text": "Si !",
-          "delay": 1
+          "text": "Si !"
         },
         {
           "from": "france",
-          "text": "Tu peux me rafraichir la mémoire sur la situation italienne.",
-          "delay": 1
+          "text": "Tu peux me rafraîchir la mémoire sur la situation italienne.",
+          "timestamp":"2015-04-20T08:24"
         },
         {
           "from": "italy",
-          "text": "En juillet, on va atteindre 66 000 migrants et réfugiés sur nos côtes.",
-          "delay": 2
+          "text": "En juillet, on va atteindre 66 000 migrants et réfugiés sur nos côtes."
         },
         {
           "from": "france",
-          "text": "Mais bon ils sont que de passages chez toi.",
-          "delay": 1
+          "text": "Mais bon ils sont que de passages chez toi."
         },
         {
           "from": "italy",
-          "text": "C'est exact.",
-          "delay": 1
+          "text": "C'est exact."
         },
         {
           "from": "france",
-          "text": "Moi en 2013, j’ai eu 60 100 demandes d’asiles.",
-          "delay": 1
+          "text": "Moi en 2013, j’ai eu 60 100 demandes d’asiles."
         },
         {
           "from": "italy",
-          "text": "Ah oui quand même !",
-          "delay": 1
+          "text": "Ah oui quand même !"
         }
       ],
       "responses": [
         {
-          "text": "De quoi tu te plains alors ?",
+          "text": "Tu vois, t'es pas le seul à avoir des problèmes.",
           "goto": 16,
           "friendship": {
             "italy": -5
@@ -432,52 +377,35 @@
         {
           "from": "hungary",
           "text": "Yep ! Avec plaisir !",
-          "delay": 1
+        "timestamp":"2015-04-20T10:59"
         },
         {
           "from": "france",
-          "text": "Bah alors ? Tu prépares quoi pour le sommet  ? Petit cachotier ;-)",
-          "delay": 1
+          "text": "Bah alors ? Tu prépares quoi pour le sommet  ? Petit cachottier ;-)"
         },
         {
           "from": "hungary",
-          "text": "Bon tu le dis pas, hein ?",
-          "delay": 1
+          "text": "Bon tu le dis pas, hein ?"
         },
         {
           "from": "france",
-          "text": "Promis sur la tête de Sarkozy !",
-          "delay": 1
+          "text": "Promis sur la tête de Sarkozy !"
         },
         {
           "from": "hungary",
-          "text": "C'est bien simple. Je veux pas d'immigré en Hongrie.",
-          "delay": 1
+          "text": "C'est bien simple. Je veux pas d'immigré en Hongrie."
         },
         {
           "from": "france",
-          "text": "Carrément ? Tu l'as jamais dit ça.",
-          "delay": 1
+          "text": "Carrément ? Tu l'as jamais dit ça."
         },
         {
           "from": "hungary",
-          "text": "Je vais devoir le dire au grand jour au sommet. Genre un grand truc bien définitif dans la presse genre :",
-          "delay": 1
+          "text": "Je vais devoir le dire au grand jour au sommet. Genre un grand truc bien définitif dans la presse genre :"
         },
         {
           "from": "hungary",
-          "text": "...",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "???",
-          "delay": 1
-        },
-        {
-          "from": "hungary",
-          "text": "« Nous ne voulons pas d'immigrés en Hongrie ». Tu penses que ça passe bien à la télé ?",
-          "delay": 1
+          "text": "« Nous ne voulons pas d'immigrés en Hongrie ». Tu penses que ça passe bien à la télé ?"
         }
       ],
       "responses": [
@@ -501,28 +429,23 @@
       "messages": [
         {
           "from": "france",
-          "text": "Je sais pas toi, mais je sais que les autres voulaient donner un grand élan de solidarité et tout.",
-          "delay": 1
+          "text": "Je sais pas toi, mais je sais que les autres voulaient donner un grand élan de solidarité et tout."
         },
         {
           "from": "hungary",
-          "text": "C'est aussi ce que je me dis. Mais c'est ça où je me prends l'extrême droite.",
-          "delay": 1
+          "text": "C'est aussi ce que je me dis. Mais c'est ça où je me prends l'extrême droite."
         },
         {
           "from": "hungary",
-          "text": "Et j'ai moyennement envie tu comprends.",
-          "delay": 1
+          "text": "Et j'ai moyennement envie tu comprends."
         },
         {
           "from": "france",
-          "text": "On connait la même chose en France.",
-          "delay": 1
+          "text": "On connaît la même chose en France."
         },
         {
           "from": "hungary",
-          "text": "Du coup, tu proposes quoi de ton côté ?",
-          "delay": 1
+          "text": "Du coup, tu proposes quoi de ton côté ?"
         }
       ],
       "responses": [
@@ -534,7 +457,7 @@
           }
         },
         {
-          "text": "On trouveras un accord européen.",
+          "text": "On trouvera un accord européen.",
           "goto": 13,
           "friendship": {
             "hungary": -5
@@ -546,68 +469,55 @@
       "messages": [
         {
           "from": "france",
-          "text": "On a bien sauvé les boat people du Vietnam.",
-          "delay": 1
+          "text": "On a bien sauvé les boat people du Vietnam."
         },
         {
           "from": "hungary",
-          "text": "Oula tu remontes loin là.",
-          "delay": 1
+          "text": "Oula tu remontes loin là."
         },
         {
           "from": "france",
-          "text": "Y avait BHL, Kouchner, Sartes… C’était l’époque, y avait de l’ambiance.",
-          "delay": 1
+          "text": "Y avait BHL, Kouchner, Sartre… C’était l’époque, y avait de l’ambiance."
         },
         {
           "from": "hungary",
-          "text": "Euh ouais. Les goûts et les couleurs hein.",
-          "delay": 1
+          "text": "Euh ouais. Les goûts et les couleurs hein."
         },
         {
           "from": "france",
-          "text": "Bref à ce prix là, va pas me dire que les ricains peuvent pas héberger un peu de syriens !",
-          "delay": 1
+          "text": "Bref à ce prix-là, va pas me dire que les ricains peuvent pas héberger un peu de syriens !"
         },
         {
           "from": "hungary",
-          "text": "Cela se défend.",
-          "delay": 1
+          "text": "Cela se défend."
         },
         {
           "from": "france",
-          "text": "Tu proposes quoi toi ?",
-          "delay": 1
+          "text": "Tu proposes quoi toi ?"
         },
         {
           "from": "hungary",
-          "text": "Il va falloir qu'on se charge de cette question tôt ou tard.",
-          "delay": 1
+          "text": "Il va falloir qu'on se charge de cette question tôt ou tard."
         },
         {
           "from": "france",
-          "text": "Bah oui",
-          "delay": 1
+          "text": "Bah oui"
         },
         {
           "from": "hungary",
-          "text": "Mais pour l’instant, Bachard est trop occupé à rester au pouvoir, Barack se bouge pas, et Poutine…",
-          "delay": 1
+          "text": "Mais pour l’instant, Bachar est trop occupé à rester au pouvoir, Barack se bouge pas, et Vladimir…"
         },
         {
           "from": "france",
-          "text": "Ce ne sont pas les gens les plus compréhensifs du monde.",
-          "delay": 1
+          "text": "Ce ne sont pas les gens les plus compréhensifs du monde."
         },
         {
           "from": "hungary",
-          "text": "J’ai du mal à imaginer un  gros truc international de la mort qui puisse arrêter tout ces gens.",
-          "delay": 1
+          "text": "J’ai du mal à imaginer un  gros truc international de la mort qui puisse arrêter tout ces gens."
         },
         {
           "from": "hungary",
-          "text": "En tout cas pas tout de suite.",
-          "delay": 1
+          "text": "En tout cas pas tout de suite."
         }
       ],
       "responses": [
@@ -631,28 +541,23 @@
       "messages": [
         {
           "from": "france",
-          "text": "Je comprends. Je peux pas faire ça moi. Je suis de gauche quand même.",
-          "delay": 1
+          "text": "Je comprends. Je peux pas faire ça moi. Je suis de gauche quand même."
         },
         {
           "from": "france",
-          "text": "Mais du coup, comment on fait ?.",
-          "delay": 1
+          "text": "Mais du coup, c'est quoi ton plan ?"
         },
         {
           "from": "hungary",
-          "text": "Je me demande si je vais pas fermer les frontières de la Hongrie.",
-          "delay": 1
+          "text": "Je me demande si je vais pas fermer les frontières de la Hongrie."
         },
         {
           "from": "france",
-          "text": "Oula !L'UE va pas aimer.",
-          "delay": 1
+          "text": "Oula !L'UE va pas aimer."
         },
         {
           "from": "hungary",
-          "text": "C'est un peu raide, je sais.",
-          "delay": 1
+          "text": "C'est un peu raide, je sais."
         }
       ],
       "responses": [
@@ -676,66 +581,56 @@
       "messages": [
         {
           "from": "france",
-          "text": "Mais en tout cas pas de quotas obligatoire !",
-          "delay": 1
+          "text": "Mais en tout cas pas de quotas obligatoires !"
         },
         {
           "from": "hungary",
-          "text": "Si on force la main des gouvernement, on va encore gueuler sur Bruxelle.",
-          "delay": 1
+          "text": "Si on force la main des gouvernement, on va encore gueuler sur Bruxelle."
         },
         {
           "from": "france",
-          "text": "C'est ça !",
-          "delay": 1
+          "text": "C'est ça !"
         },
         {
           "from": "hungary",
-          "text": "Donc non au quotas et oui à une solution globale, c'est ton plan ?",
-          "delay": 1
+          "text": "Donc non au quotas et oui à une solution globale, c'est ton plan ?"
         },
         {
           "from": "france",
-          "text": "On finance des camps comme Calais ou Lampedusa.",
-          "delay": 1
+          "text": "On finance des camps comme Calais ou Lampedusa."
         },
         {
           "from": "hungary",
-          "text": "Et on fait le tri à l’entrée de l’Europe ?",
-          "delay": 1
+          "text": "Et on fait le tri à l’entrée de l’Europe ?"
         },
         {
           "from": "france",
-          "text": "Et paf ! Tout est réglé, on peut retourner s’occuper de nos affaires",
-          "delay": 1
+          "text": "Et paf ! Tout est réglé, on peut retourner s’occuper de nos affaires"
         },
         {
           "from": "hungary",
-          "text": "ouais, l’Europe, l’Europe…",
-          "delay": 1
+          "text": "ouais, l’Europe, l’Europe…"
         },
         {
           "from": "france",
-          "text": "L’Europe quoi ?",
-          "delay": 1
+          "text": "L’Europe quoi ?"
         },
         {
           "from": "hungary",
-          "text": "On a bien vu ce que ça a donné pour la Grèce.",
-          "delay": 1
+          "text": "On a bien vu ce que ça a donné pour la Grèce."
         }
       ],
       "responses": [
         {
-          "text": "Pareil.",
-          "goto": 15,
+          "text": "Ouais....",
+          "goto": 19,
           "friendship": {
             "hungary": 5
           }
         },
         {
-          "text": "ouais, c'est chaud.",
-          "goto": 15,
+          "text": "Va pas évoquer ça au sommet stp",
+          "goto": 19,
           "friendship": {
             "hungary": -5
           }
@@ -746,48 +641,31 @@
       "messages": [
         {
           "from": "france",
-          "text": "Ça va te demander de l’équipement tout ça.",
-          "delay": 1
+          "text": "Ça va te demander de l’équipement tout ça."
         },
         {
           "from": "hungary",
-          "text": "ouais, mais y a des réducs sur le barbelé en ce moment",
-          "delay": 1
+          "text": "ouais, mais y a des réducs sur le barbelé en ce moment"
         },
         {
           "from": "france",
-          "text": "Tu sais qu'en France s’y connait en maintien de l’ordre. Certains nous demandent même nos services.",
-          "delay": 1
+          "text": "Tu sais qu'en France s’y connaît en maintien de l’ordre. Certains nous demandent même nos services."
         },
         {
           "from": "hungary",
-          "text": "Oui oui, j'en ai parlé avec des tunisiens.",
-          "delay": 1
+          "text": "Oui oui, j'en ai parlé avec des Tunisiens."
         },
         {
           "from": "france",
-          "text": "J’imagine que Dassault & cie pourront te vendre des trucs.",
-          "delay": 1
+          "text": "J’imagine que Dassault & cie pourront te vendre des trucs."
         },
         {
           "from": "hungary",
-          "text": "ouais j'ai reçu le catalogue à la maison.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Mais bon ce ne sont pas mes affaires après tout.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Je suis de gauche quand même.",
-          "delay": 1
+          "text": "ouais j'ai reçu le catalogue à la maison."
         },
         {
           "from": "hungary",
-          "text": "Tout mais pas des rafales !",
-          "delay": 1
+          "text": "Tout mais pas des rafales !"
         }
       ],
       "responses": [
@@ -811,23 +689,19 @@
       "messages": [
         {
           "from": "france",
-          "text": "Tu vas relancer le débat sur les frontières au sein de l’Europe.",
-          "delay": 1
+          "text": "Tu vas relancer le débat sur les frontières au sein de l’Europe."
         },
         {
           "from": "hungary",
-          "text": "J'y compte bien ! ",
-          "delay": 1
+          "text": "J'y compte bien ! "
         },
         {
           "from": "france",
-          "text": "Ca va être dur pour tes voisins.",
-          "delay": 1
+          "text": "Ca va être dur pour tes voisins."
         },
         {
           "from": "hungary",
-          "text": "ouais. J’imagine que la Croatie va prendre cher. ",
-          "delay": 1
+          "text": "ouais. J’imagine que la Croatie va prendre cher. "
         }
       ],
       "responses": [
@@ -851,33 +725,27 @@
       "messages": [
         {
           "from": "france",
-          "text": "Et puis en plus l’Europe t’aide.",
-          "delay": 1
+          "text": "Et puis en plus, toi, l’Europe t’aide."
         },
         {
           "from": "italy",
-          "text": "Mais elle était où l'Europe quand l'opération Mare Nostrum interceptait 73 000 naufragés ?",
-          "delay": 1
+          "text": "Mais elle était où l'Europe quand l'opération Mare Nostrum interceptait 73 000 naufragés ?"
         },
         {
           "from": "france",
-          "text": "C'est un sujet compliqué tu sais...",
-          "delay": 1
+          "text": "C'est un sujet compliqué, tu sais..."
         },
         {
           "from": "italy",
-          "text": "En 2014, on triplait le nombre de %migrants% arrivés par la mer.",
-          "delay": 1
+          "text": "En 2014, on triplait le nombre de %migrants% arrivés par la mer."
         },
         {
           "from": "france",
-          "text": "Non mais...",
-          "delay": 1
+          "text": "Non mais..."
         },
         {
           "from": "italy",
-          "text": "L'aide a pas triplé à ma connaissance.",
-          "delay": 1
+          "text": "L'aide a pas triplé à ma connaissance."
         }
       ],
       "responses": [
@@ -901,43 +769,31 @@
       "messages": [
         {
           "from": "italy",
-          "text": "Merci.",
-          "delay": 3
+          "text": "Merci."
         },
         {
           "from": "italy",
-          "text": "J’ai les réfugiés et les italiens anti-immigrés sur le dos.",
-          "delay": 1
+          "text": "J’ai les %migrants% et les italiens anti-immigrés sur le dos."
+        },
+        {
+          "from": "italy",
+          "text": "En juillet, on va atteindre les 66 000."
         },
         {
           "from": "france",
-          "text": "Euh toi t'as pas Angela au tel tous les 2 jours.",
-          "delay": 1
+          "text": "ouais et ?"
         },
         {
           "from": "italy",
-          "text": "En juillet, on va atteindre 66 000 %migrants%.",
-          "delay": 2
+          "text": "En 2014, ça triplait. L’aide de l’Europe, elle, n’a pas triplé à ma connaissance."
         },
         {
           "from": "france",
-          "text": "ouais et ?",
-          "delay": 1
+          "text": "Bah dit le au prochain sommet"
         },
         {
           "from": "italy",
-          "text": "En 2014, ça triplait. L’aide de l’Europe, elle, n’a pas triplé à ma connaissance.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Bah dit le au prochain sommet",
-          "delay": 1
-        },
-        {
-          "from": "italy",
-          "text": "J'y compte bien, tu penses !",
-          "delay": 1
+          "text": "J'y compte bien, tu penses !"
         }
       ],
       "responses": [
@@ -961,43 +817,32 @@
       "messages": [
         {
           "from": "france",
-          "text": "Tout va dépendre de ce que vont dire les autres au sommet.",
-          "delay": 1
+          "text": "Tout va dépendre de ce que vont dire les autres au sommet."
         },
         {
           "from": "italy",
-          "text": "Je me méfie de Viktor et de David.",
-          "delay": 1
+          "text": "Je me méfie de Viktor et de David."
         },
         {
           "from": "france",
-          "text": "Et puis y a toujours Angela...",
-          "delay": 1
+          "text": "Et puis y a toujours Angela..."
         },
+       
         {
           "from": "italy",
-          "text": "Je sais que David et Angela sont pas dispo pour en parler.",
-          "delay": 2
+          "text": "Essaye déjà de parler au Hongrois, j'ai l'impression qu'il nous cache quelque chose."
+        },
+          {
+            "from": "italy",
+          "text": "Ou alors vois avec JC, c'est toujours bien d'avoir la comission européenne de son côté."
         },
         {
           "from": "france",
-          "text": "Ils sont dur à joindre ces deux là.",
-          "delay": 1
+          "text": "Comment tu sais qu'ils sont dispo ?"
         },
         {
           "from": "italy",
-          "text": "Essaye Viktor, le président de la Hongrie ou  JC de la comission européenne.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Comment tu sais qu'ils sont dispo ?",
-          "delay": 1
-        },
-        {
-          "from": "italy",
-          "text": "Je les vois glander sur IRC.",
-          "delay": 1
+          "text": "Je les vois glander sur IRC."
         }
       ],
       "responses": [
@@ -1021,38 +866,31 @@
       "messages": [
         {
           "from": "france",
-          "text": "Je le sens mal ce coup des %migrants% quand même.",
-          "delay": 1
+          "text": "Je le sens mal ce coup des %migrants% quand même."
         },
         {
           "from": "hungary",
-          "text": "C'est vrai que c'est le genre de sujet qui revient tous les mois sur le tapis.",
-          "delay": 1
+          "text": "C'est vrai que c'est le genre de sujet qui revient tous les mois sur le tapis."
         },
         {
           "from": "france",
-          "text": "Les gens ont à peine le temps d'oublier qu'il y a déjà un nouveau naufrage ou des cadavres sur une plage.",
-          "delay": 1
+          "text": "Les gens ont à peine le temps d'oublier qu'il y a déjà un nouveau naufrage ou des cadavres sur une plage."
         },
         {
           "from": "hungary",
-          "text": "Vois ça comme un running gag. Comme tes chiffres du chômage.",
-          "delay": 1
+          "text": "Vois ça comme un running gag. Comme tes chiffres du chômage."
         },
         {
           "from": "france",
-          "text": "Un jour il va y avoir une photo choc ou un truc comme ça.",
-          "delay": 1
+          "text": "Un jour il va y avoir une photo choc ou un truc comme ça."
         },
         {
           "from": "hungary",
-          "text": "T’inquiète pas va.",
-          "delay": 1
+          "text": "T’inquiète pas va."
         },
         {
           "from": "hungary",
-          "text": "JC de l'Union européenne va bien trouver quelque chose.",
-          "delay": 1
+          "text": "JC de l'Union européenne va bien trouver quelque chose."
         }
       ],
       "responses": [
@@ -1076,68 +914,56 @@
       "messages": [
         {
           "from": "italy",
-          "text": "Je fais mon relou si je veux !",
-          "delay": 1
+          "text": "Je fais mon relou si je veux !"
         },
         {
           "from": "france",
-          "text": "Calme toi !",
+          "text": "Calme toi !"
+        },
+        {
+          "from": "italy",
+          "text": "Tu veux que je te parle de Vintimille ?"
+        },
+        {
+          "from": "france",
+          "text": "C'est quoi ?"
+        },
+        {
+          "from": "italy",
+          "text": "Tu sais la ville frontalière qui reçoit plus de %migrants% de France que le reste de l’Italie ?"
+        },
+        {
+          "from": "france",
+          "text": "Ah celle-là...",
           "delay": 1
         },
         {
           "from": "italy",
-          "text": "Tu veux que je te parle de Vintimille ?",
-          "delay": 1
+          "text": "C’est pas très Shengen ça !"
         },
         {
           "from": "france",
-          "text": "C'est quoi ?",
-          "delay": 1
+          "text": "Oui bon ça va."
         },
         {
           "from": "italy",
-          "text": "Tu sais la ville frontalière qui reçoit plus de %migrants% de France que du reste de l’Italie ?",
-          "delay": 1
+          "text": "Je connais des gens qui se feront un plaisir de te le rappeler quand tu vas venir à Milan pour l’expo Universelle."
         },
         {
           "from": "france",
-          "text": "Ah cette ville là.",
-          "delay": 1
+          "text": "T'as finis de me faire la leçon ?"
         },
         {
           "from": "italy",
-          "text": "C’est pas très Shengen ça !",
-          "delay": 1
+          "text": "Bon ok. Je me calme."
         },
         {
           "from": "france",
-          "text": "Oui bon ça va.",
-          "delay": 1
+          "text": "Merci."
         },
         {
           "from": "italy",
-          "text": "Je connais des gens qui se feront un plaisir de te le rappeler quand tu vas venir à Milan pour l’expo Universelle.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "T'as finis de me faire la leçon ?",
-          "delay": 1
-        },
-        {
-          "from": "italy",
-          "text": "Bon ok. Je me calme..",
-          "delay": 4
-        },
-        {
-          "from": "france",
-          "text": "Merci.",
-          "delay": 1
-        },
-        {
-          "from": "italy",
-          "text": "Ce serait bien que tu tapes un peu du poing sur la table au sommet européen.",
-          "delay": 1
+          "text": "Ce serait bien que tu tapes un peu du poing sur la table au sommet européen."
         }
       ],
       "responses": [
@@ -1162,47 +988,36 @@
         {
           "from": "ue",
           "text": "Hello",
-          "delay": 1
+           "timestamp":"2015-04-21T13:12"
         },
         {
           "from": "ue",
-          "text": "J’espère que toi et les autres vous êtes chaud patate pour le sommet.",
-          "delay": 1
+          "text": "J’espère que toi et les autres vous êtes chaud patate pour le sommet."
         },
         {
           "from": "france",
-          "text": "Trop",
-          "delay": 1
+          "text": "Trop"
         },
         {
           "from": "ue",
-          "text": "On peut jouer un gros coup là.",
-          "delay": 1
+          "text": "On peut jouer un gros coup là."
         },
         {
           "from": "france",
-          "text": "Sans doute.",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "Tu penses quoi toi ?",
-          "delay": 1
+          "text": "Sans doute."
         },
         {
           "from": "france",
-          "text": "Quotas de répartition de %migrants% obligatoire ? ",
-          "delay": 1
+          "text": "Tu penses quoi toi ?"
         },
         {
           "from": "ue",
-          "text": "ou plan de financement...",
-          "delay": 1
+          "text": "Quotas de répartition de %migrants% obligatoire ou plan de financement."
         },
+          
         {
           "from": "ue",
-          "text": "Perso, je suis pour les quotas",
-          "delay": 1
+          "text": "Perso, je suis pour les quotas"
         }
       ],
       "responses": [
@@ -1226,153 +1041,86 @@
       "messages": [
         {
           "from": "france",
-          "text": "Je ne suis pas pour un quotas.",
-          "delay": 1
+          "text": "Je ne suis pas pour des quotas."
         },
         {
           "from": "france",
-          "text": "Si les gens sont pas content, ils vont encore mettre ça sur le dos de l’Europe.",
-          "delay": 1
+          "text": "Si les gens sont pas contents, ils vont encore mettre ça sur le dos de l’Europe."
         },
         {
           "from": "ue",
-          "text": "ouais on a pas besoin de ça.",
-          "delay": 1
+          "text": "ouais, je vois"
+        },
+    
+        {
+          "from": "ue",
+          "text": "Et puis un plan de financement, ça resserre les liens européens."
         },
         {
           "from": "france",
-          "text": "J’espère que toi et les autres vous êtes chaud patate.",
-          "delay": 1
+          "text": "Exactement ! Tu lis dans mes pensées."
         },
         {
           "from": "ue",
-          "text": "Et puis ça ressert les liens européens.",
-          "delay": 1
+          "text": "C'est à force de te voir au moins une fois par mois. Ce genre d'expérience ça change un homme"
         },
         {
           "from": "france",
-          "text": "Exactement ! Tu lis dans mes pensées.",
-          "delay": 1
+          "text": "Bon il faut que j'en parle à mes conseillers."
         },
         {
           "from": "ue",
-          "text": "C'est à force de te voir au moins une fois par mois. Ce genre d'expérience ça change un homme",
-          "delay": 1
+          "text": "Sinon, ils vont pleurer en disant que tu les écoutes jamais ?"
         },
         {
           "from": "france",
-          "text": "ouais. Bon il faut que j'en parle à mes conseillers.",
-          "delay": 1
+          "text": "C'est quasiment ça."
+        },
+        {
+          "from": "france",
+          "text": "Quoi que je fasse, si ça foire c'est de ma faute. Si ça marche, c'est grâce à eux."
         },
         {
           "from": "ue",
-          "text": "Sinon, ils vont pleurer en disant que tu les écoutes jamais ?",
-          "delay": 1
+          "text": "Cherche Jeu d'influences. C'est un petit jeu sympa comme tout. Tu pourrais  avoir deux trois tuyaux de com' pour les calmer."
         },
         {
           "from": "france",
-          "text": "C'est quasiment ça.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Quoi que je fasse, si ça foire c'est de ma faute. Si ça marche, c'est grâce à eux.",
-          "delay": 1
+          "text": "Ok. J'y penserai"
         },
         {
           "from": "ue",
-          "text": "Cherche Jeu d'influence. C'est un petit jeu sympas comme tout. Tu pourrais  avoir deux trois tuyaux de com' pour les calmer.",
-          "delay": 1
+          "text": "Bon allez. Il faut que je bosse. Je compte sur toi pour me suivre pendant et après le sommet."
+        },
+
+        {
+          "from": "ue",
+          "text": "Sois gentil. Pas méchant."
         },
         {
           "from": "france",
-          "text": "Ok. J'y penserai",
-          "delay": 1
+          "text": "?????"
         },
         {
           "from": "ue",
-          "text": "Bon allez. Il faut que je bosse. Je compte sur toi pour me suivre pendant et après le sommet.",
-          "delay": 1
+          "text": "C'est pas gentil d'être méchant."
         },
         {
           "from": "france",
-          "text": "Si les gens sont pas content, ils vont encore mettre ça sur le dos de l’Europe.",
-          "delay": 1
+          "text": "Tu craques JC. Repose-toi un peu."
+        },
+        {
+          "from": "ue",
+          "text": "Excuse, c'est le stress ça. Avec toutes ces crises."
         },
         {
           "from": "france",
-          "text": "Et j’aime pas tirer sur les ambulances en feu.",
-          "delay": 1
+          "text": "Moi j'en perds mes cheveux."
         },
+
         {
           "from": "ue",
-          "text": "T’es dur là !",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "S'cuse",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "Sois gentil. Pas méchant.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "?????",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "C'est pas gentil d'être méchant.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Tu craques. Repose toi un peu.",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "C'est le stress ça. Avec toutes ces crises.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Moi j'en perds mes cheveux.",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "J’attends toujours les 8 milliards du plan d’Investissement.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Il me faut encore un peu de temps.",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "Et puis t’es où quand la Grèce paye pas ses dettes ?",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "J'étais là. C'est juste que je parlais pas.",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "Bon c’est pas le tout mais on a un sommet européen extraordinaire à organiser.",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "On se revoit là bas.",
-          "delay": 1
+          "text": "Bon, allez, on se revoit au sommet"
         }
       ],
       "responses": [
@@ -1402,153 +1150,88 @@
       "messages": [
         {
           "from": "france",
-          "text": "C’est pas mon style de passer de passer en force ou d'être trop contraignant...",
-          "delay": 1
+          "text": "C’est pas mon style de passer de passer en force ou d'être trop contraignant..."
         },
         {
           "from": "ue",
-          "text": "Et le 49.3 ? Parce qu'entre ta loi sur les bus et le renseignement... T'as fait fort quand même !",
-          "delay": 1
+          "text": "Et le 49.3 ? Parce qu'entre ta loi sur les bus et le renseignement... T'as fait fort quand même !"
         },
         {
           "from": "france",
-          "text": "Oui bon ok.",
-          "delay": 1
+          "text": "Oui bon ok."
         },
         {
           "from": "france",
-          "text": "Mais si on fait en fonction de facteur locaux de chaque pays européen, c’est déjà pas mal.",
-          "delay": 1
+          "text": "Mais si on fait en fonction de facteur locaux de chaque pays européen, c’est déjà pas mal."
         },
         {
           "from": "ue",
-          "text": "Et puis ça ressert les liens européens.",
-          "delay": 1
+          "text": "Et puis ça resserre les liens européens."
         },
         {
           "from": "france",
-          "text": "Exactement ! Tu lis dans mes pensées.",
-          "delay": 1
+          "text": "Exactement ! Tu lis dans mes pensées."
         },
         {
           "from": "ue",
-          "text": "C'est à force de te voir au moins une fois par mois. Ce genre d'expérience ça change un homme",
-          "delay": 1
+          "text": "C'est à force de te voir au moins une fois par mois. Ce genre d'expérience ça change un homme"
         },
         {
           "from": "france",
-          "text": "ouais. Bon il faut que j'en parle à mes conseillers.",
-          "delay": 1
+          "text": "ouais. Bon il faut que j'en parle à mes conseillers."
         },
         {
           "from": "ue",
-          "text": "Sinon, ils vont pleurer en disant que tu les écoutes jamais ?",
-          "delay": 1
+          "text": "Sinon, ils vont pleurer en disant que tu les écoutes jamais ?"
         },
         {
           "from": "france",
-          "text": "C'est quasiment ça.",
-          "delay": 1
+          "text": "C'est quasiment ça."
         },
         {
           "from": "france",
-          "text": "Quoi que je fasse, si ça foire c'est de ma faute. Si ça marche, c'est grâce à eux.",
-          "delay": 1
+          "text": "Quoi que je fasse, si ça foire c'est de ma faute. Si ça marche, c'est grâce à eux."
         },
         {
           "from": "ue",
-          "text": "Cherche Jeu d'influence. C'est un petit jeu sympas comme tout. Tu pourrais  avoir deux trois tuyaux de com' pour les calmer.",
-          "delay": 1
+          "text": "Cherche Jeu d'influences. C'est un petit jeu sympa comme tout. Tu pourrais  avoir deux trois tuyaux de com' pour les calmer."
         },
         {
           "from": "france",
-          "text": "Ok. J'y penserai",
-          "delay": 1
+          "text": "Ok. J'y penserai"
         },
         {
           "from": "ue",
-          "text": "Bon allez. Il faut que je bosse. Je compte sur toi pour me suivre pendant et après le sommet.",
-          "delay": 1
+          "text": "Bon allez. Il faut que je bosse. Je compte sur toi pour me suivre pendant et après le sommet."
+        },
+
+        {
+          "from": "ue",
+          "text": "Sois gentil. Pas méchant."
         },
         {
           "from": "france",
-          "text": "Si les gens sont pas content, ils vont encore mettre ça sur le dos de l’Europe.",
-          "delay": 1
+          "text": "?????"
+        },
+        {
+          "from": "ue",
+          "text": "C'est pas gentil d'être méchant."
         },
         {
           "from": "france",
-          "text": "Et j’aime pas tirer sur les ambulances en feu.",
-          "delay": 1
+          "text": "Tu craques, JC. Repose-toi un peu."
         },
         {
           "from": "ue",
-          "text": "T’es dur là !",
-          "delay": 1
+          "text": "Excuse, c'est le stress ça. Avec toutes ces crises."
         },
         {
           "from": "france",
-          "text": "S'cuse",
-          "delay": 1
+          "text": "Moi j'en perds mes cheveux."
         },
         {
           "from": "ue",
-          "text": "Sois gentil. Pas méchant.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "?????",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "C'est pas gentil d'être méchant.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Tu craques. Repose toi un peu.",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "C'est le stress ça. Avec toutes ces crises.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Moi j'en perds mes cheveux.",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "J’attends toujours les 8 milliards du plan d’Investissement.",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "Il me faut encore un peu de temps.",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "Et puis t’es où quand la Grèce paye pas ses dettes ?",
-          "delay": 1
-        },
-        {
-          "from": "france",
-          "text": "J'étais là. C'est juste que je parlais pas.",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "Bon c’est pas le tout mais on a un sommet européen extraordinaire à organiser.",
-          "delay": 1
-        },
-        {
-          "from": "ue",
-          "text": "On se revoit là bas.",
-          "delay": 1
+          "text": "On se revoit au sommet."
         }
       ],
       "responses": [

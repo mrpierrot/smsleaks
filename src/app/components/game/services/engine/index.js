@@ -31,7 +31,6 @@ module.exports = function(angular,config){
                                 "act03":preloader.data["act03"],
                                 "act04":preloader.data["act04"]
                         };
-                        console.log(story);
                         actors = preloader.data["actors"];
                         for(var key in actors){
                                 actors[key].id = key;
@@ -57,7 +56,7 @@ module.exports = function(angular,config){
 
                 var makeDisplaySequenceMessage = function(message){
                 	return function(){
-                		messagesDisplay.push({user:actors[message.from],message:replaceStrings(message.text),sameUser:message.sameUser,align:message.from==player?"right":"left"});
+                		messagesDisplay.push({user:actors[message.from],message:replaceStrings(message.text),sameUser:message.sameUser,align:message.from==player?"right":"left","timestamp":message.timestamp});
                 		return (message.delay || tweaks.defaultMessageDelay)*1000;
                 	}
                 	
@@ -83,7 +82,7 @@ module.exports = function(angular,config){
                                 if(msg.from == lastUserWrite){
                                         msg.sameUser = true;
                                 }
-                                if(msg.from != player){
+                                if(msg.from != player || msg.from == lastUserWrite){
                                         actions.push(makeDisplaySequenceMessage(msg));
                                 }else{
                                         playerIn = true;
@@ -134,7 +133,7 @@ module.exports = function(angular,config){
                         if(responsesEnabled){
                                 responsesEnabled = false;
                         	scope.$emit('hideResponses');
-                        	messagesDisplay.push({user:actors[player],message:replaceStrings(data.text),align:"right",sameUser:lastUserWrite==player});
+                        	messagesDisplay.push({user:actors[player],message:replaceStrings(data.text),align:"right",sameUser:lastUserWrite==player,"timestamp":data.timestamp});
                                 lastUserWrite = player;
                         	if(data.data){
                         		for(var key in data.data){
@@ -192,9 +191,8 @@ module.exports = function(angular,config){
 
 
                 var gameOver = function(){
-                	console.log("game over");
-                        //scope.$emit('gameOver');
-                        $state.go('game-gameover');
+                    //scope.$emit('gameOver');
+                    $state.go('game-gameover');
                 }
               
         	return {

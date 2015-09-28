@@ -59,6 +59,7 @@ module.exports = {
     },
     directives:{
         "sms":require('./directives/sms'),
-        "response":require('./directives/response')
+        "response":require('./directives/response'),
+        "chatScrollbar":require('./directives/scrollbar')
     }
 };

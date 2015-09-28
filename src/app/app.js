@@ -3,6 +3,7 @@
     var angular = require('angular');
 	require('angular-bootstrap');
     require('angular-animate');
+    require('malihu-custom-scrollbar-plugin')($);
 
     //var gsap = require('gsap');
     angular.module('smsleaks', [

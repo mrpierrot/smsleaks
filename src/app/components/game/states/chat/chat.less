@@ -1,68 +1,80 @@
+.chat{
 
-.responses-container{
-		/*overflow: hidden;
-		max-height: 400px;
-		opacity:1;
-		-webkit-transition:0.5s linear all;
-	    -moz-transition:0.5s linear all;
-		-o-transition:0.5s linear all;
-		transition:0.5s linear all;*/
-	.responses{
-		display: table;
-		border-spacing: 10px;
-	    border-collapse: separate;
-	    width: 100%;
-		.response{
-			display: table-cell;
+	height: 100vh;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	.responses-container{
+			/*overflow: hidden;
+			max-height: 400px;*/
+			/*opacity:1;
+			-webkit-transition:0.5s linear all;
+		    -moz-transition:0.5s linear all;
+			-o-transition:0.5s linear all;
+			transition:0.5s linear all;*/
+		/*border-top: 2px solid @sms-light-gray;*/
+
+		padding-bottom: 15px;
+
+		.responses{
+			display: table;
+			border-spacing: 10px;
+		    border-collapse: separate;
+		    width: 100%;
+			.response{
+				display: table-cell;
+			}
+		}
+
+		.responses-label{
+			font-weight: bold;
+		}
+
+		&.ng-hide{
+
+		  /*opacity: 0;*/
+		  /*max-height: 0;*/
+		  display: none;
+
 		}
 	}
 
-	.responses-label{
-		font-weight: bold;
+
+	.messages{
+		margin-bottom: 20px;
+		.sms{
+			opacity:1;
+
+			overflow: hidden;
+			  -webkit-transition:0.5s linear all;
+			  -moz-transition:0.5s linear all;
+			  -o-transition:0.5s linear all;
+			  transition:0.5s linear all;
+			  
+			  .message{
+			  	 -webkit-transition:0.5s linear all;
+			     -moz-transition:0.5s linear all;
+			     -o-transition:0.5s linear all;
+			     transition:0.5s linear all;
+			  }
+		}
 	}
 
-	&.ng-hide{
-	  /*opacity: 0;
-	  max-height: 0;*/
-	  display: none;
+	.messages .sms.ng-enter{
 
-	}
+	  opacity:0;
+	  &.left{
+	  	 .message{
+	  		margin-left: 0;
+	  	}
+	  }
+
+	  &.right{
+	  	 .message{
+	  		margin-right: 0;
+	  	}
+	  }
+	 
 }
 
-
-.messages{
-	margin-bottom: 10px;
-	.sms{
-		opacity:1;
-
-		overflow: hidden;
-		  -webkit-transition:0.5s linear all;
-		  -moz-transition:0.5s linear all;
-		  -o-transition:0.5s linear all;
-		  transition:0.5s linear all;
-		  
-		  .message{
-		  	 -webkit-transition:0.5s linear all;
-		     -moz-transition:0.5s linear all;
-		     -o-transition:0.5s linear all;
-		     transition:0.5s linear all;
-		  }
-	}
-}
-
-.messages .sms.ng-enter{
-
-  opacity:0;
-  &.left{
-  	 .message{
-  		margin-left: 0;
-  	}
-  }
-
-  &.right{
-  	 .message{
-  		margin-right: 0;
-  	}
-  }
- 
 }

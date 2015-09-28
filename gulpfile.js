@@ -6,6 +6,7 @@
 var gulp = require('gulp'),
 	pkg = require('./package.json'),
 	runSequence = require('run-sequence'),
+	plumber = require('gulp-plumber'),
 	connect = require('gulp-connect'),
 	watchify = require('watchify'),
 	browserify = require('browserify'),
@@ -107,6 +108,7 @@ gulp.task('assets',function(){
 
 gulp.task('less', function () {
   return gulp.src(pkg.project.source+'/less/bundle.less')
+   	.pipe(plumber())
   	.on('error', gutil.log)
     .pipe(less())
     .pipe(buffer())

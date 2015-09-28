@@ -1,25 +1,7 @@
 @import (inline) "../../node_modules/bootstrap/dist/css/bootstrap.css";
 @import (inline) "../../node_modules/bootstrap/dist/css/bootstrap-theme.css";
-@import "variables.less";
+@import (inline) "../../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css"; 
+@import "variables.less"; 
+@import "app.less";
 @import "../app/components/game/game.less";
 
-body{
-background-color: #fefefe;
-/*overflow: scroll;*/	
-color: @sms-black;
-}
-
-.container{
-
-	border-left: 1px solid @sms-light-gray;
-	border-right: 1px solid @sms-light-gray;
-	min-height: 100vh;
-
-
-}
-
-@media (min-width: 400px){
-	.container {
-    	width: 400px;
-	}
-}
