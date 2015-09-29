@@ -1,5 +1,5 @@
-<div class="sms user-{{data.user.id}} {{data.align}}">
+<div class="sms user-{{data.user.id}} {{data.align}}" ng-class="{'new-user':!data.sameUser}">
 	<div class="separate" ng-if="data.timestamp"><span>{{data.timestamp | date:"'Le 'd/MM/yy 'à' HH:mm" }}</span></div>
 	<div class="user" ng-if="!data.sameUser"><span class="avatar"></span>{{data.user.name}} dit : </div>
-	<div class="message">{{data.message}}</div>
+	<div class="message" >{{data.message}}</div>
 </div>
