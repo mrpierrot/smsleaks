@@ -11,7 +11,6 @@ module.exports = module.exports = function(angular,config){
        engine.scope.$on('showResponses',function(){
        		$scope['continue'] = engine.scope.playerContinue;
        		$scope.showResponses = true;
-          console.log('showResponses');
        		scrollToBottom();
 
        });

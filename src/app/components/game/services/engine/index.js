@@ -4,7 +4,7 @@ module.exports = function(angular,config){
                 var tweaks = require('../../../../data/tweaks.json');
                 var actors = {};
                 var story = {};
-                var player = "france";
+                var player = null;
                 var dictionnary = {};
                 var scope = $rootScope.$new();
                 
@@ -25,18 +25,18 @@ module.exports = function(angular,config){
                
                 var start = function(){
                         firstSeq = true;
-                        story = {
-                                "act01":preloader.data["act01"],
-                                "act02":preloader.data["act02"],
-                                "act03":preloader.data["act03"],
-                                "act04":preloader.data["act04"]
+                        story = {};
+
+                        for(var act in preloader.data.story.acts){
+                            story[act] = preloader.data["acts/"+act];
                         };
+                        player = preloader.data.story.player;
                         actors = preloader.data["actors"];
                         for(var key in actors){
                                 actors[key].id = key;
                                 actors[key].friendship = 0;
                         }
-                	changeAct("act01");
+                	    changeAct(preloader.data.story.start);
                         processes.start();
                 }
 

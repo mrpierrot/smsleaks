@@ -21,11 +21,18 @@ var gulp = require('gulp'),
 	path = require('path'),
 	gutil = require('gulp-util'),
 	uglify = require('gulp-uglify'),
+	minifyCss = require('gulp-minify-css'),
 	less = require('gulp-less'),
 	livereload = require('gulp-livereload');
 
-var options = require("minimist")(process.argv.slice(2));
-var buildDir = options.production?pkg.project.dist:pkg.project.build;
+
+var knownOptions = {
+  string: 'env',
+  default: { env: process.env.NODE_ENV || 'developement' }
+};
+
+var options = require("minimist")(process.argv.slice(2),knownOptions);
+var buildDir = options.env=="production"?pkg.project.dist:pkg.project.build;
 
 var browserified = browserify({
 	cache: {},
@@ -37,7 +44,7 @@ var browserified = browserify({
 	]
 });
 
-var watchified = watchify(browserified);
+
 
 function bundle(b){
 	var basename = path.basename(buildDir+pkg.project.bundle.dest);
@@ -48,10 +55,10 @@ function bundle(b){
 	   	.pipe(source(basename))
 	   	.pipe(buffer())
 	   	.pipe(sourcemaps.init({loadMaps: true}))
-	   	.pipe(gulpif(options.production, uglify()))
+	   	.pipe(gulpif(options.env == "production", uglify({mangle: false})))
     	.pipe(sourcemaps.write('./'))
     	.pipe(gulp.dest(dirname))
-    	.pipe(livereload());
+    	.pipe(gulpif(options.env != "production", livereload()));
 }
 
 /**
@@ -82,6 +89,7 @@ gulp.task('browserify',function(){
 });
 
 gulp.task('watchify',function(){
+	var watchified = watchify(browserified);
 	watchified.on('update',function(){
 		bundle(watchified);
 	});
@@ -102,7 +110,7 @@ gulp.task('build-index',function(){
 gulp.task('assets',function(){
 	return gulp.src(pkg.project.source+pkg.project.bundle.assets+'/**/*')
 	.pipe(gulp.dest(buildDir+pkg.project.bundle.assets))
-	.pipe(livereload());
+	.pipe(gulpif(options.env != "production", livereload()));
 });
 
 
@@ -113,19 +121,19 @@ gulp.task('less', function () {
     .pipe(less())
     .pipe(buffer())
 	   	.pipe(sourcemaps.init({loadMaps: true}))
-	   		//.pipe(uglify())
+	   	.pipe(gulpif(options.env == "production", minifyCss()))
     	.pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(buildDir+pkg.project.bundle.css))
-    .pipe(livereload());
+    .pipe(gulpif(options.env != "production", livereload()));
 });
 
 
 gulp.task('default',function(){
-	if(options.production){
+console.log(options);
+	if(options.env == "production"){
 		return runSequence(
 			['clean'],
-			['build-index','assets','browserify','less'],
-			['connect']
+			['build-index','assets','browserify','less']
 		);
 	}else{
 		gulp.watch(pkg.project.source+'/**/*.less',['less']);

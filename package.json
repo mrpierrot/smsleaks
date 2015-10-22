@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/mrpierrot/smsleaks.git"
   },
   "project": {
     "source": "./src",
@@ -27,8 +27,7 @@
     "angular-bootstrap": "./node_modules/angular-ui-bootstrap/ui-bootstrap.min.js",
     "angular-animate": "./node_modules/angular-animate/angular-animate.min.js",
     "jquery": "./node_modules/jquery/dist/jquery.min.js",
-    "bootstrap": "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-    "gsap": "./node_modules/gsap/src/minified/TweenLite.min.js"
+    "bootstrap": "./node_modules/bootstrap/dist/js/bootstrap.min.js"
   },
   "browserify-shim": {
     "jquery": {
@@ -86,13 +85,13 @@
     "browserify": "^11.1.0",
     "browserify-shim": "^3.8.10",
     "del": "^2.0.2",
-    "gsap": "^1.18.0",
     "gulp": "^3.9.0",
     "gulp-connect": "^2.2.0",
     "gulp-gzip": "^1.2.0",
     "gulp-if": "^1.2.5",
     "gulp-less": "^3.0.3",
     "gulp-livereload": "^3.8.0",
+    "gulp-minify-css": "^1.2.1",
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.5.2",

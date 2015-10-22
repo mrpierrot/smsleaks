@@ -12,10 +12,8 @@ module.exports = function(angular,config){
 
 	            var container = element.find('.mCSB_container');
 				$rootScope.$on('scrollbar.goToBottom',function(){
-					console.log('scroll bot',container.height());
 
 					setTimeout(function(){
-						console.log('scroll bot 2',container.height());
 							element.mCustomScrollbar("scrollTo","bottom",{
     						scrollInertia:500
 						});
