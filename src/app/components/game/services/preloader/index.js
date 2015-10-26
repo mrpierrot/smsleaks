@@ -7,8 +7,8 @@ module.exports = function(angular,config){
                 var onCompleteCallback;
 
                 var ret =  {
-                        ready:false,
-                        data:{}
+                    ready:false,
+                    data:{}
                 }
               
 

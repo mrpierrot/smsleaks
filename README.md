@@ -57,7 +57,11 @@ Modify images, js and less files rebuilt app and reloaded the test page.
 
 # Writing another story
 
-All data are contained in *src/assets/data*
+All data are contained in *src/assets/data* and they formated in JSON.
+
+
+## story.json
+
 The main data file is **src/assets/data/story.json**
 Actually, this file contain : 
 
@@ -73,6 +77,128 @@ Actually, this file contain :
 		}
 	}
 
+## actors.json
+
+	{
+		"france":{
+			"name":"François"						--> Player's name
+		},
+		"germany":{
+			"name":"Angela",						--> CPU's name
+			"friendship":0							--> Friendship with player
+		}
+	}
+
+
+## act01.json ( example )
+
+
+Basic example : 
+
+	{
+		"sequences":{
+			"1":{									--> Sequence ID, 
+				"messages":[						--> List of successive messages displayed
+					{								--> Starting message
+						"from":"germany",			--> User writing
+						"text":"Comment vas tu François ?", 	--> Text to display
+						"delay":1					--> Delay before next message
+					},
+					{
+						"from":"germany",
+						"text":"Hein dis ?",
+						"delay":1
+					}
+				],
+				"responses":[						--> List of responses choices 
+					{
+						"text":"Ça roule ma poule !!!",	--> text of the response
+						"goto":2,						--> sequence ID where player go if he choose this response 
+						"friendship":{					--> modification of friendship with others persons
+							"germany":1					--> here France gain 1 friendship with germany
+						}
+					},
+					{
+						"text":"Bof",
+						"goto":3,
+						"friendship":{
+							"germany":-1				--> here France loose 1 friendship with germany
+						}
+					}
+				]
+			},
+
+		}
+	}
+
+## Advances examples
+
+### Goto format
+
+With **goto**, we can make more complexe routing
+
+**goto** keyword can make severals value :
+
+####	a number like "1" 
+
+routing to sequence 1 from the current act
+
+#### 	a object like {"act":"act02","seq":1}
+
+routing sequence 2 from the "act02"
+
+#### 	a conditionnal with friendship like
+	 
+	 "goto":["germany.friendship > 2",4,6]
+
+The first parameter is the condition : *if frienship's germany is greater than 2*
+if it's true, we routing with the second parameter, here go to sequence 4
+if it's false, we routing with the third parameter, here go to sequence 6
+
+We can make more complexe goto like : 
+
+	"goto":["germany.friendship > 2",4,{"act":"act02","seq":1}]
+
+if friendship's germany is greater than 2 so routing to current act, sequence 4
+otherwise routing to act 2, sequence 1
+
+
+### Variables words
+
+
+We can defined keyword reusable on the following text. 
+
+
+Definition :
+
+	"responses":[
+		{
+			"text":"Trou du cul",
+			"goto":5,
+			"data":{							--> keywords dictionnary
+				"fr_name":"Trou du cul" 		--> key / value
+			}
+		},
+		{
+			"text":"P'ti fromage",
+			"goto":{"act":"act02","seq":1},
+			"data":{
+				"fr_name":"P'ti fromage"
+			}
+		}
+	]
+
+Usecase : 
+
+	"5":{
+		"messages":[
+			{"from":"italy","text":"Ok %fr_name% "},	
+			{"from":"hungary","text":"Ça me va aussi,  %fr_name% "}
+		],
+		"goto":{"act":"act02","seq":2}
+	}
+
+here **%fr_name%** is replaced by **Trou du cul** or **P'ti fromage**
 
 # Authors
 
@@ -84,6 +210,11 @@ Redactors :
 Developer :
 
 * Pierre Chabiland [@PierreChabiland](https://twitter.com/PierreChabiland)
+
+
+# More newsgame ?
+
+You want to create a specific newsgame? With [Casus Ludi](http://www.casusludi.com/), we can accompany you in your project. Contact us at contact@casusludi.com
 
 # License
 
