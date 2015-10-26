@@ -4,31 +4,31 @@ SMS Leaks is a newsgame realised during the Nantes [Newsgame Hachathon](http://w
 
 You play François, the french president who discusses by sms with other heads of state. 
 
-# Technologies
+## Technologies
 
 SMS Leaks is realised in HTML/CSS/JS with [AngularJS](https://angularjs.org/), [Browserify](http://browserify.org/), [Gulp](http://gulpjs.com/) and [NodeJs](https://nodejs.org/)
 
-# Installation
+## Installation
 
-## NodeJS
+### NodeJS
 
 The developement environement is based on NodeJS. The first thing to do is install it.
 NodeJS is available at https://nodejs.org/en/download/
 
-## Gulp
+### Gulp
 
 Gulp is a task runner. It help to execute recurrent task. 
 To install Gulp you must run a command line terminal and write :
 
 	$ npm install --global gulp
 
-## Others dependances
+### Others dependances
 
 Run a command line terminal on the project's root directory and write : 
 
 	$ npm install
 
-# Build App
+## Build App
 
 Run :
 
@@ -37,14 +37,14 @@ Run :
 This line create a *dist* folder with compressed files
 
 
-# Test App
+## Test App
 
 	$ gulp connect --production
 
 This line launch a mini web server with you can test the production app at http://localhost:1983/
 
 
-# Develop 
+## Develop 
 
 Run just : 
 
@@ -55,12 +55,12 @@ Keep the terminal alive and test at http://localhost:1983/
 Modify images, js and less files rebuilt app and reloaded the test page. 
 
 
-# Writing another story
+## Writing another story
 
 All data are contained in *src/assets/data* and they formated in JSON.
 
 
-## story.json
+### story.json
 
 The main data file is **src/assets/data/story.json**
 Actually, this file contain : 
@@ -77,7 +77,7 @@ Actually, this file contain :
 		}
 	}
 
-## actors.json
+### actors.json
 
 	{
 		"france":{
@@ -90,7 +90,7 @@ Actually, this file contain :
 	}
 
 
-## act01.json ( example )
+### act01.json ( example )
 
 
 Basic example : 
@@ -131,23 +131,23 @@ Basic example :
 		}
 	}
 
-## Advances examples
+### Advances examples
 
-### Goto format
+#### Goto format
 
 With **goto**, we can make more complexe routing
 
 **goto** keyword can make severals value :
 
-#### A number like "1" 
+##### A number like "1" 
 
 routing to sequence 1 from the current act
 
-#### A object like {"act":"act02","seq":1}
+##### A object like {"act":"act02","seq":1}
 
 routing sequence 2 from the "act02"
 
-#### A conditionnal with friendship like
+##### A conditionnal with friendship like
 	 
 	 "goto":["germany.friendship > 2",4,6]
 
@@ -163,7 +163,7 @@ if friendship's germany is greater than 2 so routing to current act, sequence 4
 otherwise routing to act 2, sequence 1
 
 
-### Variables words
+#### Variables words
 
 
 We can defined keyword reusable on the following text. 
@@ -200,7 +200,7 @@ Usecase :
 
 here **%fr_name%** is replaced by **Trou du cul** or **P'ti fromage**
 
-# Authors
+## Authors
 
 Redactors :
 
@@ -212,10 +212,10 @@ Developer :
 * Pierre Chabiland [@PierreChabiland](https://twitter.com/PierreChabiland)
 
 
-# More newsgame ?
+## More newsgame ?
 
 You want to create a specific newsgame? With [Casus Ludi](http://www.casusludi.com/), we can accompany you in your project. Contact us at contact@casusludi.com
 
-# License
+## License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
