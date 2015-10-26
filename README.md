@@ -12,7 +12,7 @@ SMS Leaks is realised in HTML/CSS/JS with [AngularJS](https://angularjs.org/), [
 
 ## NodeJS
 
-The developement environement is based on NodeJS. The first think to do is install it.
+The developement environement is based on NodeJS. The first thing to do is install it.
 NodeJS is available at https://nodejs.org/en/download/
 
 ## Gulp
@@ -139,15 +139,15 @@ With **goto**, we can make more complexe routing
 
 **goto** keyword can make severals value :
 
-####	a number like "1" 
+#### A number like "1" 
 
 routing to sequence 1 from the current act
 
-#### 	a object like {"act":"act02","seq":1}
+#### A object like {"act":"act02","seq":1}
 
 routing sequence 2 from the "act02"
 
-#### 	a conditionnal with friendship like
+#### A conditionnal with friendship like
 	 
 	 "goto":["germany.friendship > 2",4,6]
 
